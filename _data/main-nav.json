@@ -1,0 +1,60 @@
+{
+    "navs": [
+        {
+            "name": "Home",
+            "url": "/",
+            "type": "text",
+            "imageUrl": "",
+            "orderby": 1
+        },
+        {
+            "name": "Services",
+            "url": "/services",
+            "type": "text",
+            "imageUrl": "",
+            "orderby": 2
+        },
+        {
+            "name": "Blog",
+            "url": "/blog-agile",
+            "type": "text",
+            "imageUrl": "",
+            "orderby": 3
+        },
+        {
+            "name": "Podcast",
+            "url": "/podcast",
+            "type": "text",
+            "imageUrl": "",
+            "orderby": 4
+        },
+        {
+            "name": "Testimonials",
+            "url": "/testimonials",
+            "type": "text",
+            "imageUrl": "",
+            "orderby": 5
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/williamraymond",
+            "type": "image",
+            "imageUrl": "",
+            "orderby": 6
+        },
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/billraymonde",
+            "type": "image",
+            "imageUrl": "",
+            "orderby": 7
+        },
+        {
+            "name": "GitHub",
+            "url": "https://www.linkedin.com/in/williamraymond/",
+            "type": "image",
+            "imageUrl": "",
+            "orderby": 8
+        }
+    ]
+}

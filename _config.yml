@@ -27,6 +27,11 @@ url: "https://billraymond.github.io" # the base hostname & protocol for your sit
 twitter_username: billraymonde
 github_username:  billraymond
 
+# Custom settings
+description: >-
+In the Agile in Action podcast, veteran agile consultant Bill Raymond profiles top business leaders to learn how they are adopting agile technologies to gain a competitive edge. We also feature agile practitioners who share best practices while running agile projects in the trenches with some of today’s top companies.
+
+
 # Build settings
 theme: minima
 plugins:

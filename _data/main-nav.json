@@ -23,7 +23,7 @@
         },
         {
             "name": "Podcast",
-            "url": "/podcast",
+            "url": "/agile-in-action-podcast",
             "type": "text",
             "imageUrl": "",
             "orderby": 4

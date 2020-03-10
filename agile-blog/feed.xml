@@ -1,6 +1,7 @@
 ---
 ---
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Blog feed only -->
 <feed xmlns="http://www.w3.org/2005/Atom">
  <link href="{{- site.url -}}{{- site.baseurl -}}/agile-blog/feed.xml" rel="self" type="application/atom+xml"/>
  <link href="{{- site.url -}}{{- site.baseurl -}}/agile-blog/" rel="alternate" type="text/html" />

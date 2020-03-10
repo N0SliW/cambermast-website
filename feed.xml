@@ -1,7 +1,7 @@
 ---
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Postcast feed only -->
+<!-- All feeds (blog, podcasts, others) -->
 <feed xmlns="http://www.w3.org/2005/Atom">
  <link href="{{- site.url -}}{{- site.baseurl -}}/agile-in-action-podcast/feed.xml" rel="self" type="application/atom+xml"/>
  <link href="{{- site.url -}}{{- site.baseurl -}}/agile-in-action-podcast/" rel="alternate" type="text/html" />

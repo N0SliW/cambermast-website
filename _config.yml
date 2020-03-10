@@ -21,16 +21,20 @@
 title: Cambermast Agile in Action
 email: bill.raymond@cambermast.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Cambermast is an award-winning strategic consulting firm focused on helping you stay relevant in today's fast-paced, technology-driven economy. We specialize in agile transformation, coaching, and training.
+  Cambermast is an award-winning strategic consulting firm focused 
+  on helping you stay relevant in today's fast-paced, technology-driven economy. 
+  We specialize in agile transformation, coaching, and training.
 baseurl: "/cambermast-website" # the subpath of your site, e.g. /blog
 url: "https://billraymond.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: billraymonde
 github_username:  billraymond
 
 # Custom settings
-description: >-
-In the Agile in Action podcast, veteran agile consultant Bill Raymond profiles top business leaders to learn how they are adopting agile technologies to gain a competitive edge. We also feature agile practitioners who share best practices while running agile projects in the trenches with some of today’s top companies.
-
+podcast_description: >-
+  In the Agile in Action podcast, veteran agile consultant Bill Raymond profiles 
+  top business leaders to learn how they are adopting agile technologies to gain 
+  a competitive edge. We also feature agile practitioners who share best practices 
+  while running agile projects in the trenches with some of today’s top companies.
 
 # Build settings
 theme: minima

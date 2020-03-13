@@ -5,7 +5,8 @@
 {%- assign feeditems = site.data.rss-main -%}
 <feed xmlns="http://www.w3.org/2005/Atom">
     <!-- Required -->
-    <id>{{feeditems.id}}</id>
+    <!-- add a / to the end, but if you already have that, remove it. -->
+    <id>{{feeditems.id}}/</id>
     <title>{{feeditems.title}}</title>
     <updated>{{- site.time | date_to_xmlschema -}}</updated>
     <!-- Recommended -->
@@ -43,11 +44,13 @@
         <title>{{- post.title -}}</title>
         <updated>{{- post.date | date_to_xmlschema -}}</updated>
         <author>
-            {%- if post.author -%}
-                {{- post.author -}}
-            {%- else -%}
-                {{- feeditems.author -}}
-            {%- endif -%}
+            <name>
+                {%- if post.author -%}
+                    {{- post.author -}}
+                {%- else -%}
+                    {{- feeditems.author -}}
+                {%- endif -%}
+            </name>
         </author>
         <content>{{- post.content | strip_html | lstrip | rstrip -}}</content>
         <link href="{{- post.url | absolute_url -}}"/>
@@ -60,11 +63,13 @@
         <category term="{{- post.categories[0] -}}" />
         <!-- there is no post.contribur(s) by default, so just show the author. If you add that, modify the code. -->
         <contributor>
-            {%- if post.author -%}
-                {{- post.author -}}
-            {%- else -%}
-                {{- feeditems.author -}}
-            {%- endif -%}
+            <name>
+                {%- if post.author -%}
+                    {{- post.author -}}
+                {%- else -%}
+                    {{- feeditems.author -}}
+                {%- endif -%}
+            </name>
         </contributor>
         <!-- there is no published date, so just use the default post date. -->
         <published>{{- post.date | date_to_xmlschema -}}</published>
@@ -72,8 +77,7 @@
         <rights>
             {{- feeditems.rights -}}
         </rights>
-        <!-- There is no <source> by default so leave blank by default. -->
-        <source />
+        <!-- If you have a <source>, add it below. -->
     </entry>
     {%- endfor- %}
 </feed>

@@ -2,6 +2,7 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <!-- All site posts (blog podcast or others) -->
+<!-- Test with https://validator.w3.org/feed/ -->
 {%- assign feeditems = site.data.rss-main -%}
 <feed xmlns="http://www.w3.org/2005/Atom">
     <!-- Required -->

@@ -74,7 +74,6 @@
         </rights>
         <!-- There is no <source> by default so leave blank by default. -->
         <source />
-
     </entry>
     {%- endfor- %}
 </feed>

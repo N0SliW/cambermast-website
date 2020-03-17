@@ -1,14 +1,20 @@
 ---
 ---
-<?xml version="1.0" encoding="utf-8"?>
-<!-- ATOM Feed -->
+<!-- <?xml version="1.0" encoding="utf-8"?> -->
+
+<!-- RSS 2.0 Feed -->
 <!-- All site posts (blog podcast or others) -->
-<!-- https://validator.w3.org/feed/docs/atom.html -->
-<!-- Test with https://validator.w3.org/feed/ -->
-{%- assign feeditems = site.data.atom-main -%}
+<!-- Spec: https://validator.w3.org/feed/docs/rss2.html -->
+<!-- Validator: https://validator.w3.org/ -->
+
+<!-- get all static feed data -->>
+{%- assign feeditems = site.data.rss-main -%}
+
+<rss xmlns:
 <feed xmlns="http://www.w3.org/2005/Atom">
     <!-- Required -->
-    <id>{{feeditems.id}}</id>
+    <!-- add a / to the end, but if you already have that, remove it. -->
+    <id>{{feeditems.id}}/</id>
     <title>{{feeditems.title}}</title>
     <updated>{{- site.time | date_to_xmlschema -}}</updated>
     <!-- Recommended -->

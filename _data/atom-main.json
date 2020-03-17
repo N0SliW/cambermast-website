@@ -1,5 +1,6 @@
 {
-    "id": "https://cambermast.com",
+    "_comment": "// Make sure there is a slash (/) at the end of the id if you are using a website instead of a urn.",
+    "id": "https://cambermast.com/",
     "title": "Cambermast LLC and Agile in Action",
     "author": "Bill Raymond",
     "link_rel": "feed.xml",

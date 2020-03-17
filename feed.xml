@@ -5,7 +5,10 @@
 <!-- All site posts (blog podcast or others) -->
 <!-- https://validator.w3.org/feed/docs/atom.html -->
 <!-- Test with https://validator.w3.org/feed/ -->
+
+<!-- get all static feed data -->
 {%- assign feeditems = site.data.atom-main -%}
+
 <feed xmlns="http://www.w3.org/2005/Atom">
     <!-- Required -->
     <id>{{feeditems.id}}</id>

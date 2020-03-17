@@ -1,13 +1,13 @@
 ---
 ---
-<!-- <?xml version="1.0" encoding="utf-8"?> -->
+<!-- No longer needed? <?xml version="1.0" encoding="utf-8"?> -->
 
 <!-- RSS 2.0 Feed -->
 <!-- All site posts (blog podcast or others) -->
 <!-- Spec: https://validator.w3.org/feed/docs/rss2.html -->
 <!-- Validator: https://validator.w3.org/ -->
 
-<!-- get all static feed data -->>
+<!-- get all static feed data -->
 {%- assign feeditems = site.data.rss-main -%}
 
 <rss xmlns:

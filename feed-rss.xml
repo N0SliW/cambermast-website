@@ -1,0 +1,30 @@
+---
+---
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- RSS 2.0 Feed -->
+<!-- All site posts (blog podcast or others) -->
+<!-- Spec: https://validator.w3.org/feed/docs/rss2.html -->
+<!-- Validator: https://validator.w3.org/ -->
+
+<!-- get all static feed data -->
+{%- assign feeditems = site.data.rss-main -%}
+
+<rss version="2.0">
+    <channel>
+    <!-- required channel elements-->
+    <title>{{- feeditems.title -}}</title>
+    <link>{{- feeditems.link -}}</link>
+    <description>{{- site.podcast_description | escape -}}</description>
+
+    <!-- optional channel elements -->
+    <language>{{- feeditems.language -}}</language>
+    <copyright>{{- feeditems.copyright -}}</copyright>
+    <managingEditor>{{- feeditems.managingEditor -}}</managingEditor>
+    <!-- By default, pubDate and lastBuildDate are the same -->
+    <pubDate>{{- site.time | date_to_xmlschema -}}</pubDate>
+    <lastBuildDate>{{- site.time | date_to_xmlschema -}}</lastBuildDate>
+    <category>{{- feeditems.category -}}</category>
+
+    </channel>
+</rss>

@@ -35,12 +35,6 @@ podcast_description: >-
   top business leaders to learn how they are adopting agile technologies to gain 
   a competitive edge. We also feature agile practitioners who share best practices 
   while running agile projects in the trenches with some of today’s top companies.
-# ATOM (RSS) feed IDs
-rss_id_all: https://cambermast.com
-rss_id_podcast: https://agileinaction.com
-rss_site_author: Bill Raymond
-rss_site_category: business
-
 
 # Build settings
 theme: minima

@@ -2,7 +2,7 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 
-<!-- Apple Podcasgts RSS 2.0 Feed -->
+<!-- Apple Podcasts (iTunes) RSS 2.0 Feed -->
 <!-- Podcast category only -->
 <!-- Spec: https://validator.w3.org/feed/docs/rss2.html -->
 <!-- Validator: https://validator.w3.org/ -->
@@ -32,40 +32,40 @@
         </itunes:category>
         <itunes:explicit>{{- feeditems.iTunesExplicit -}}</itunes:explicit>
         <!-- item elements -->
-        {%- for post in site.posts limit: 20 -%}
-        <!-- *** START HERE *** -->
-        <item>
-            <title>{{- post.title -}}</title>
-            <link>{{- post.url | absolute_url -}}</link>
-            <description>
-                {%- if post.excerpt -%}
-                  {{- post.excerpt | strip_html | lstrip | rstrip -}}
-               {%- endif -%}
-            </description>
-            <author>{{ feeditems.authorEmail}} (
-                {%- if post.author -%}
-                    {{- post.author -}})
-                {%- else -%}
-                    {{- feeditems.authorName -}}
-                {%- endif -%})</author>
-            <!-- Use the first word in the yml categories or the default category -->
-            <category>
-                {%- if post.categories[0] -%}
-                    {{- post.categories[0] -}}
-                {%- else -%}
-                    {{- feeditems.categoryDefault -}}
+        {%- for post in site.categories.Podcast -%}
+            <!-- *** START HERE *** -->
+            <item>
+                <title>{{post.category}}{{- post.title -}}</title>
+                <link>{{- post.url | absolute_url -}}</link>
+                <description>
+                    {%- if post.excerpt -%}
+                    {{- post.excerpt | strip_html | lstrip | rstrip -}}
                 {%- endif -%}
-            </category>
-            <!-- by default, not using comments. -->
-            <!-- <comments /> -->
-            <!-- by default, not using enclosure. -->
-            <!-- <enclosure /> -->
-            <guid>{{- post.url | absolute_url -}}</guid>
-            <pubDate>{{- post.date | date_to_rfc822 -}}</pubDate>
-            <source url="{{- feeditems.sourceUrl | absolute_url -}}">
-                {{- feeditems.sourceChannelTitle -}}
-            </source>
-        </item>
+                </description>
+                <author>{{ feeditems.authorEmail}} (
+                    {%- if post.author -%}
+                        {{- post.author -}})
+                    {%- else -%}
+                        {{- feeditems.authorName -}}
+                    {%- endif -%})</author>
+                <!-- Use the first word in the yml categories or the default category -->
+                <category>
+                    {%- if post.categories[0] -%}
+                        {{- post.categories[0] -}}
+                    {%- else -%}
+                        {{- feeditems.categoryDefault -}}
+                    {%- endif -%}
+                </category>
+                <!-- by default, not using comments. -->
+                <!-- <comments /> -->
+                <!-- by default, not using enclosure. -->
+                <!-- <enclosure /> -->
+                <guid>{{- post.url | absolute_url -}}</guid>
+                <pubDate>{{- post.date | date_to_rfc822 -}}</pubDate>
+                <source url="{{- feeditems.sourceUrl | absolute_url -}}">
+                    {{- feeditems.sourceChannelTitle -}}
+                </source>
+            </item>
         {%- endfor- %}
     </channel>
 </rss>

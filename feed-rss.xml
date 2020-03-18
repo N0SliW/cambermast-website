@@ -12,19 +12,65 @@
 
 <rss version="2.0">
     <channel>
-    <!-- required channel elements-->
-    <title>{{- feeditems.title -}}</title>
-    <link>{{- feeditems.link -}}</link>
-    <description>{{- site.podcast_description | escape -}}</description>
+        <!-- required channel elements-->
+        <title>{{- feeditems.title -}}</title>
+        <link>{{- feeditems.link -}}</link>
+        <description>{{- site.podcast_description | escape -}}</description>
 
-    <!-- optional channel elements -->
-    <language>{{- feeditems.language -}}</language>
-    <copyright>{{- feeditems.copyright -}}</copyright>
-    <managingEditor>{{- feeditems.managingEditor -}}</managingEditor>
-    <!-- By default, pubDate and lastBuildDate are the same -->
-    <pubDate>{{- site.time | date_to_xmlschema -}}</pubDate>
-    <lastBuildDate>{{- site.time | date_to_xmlschema -}}</lastBuildDate>
-    <category>{{- feeditems.category -}}</category>
+        <!-- optional channel elements -->
+        <language>{{- feeditems.language -}}</language>
+        <copyright>{{- feeditems.copyright -}}</copyright>
+        <managingEditor>{{- feeditems.managingEditor -}}</managingEditor>
+        <!-- By default, pubDate and lastBuildDate are the same -->
+        <pubDate>{{- site.time | date_to_xmlschema -}}</pubDate>
+        <lastBuildDate>{{- site.time | date_to_xmlschema -}}</lastBuildDate>
+        <category>{{- feeditems.category -}}</category>
+        <generator>{{- feeditems.generator -}}</generator>
+        <docs>{{- feeditems.docs -}}</docs>
+        <!-- by default, not using cloud -->
+        <cloud />
+        <ttl>{{- feeditems.ttl -}}</ttl>
+        <image>
+            <url>{{- feeditems.imageUrl | absolute_url -}}</url>
+            <title>{{- feeditems.imageTitle -}}</title>
+            <link>{{- feeditems.imageLink -}}</link>
+        </image>
+        <!-- by default, not using textInput -->
+        <textInput />
+        <!-- by default, not using skipHours -->
+        <skipHours />
+        <!-- by default, not using skipDays -->
+        <skipDays />
 
+        <!-- item elements -->
+        {%- for post in site.posts limit: 20 -%}
+        <item>
+            <title>{{- post.title -}}</title>
+            <link>{{- post.url | absolute_url -}}</link>
+            <description>
+                {%- if post.excerpt -%}
+                  {{- post.excerpt | strip_html | lstrip | rstrip -}}
+               {%- endif -%}
+            </description>
+            <author>{{- feeditems.author -}}</author>
+            <!-- Use the first word in the yml categories or the default category -->
+            <category>
+                {%- if post.categories[0] -%}
+                    {{- post.categories[0] -}}
+                {%- else -%}
+                    {{- feeditems.categoryDefault -}}
+                {%- endif -%}
+            </category>
+            <!-- by default, not using comments. -->
+            <comments />
+            <!-- by default, not using enclosure. -->
+            <enclosure />
+            <guid>{{- post.url | absolute_url -}}</guid>
+            <pubDate>{{- post.date | date_to_xmlschema -}}</pubDate>
+            <source url="{{- feeditems.sourceUrl | absolute_url -}}">
+                {{- feeditems.sourceChannelTitle -}}
+            </source>
+        </item>
+        {%- endfor- %}
     </channel>
 </rss>

@@ -5,4 +5,5 @@
 layout: home
 ---
 [atom feed](feed.xml) | 
-[rss feed](feed-rss.xml)
+[rss feed](feed-rss.xml) |
+[apple feed](feed-rss-apple-podcasts.xml)

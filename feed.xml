@@ -23,7 +23,7 @@
     <link href="{{- feeditems.link_rel | absolute_url -}}" rel="self" type="application/atom+xml"/>
     <link href="{{- "" | absolute_url -}}" rel="alternate" type="text/html" />
     <!-- Optional -->
-    <category term="business" />
+    <category term="{{- feeditems.category -}}" />
     <contributor>
         <name>{{feeditems.contributor}}</name>
     </contributor>

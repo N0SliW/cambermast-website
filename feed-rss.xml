@@ -20,7 +20,7 @@
         <!-- optional channel elements -->
         <language>{{- feeditems.language -}}</language>
         <copyright>{{- feeditems.copyright -}}</copyright>
-        <managingEditor>{{- feeditems.managingEditor -}}</managingEditor>
+        <managingEditor>{{ feeditems.managingEditorEmail }} ({{- feeditems.managingEditorName -}})</managingEditor>
         <!-- By default, pubDate and lastBuildDate are the same -->
         <pubDate>{{- site.time | date_to_rfc822 -}}</pubDate>
         <lastBuildDate>{{- site.time | date_to_rfc822 -}}</lastBuildDate>

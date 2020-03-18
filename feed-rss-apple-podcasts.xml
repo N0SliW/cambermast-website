@@ -33,14 +33,21 @@
         <itunes:explicit>{{- feeditems.iTunesExplicit -}}</itunes:explicit>
         <!-- item elements -->
         {%- for post in site.categories.Podcast -%}
-            <!-- *** START HERE *** -->
             <item>
-                <title>{{post.category}}{{- post.title -}}</title>
+            <!-- *** START HERE *** -->
+                <itunes:episodeType>
+                    {%- if post.episodeType -%}
+                        {{- post.episodeType -}}
+                    {%- else -%}
+                        {{- feeditems.iTunesEpisodeTypeDefault -}}
+                    {%- endif -%}
+                </itunes:episodeType>
+                <itunes:title>{{- post.title -}}</itunes:title>
                 <link>{{- post.url | absolute_url -}}</link>
                 <description>
-                    {%- if post.excerpt -%}
-                    {{- post.excerpt | strip_html | lstrip | rstrip -}}
-                {%- endif -%}
+                    <![CDATA[{{- post.excerpt | strip_html | lstrip | rstrip | escape -}}. Learn more at 
+                    <a href="{{- feeditems.iTunesDescriptionCDataUrl -}}">Agile in Action</a>.]]>
+                    <!-- </content:encoded> -->
                 </description>
                 <author>{{ feeditems.authorEmail}} (
                     {%- if post.author -%}

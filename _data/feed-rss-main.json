@@ -14,6 +14,8 @@
     "iTunesCategory": "Business",
     "iTunesSubCategory": "Management",
     "iTunesExplicit": "false",
+    "iTunesEpisodeTypeDefault": "full",
+    "iTunesDescriptionCDataUrl": "https://www.agileinaction.com",
     "managingEditorEmail": "editor@cambermast.com",
     "managingEditorName": "Bill Raymond",
     "webMaster": "webmaster@cambermast.com",

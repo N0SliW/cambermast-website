@@ -4,5 +4,5 @@
 
 layout: home
 ---
-[atom feed](feed.xml)
+[atom feed](feed.xml) | 
 [rss feed](feed-rss.xml)

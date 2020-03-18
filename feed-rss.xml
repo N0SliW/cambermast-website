@@ -28,7 +28,7 @@
         <generator>{{- feeditems.generator -}}</generator>
         <docs>{{- feeditems.docs -}}</docs>
         <!-- by default, not using cloud -->
-        <cloud />
+        <!-- <cloud /> -->
         <ttl>{{- feeditems.ttl -}}</ttl>
         <image>
             <url>{{- feeditems.imageUrl | absolute_url -}}</url>
@@ -36,11 +36,11 @@
             <link>{{- feeditems.imageLink -}}</link>
         </image>
         <!-- by default, not using textInput -->
-        <textInput />
+        <!-- <textInput /> -->
         <!-- by default, not using skipHours -->
-        <skipHours />
+        <!-- <skipHours /> -->
         <!-- by default, not using skipDays -->
-        <skipDays />
+        <!-- <skipDays /> -->
 
         <!-- item elements -->
         {%- for post in site.posts limit: 20 -%}
@@ -62,9 +62,9 @@
                 {%- endif -%}
             </category>
             <!-- by default, not using comments. -->
-            <comments />
+            <!-- <comments /> -->
             <!-- by default, not using enclosure. -->
-            <enclosure />
+            <!-- <enclosure /> -->
             <guid>{{- post.url | absolute_url -}}</guid>
             <pubDate>{{- post.date | date_to_rfc822 -}}</pubDate>
             <source url="{{- feeditems.sourceUrl | absolute_url -}}">

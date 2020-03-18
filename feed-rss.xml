@@ -32,8 +32,9 @@
         <ttl>{{- feeditems.ttl -}}</ttl>
         <image>
             <url>{{- feeditems.imageUrl | absolute_url -}}</url>
-            <title>{{- feeditems.imageTitle -}}</title>
-            <link>{{- feeditems.imageLink -}}</link>
+            <!-- Title and link much be the same as the channel image and link -->
+            <title>{{- feeditems.title -}}</title>
+            <link>{{- feeditems.link -}}</link>
         </image>
         <!-- by default, not using textInput -->
         <!-- <textInput /> -->
@@ -52,7 +53,12 @@
                   {{- post.excerpt | strip_html | lstrip | rstrip -}}
                {%- endif -%}
             </description>
-            <author>{{- feeditems.author -}}</author>
+            <author>{{ feeditems.authorEmail}} (
+                {%- if post.author -%}
+                    {{- post.author -}})
+                {%- else -%}
+                    {{- feeditems.authorName -}}
+                {%- endif -%})</author>
             <!-- Use the first word in the yml categories or the default category -->
             <category>
                 {%- if post.categories[0] -%}

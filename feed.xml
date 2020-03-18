@@ -7,7 +7,7 @@
 <!-- Test with https://validator.w3.org/feed/ -->
 
 <!-- get all static feed data -->
-{%- assign feeditems = site.data.atom-main -%}
+{%- assign feeditems = site.data.feed-atom-main -%}
 
 <feed xmlns="http://www.w3.org/2005/Atom">
     <!-- Required -->

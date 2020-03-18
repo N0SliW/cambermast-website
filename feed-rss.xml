@@ -8,7 +8,7 @@
 <!-- Validator: https://validator.w3.org/ -->
 
 <!-- get all static feed data -->
-{%- assign feeditems = site.data.rss-main -%}
+{%- assign feeditems = site.data.feed-rss-main -%}
 
 <rss version="2.0">
     <channel>

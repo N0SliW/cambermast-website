@@ -6,6 +6,9 @@
 <!-- Podcast category only -->
 <!-- Spec: https://validator.w3.org/feed/docs/rss2.html -->
 <!-- Validator: https://validator.w3.org/ -->
+<!-- RSS details: https://help.apple.com/itc/podcasts_connect/#/itcb54353390 -->
+<!-- RSS example: https://help.apple.com/itc/podcasts_connect/#/itcbaf351599 -->
+
 
 <!-- get all static feed data -->
 {%- assign feeditems = site.data.feed-rss-main -%}
@@ -34,7 +37,6 @@
         <!-- item elements -->
         {%- for post in site.categories.Podcast -%}
             <item>
-            <!-- *** START HERE *** -->
                 <itunes:episodeType>
                     {%- if post.episodeType -%}
                         {{- post.episodeType -}}
@@ -45,9 +47,11 @@
                 <itunes:title>{{- post.title -}}</itunes:title>
                 <link>{{- post.url | absolute_url -}}</link>
                 <description>
-                    <![CDATA[{{- post.excerpt | strip_html | lstrip | rstrip | escape -}}. Learn more at 
-                    <a href="{{- feeditems.iTunesDescriptionCDataUrl -}}">Agile in Action</a>.]]>
-                    <!-- </content:encoded> -->
+                    <content:encoded>
+                        <![CDATA[{{- post.excerpt | strip_html | lstrip | rstrip | escape -}}. Learn more at 
+                        <a href="{{- feeditems.iTunesDescriptionCDataUrl -}}">Agile in Action</a>.]]>
+                    </content:encoded>
+<!-- *** INCOMPLETE START HERE *** -->
                 </description>
                 <author>{{ feeditems.authorEmail}} (
                     {%- if post.author -%}

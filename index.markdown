@@ -4,6 +4,16 @@
 
 layout: home
 ---
+
+## New feeds
 [atom feed](feed.xml) | 
 [rss feed](feed-rss.xml) |
 [apple feed](feed-rss-apple-podcasts.xml)
+
+## Navigation
+<!-- {% assign navs = site.data.main-nav %} -->
+{% for nav in site.data.main-nav  %}
+Name: {{ nav.name }}
+{% endfor %}
+
+## Services

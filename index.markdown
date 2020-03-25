@@ -10,10 +10,7 @@ layout: home
 [rss feed](feed-rss.xml) |
 [apple feed](feed-rss-apple-podcasts.xml)
 
-## Navigation
-<!-- {% assign navs = site.data.main-nav %} -->
-{% for nav in site.data.main-nav  %}
-Name: {{ nav.name }}
-{% endfor %}
+## Data debuggers
+[debug-data-navs](debug-data-navs.html)
 
-## Services
+[debug-data-services](debug-data-services.html)

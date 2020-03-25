@@ -3,7 +3,7 @@
         {
             "title": "Agile Transformation",
             "url": "services/agile-transformation",
-            "type": "text",
+            "type": "Optimize your organization for high performing teams.",
             "imageUrl": "",
             "display": "true",
             "orderby": 1
@@ -11,7 +11,7 @@
         {
             "title": "Agile Coaching",
             "url": "services/agile-coaching",
-            "type": "text",
+            "type": "Improve team consistency and delivery with support from veteran agile practitioners.",
             "imageUrl": "",
             "display": "true",
             "orderby": 2
@@ -19,7 +19,7 @@
         {
             "title": "Software Implementation",
             "url": "services/software-implementation",
-            "type": "text",
+            "type": "Thoughtful design will drive successful project management software adoption.",
             "imageUrl": "",
             "display": "true",
             "orderby": 3

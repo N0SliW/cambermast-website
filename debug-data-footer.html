@@ -1,18 +1,18 @@
 ---
 ---
-<!-- This file reads the main-nav data list -->
+<!-- This file tests data stored on the site -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navigation list</title>
+    <title>Footer list</title>
 </head>
 <body>
-    <h2>Navigation list</h2>
+    <h2>Footer list</h2>
     <ul>
-        {% assign navs = site.data.main-nav.items | sort: "orderby" %}
-        {% for item in navs %}
+        {% assign footers = site.data.main-footer.items | sort: "orderby" %}
+        {% for item in footers %}
             <li><strong>Title: {{ item.title }}</strong></li>
             <li>URL: {{ item.url }}</li>
             <li>Type: {{ item.type }}</li>

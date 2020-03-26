@@ -14,3 +14,5 @@ layout: home
 [debug-data-navs](debug-data-navs.html)
 
 [debug-data-services](debug-data-services.html)
+
+[debug-data-footer](debug-data-footer.html)

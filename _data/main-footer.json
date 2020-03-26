@@ -1,0 +1,77 @@
+{
+    "attribute": "List of primary services the company offers",
+    "items": [
+        {
+            "title": "About Us",
+            "url": "/",
+            "type": "text",
+            "content": "Content",
+            "imageUrl": "/",
+            "display": true,
+            "orderby": 1
+        },
+        {
+            "title": "Blog",
+            "url": "/",
+            "type": "text",
+            "content": "Content",
+            "imageUrl": "/",
+            "display": true,
+            "orderby": 2
+        },
+        {
+            "title": "podcast",
+            "url": "/",
+            "type": "text",
+            "content": "Content",
+            "imageUrl": "/",
+            "display": true,
+            "orderby": 3
+        },
+        {
+            "title": "Contact",
+            "url": "/",
+            "type": "text",
+            "content": "Content",
+            "imageUrl": "/",
+            "display": true,
+            "orderby": 4
+        },
+        {
+            "title": "Disclaimer",
+            "url": "/",
+            "type": "text",
+            "content": "Content",
+            "imageUrl": "/",
+            "display": true,
+            "orderby": 5
+        },
+        {
+            "title": "Privacy Policy",
+            "url": "/",
+            "type": "text",
+            "content": "Content",
+            "imageUrl": "/",
+            "display": true,
+            "orderby": 6
+        },
+        {
+            "title": "email",
+            "url": "/",
+            "type": "text",
+            "content": "info@cambermast.com",
+            "imageUrl": "/",
+            "display": true,
+            "orderby": 7
+        },
+        {
+            "title": "Phone",
+            "url": "/",
+            "type": "text",
+            "content": "+1 (415) 294-0165",
+            "imageUrl": "/",
+            "display": true,
+            "orderby": 8
+        }
+    ]
+}

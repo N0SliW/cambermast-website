@@ -1,9 +1,11 @@
 {
+    "attribute": "List of primary services the company offers",
     "items": [
         {
             "title": "Agile Transformation",
             "url": "services/agile-transformation",
-            "type": "Optimize your organization for high performing teams.",
+            "type": "text",
+            "content": "Optimize your organization for high performing teams.",
             "imageUrl": "",
             "display": "true",
             "orderby": 1
@@ -11,7 +13,8 @@
         {
             "title": "Agile Coaching",
             "url": "services/agile-coaching",
-            "type": "Improve team consistency and delivery with support from veteran agile practitioners.",
+            "type": "text",
+            "content": "Improve team consistency and delivery with support from veteran agile practitioners.",
             "imageUrl": "",
             "display": "true",
             "orderby": 2
@@ -19,7 +22,8 @@
         {
             "title": "Software Implementation",
             "url": "services/software-implementation",
-            "type": "Thoughtful design will drive successful project management software adoption.",
+            "type": "text",
+            "content": "Thoughtful design will drive successful project management software adoption.",
             "imageUrl": "",
             "display": "true",
             "orderby": 3

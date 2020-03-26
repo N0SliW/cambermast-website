@@ -1,9 +1,11 @@
 {
+    "attribute": "Main navigation items.",
     "items": [
         {
             "title": "Home",
             "url": "/",
             "type": "text",
+            "content": "Content",
             "imageUrl": "",
             "display": true,
             "orderby": 1
@@ -12,6 +14,7 @@
             "title": "Services",
             "url": "/services",
             "type": "text",
+            "content": "Content",
             "imageUrl": "",
             "display": true,
             "orderby": 2
@@ -20,6 +23,7 @@
             "title": "Blog",
             "url": "/agile-blog",
             "type": "text",
+            "content": "Content",
             "imageUrl": "",
             "display": true,
             "orderby": 3
@@ -28,6 +32,7 @@
             "title": "Podcast",
             "url": "/agile-in-action-podcast",
             "type": "text",
+            "content": "Content",
             "imageUrl": "",
             "display": true,
             "orderby": 4
@@ -36,6 +41,7 @@
             "title": "Testimonials",
             "url": "/testimonials",
             "type": "text",
+            "content": "Content",
             "imageUrl": "",
             "display": true,
             "orderby": 5
@@ -44,6 +50,7 @@
             "title": "LinkedIn",
             "url": "https://www.linkedin.com/in/williamraymond",
             "type": "image",
+            "content": "Content",
             "imageUrl": "",
             "display": true,
             "orderby": 6
@@ -52,6 +59,7 @@
             "item": "Twitter",
             "url": "https://twitter.com/billraymonde",
             "type": "image",
+            "content": "Content",
             "imageUrl": "",
             "display": true,
             "orderby": 7
@@ -60,6 +68,7 @@
             "item": "GitHub",
             "url": "https://www.linkedin.com/in/williamraymond/",
             "type": "image",
+            "content": "Content",
             "imageUrl": "",
             "display": true,
             "orderby": 8

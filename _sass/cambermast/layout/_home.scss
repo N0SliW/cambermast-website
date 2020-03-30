@@ -3,7 +3,7 @@
 
 // Grid any size larger than the mobile version.
 
-.header_container {
+.home-container {
     margin: auto;
     display: grid;
     max-width: 1366px;
@@ -19,30 +19,30 @@
         // "left   sub    sub    sub    sub    right"
         // "signup signup signup signup signup signup"
         // "left   footer footer footer footer right";
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
     grid-template-rows: 60px auto auto;
     @include for-size(phone-only) {
         display: unset;
      }
     } 
-    //Grid include Newsletter, Agile Pocket Guide, Book image, Podcast, Our Customers, Footer, Copyright sections 
+    // //Grid include Newsletter, Agile Pocket Guide, Book image, Podcast, Our Customers, Footer, Copyright sections 
 
-    .main_container {
-        max-width: 1366px;
-        min-width: 350px;
-        margin: auto;
-        display: grid;
-        grid-template-areas: 'mainArea mainArea';
-        grid-template-columns: 50% 50%;
-        margin-top: 25px;
+    // .main_container {
+    //     max-width: 1366px;
+    //     min-width: 350px;
+    //     margin: auto;
+    //     display: grid;
+    //     grid-template-areas: 'mainArea mainArea';
+    //     grid-template-columns: 50% 50%;
+    //     margin-top: 25px;
 
-        @include for-size(tablet-only) {
-          grid-template-areas: 'mainArea';
-          max-width: unset;
-          min-width: unset;
-          display: unset;
-        }
-     }
+    //     @include for-size(tablet-only) {
+    //       grid-template-areas: 'mainArea';
+    //       max-width: unset;
+    //       min-width: unset;
+    //       display: unset;
+    //     }
+    //  }
 
       .newsletter_section {
        grid-area: mainArea;

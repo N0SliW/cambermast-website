@@ -1,0 +1,56 @@
+// Site variables
+
+// Use debug:true to add background colors to the grid.
+// Useful for debugging the grid layout.
+$debugLogoArea: lightblue;
+$debugNavArea: darkblue;
+$debugTopBannerArea: orange;
+$debugTitleArea: cyan;
+$debugServicesArea: green;
+$debugPlayPodArea: fuchsia;
+$debugPodcastArea: purple;
+$debugDownloadArea: red;
+$debugSubtitleArea: brown;
+$debugSignupArea: cadetBlue;
+$debugFooterArea: darkslategrey;
+$debugInputBorder: #979797;
+$debugblueBtn:  #035b96;
+$debugSocialBtns: #6497b1;
+$debugSlideDot:  #d4d4d4;
+$debugSliderHover: #035b96;
+$debugCopyright: #c3c3c3;
+$debugPostInputBckg: #eeeeee;
+$debugPostText: #808080;
+$debugEventBorder: #e3e3e3;
+$debug: false;
+
+// Navigation area
+$navBackground: wite;
+$navDefaultColor: #2A2929;
+$navHoverColor: #035B96;
+$navHoverBorderColor: #035B96;
+$navHoverBorderSize: 1px;
+$navSelectedBorderColor: #035B96;
+$navSelectedBorderSize: 3px;
+$navSelectedColor: #035B96;
+
+// Left and right border
+$gridMarginLeft: 25px;
+$gridMarginRight: 25px;
+
+// Play Podcast area
+$playPodBgColor: rgba(45, 91, 121, 1);
+
+// Top banner image
+$bannerMarginLeft: 10%;
+$bannerMarginTop: 7%;
+$bannerHead1Color: white;
+$bannerHead2Color: white;
+$bannerHead2MarginTop: 5%;
+$bannerHeadBtnMarginTop: 2.5%;
+
+// Default button to use for the website
+$btnDefaultColor: #035B96;
+$btnDefaultBorderColor: #035B96;
+$btnDefaultBgColor: white;
+$btnDefaultPadding: .8% 1%;

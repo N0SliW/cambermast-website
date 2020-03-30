@@ -1,0 +1,107 @@
+//internal services section 
+
+// internal services section grid
+.offering_services {
+    display: grid;
+    grid-template-areas: 'mainArea mainArea mainArea';
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    margin: 70px 0;
+    @include for-size(tablet-only){
+      grid-template-areas: 'mainArea';
+      grid-template-columns: 90%;
+      justify-content: center;
+      margin: 20px 0;
+     }
+  }
+  
+  .internal_services_section {
+    grid-area: mainArea;
+   
+  }
+  
+  .service_types {
+      width: 90%;
+      margin: auto;
+      min-height: 520px;
+      border: 1.5px solid $debugEventBorder;
+      @include for-size(tablet-only){
+       margin-top: 30px;
+       }
+       @include for-size(tablet-only){
+       min-height: auto;
+      }
+      
+  }
+  // cartoon img styles
+  .cartoon_img_section {
+      border-bottom: 1px solid $debugEventBorder;
+      padding-bottom: 40px;
+      padding-top: 30px;
+      @include for-size(tablet-only){
+       padding-bottom: 10px;
+       }
+  }
+// internal services section hover
+  .service_types:hover {
+    box-shadow: 1px 1px 13px 9px #eee9e9;
+  }
+  // internal services text style
+  .services_list {
+    text-align: left;
+    padding: 30px 30px 0 30px;
+    @include for-size(tablet-only){
+      padding: 20px 10px 0 10px;
+      width: 70%;
+      margin-left: auto;
+    }
+    @include for-size(phone-only){
+      width: 90%;
+      margin-left: auto;
+      padding: 20px 10px 10px 10px;
+    }
+    p {
+      font-size: 16px;
+      color: $debugPostText;
+      
+    
+      @include for-size(desktop-up){
+        font-size: 14px;
+      }
+      @include for-size(tablet-landscape-up){
+        font-size: 12px;
+    }
+      @include for-size(phone-only){
+       font-size: 14px;
+      }
+    }
+    span {
+      color: $debugblueBtn;
+      padding-right: 10px;
+    }
+  }
+  // contact us button style
+
+  .contact_us_btn {
+    min-width: 22%;
+    padding: 16.5px 20px;
+    margin-top: 30px;
+    background-color: #035b96;
+    border: transparent;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 12px;
+    @include for-size(tablet-landscape-up){
+      padding: 12.5px 20px;
+   
+  }
+  @include for-size(phone-only){
+   
+    margin-bottom: 20px;
+}
+  }
+  .internal_services_footer {
+    margin-top: 40px;
+    
+  }
+
+ 

@@ -1,0 +1,54 @@
+// Layouts for the grids (mobile and large screen)
+
+
+// Grid any size larger than the mobile version.
+
+.header_container {
+    margin: auto;
+    display: grid;
+    max-width: 1366px;
+        grid-template-areas:
+        "logo    nav     nav     nav"
+        "playpod playpod playpod playpod"
+        "tban    tban    tban    tban"
+        "title   title   title   title"
+        "svcs    svcs    svcs    svcs";
+        // "left   svcs   svcs   svcs   svcs   right"
+        // "pod    pod    pod    pod    pod    pod"
+        // "left   dl     dl     dl     dl     right"
+        // "left   sub    sub    sub    sub    right"
+        // "signup signup signup signup signup signup"
+        // "left   footer footer footer footer right";
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: 60px auto auto;
+    @include for-size(phone-only) {
+        display: unset;
+     }
+    } 
+    //Grid include Newsletter, Agile Pocket Guide, Book image, Podcast, Our Customers, Footer, Copyright sections 
+
+    .main_container {
+        max-width: 1366px;
+        min-width: 350px;
+        margin: auto;
+        display: grid;
+        grid-template-areas: 'mainArea mainArea';
+        grid-template-columns: 50% 50%;
+        margin-top: 25px;
+
+        @include for-size(tablet-only) {
+          grid-template-areas: 'mainArea';
+          max-width: unset;
+          min-width: unset;
+          display: unset;
+        }
+     }
+
+      .newsletter_section {
+       grid-area: mainArea;
+      }
+
+     
+
+
+

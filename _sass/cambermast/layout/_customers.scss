@@ -1,0 +1,95 @@
+// Customer section
+
+//customer section grid 
+.customers_section {
+    grid-area: 4 / 1 / span 1 / span 2;
+    width: 93%;
+    margin: auto;
+    
+   }
+
+   //Slider styles
+
+   // slider dots style
+   .owl-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: $debugSlideDot !important;
+    margin: 0 5px;
+   }
+   
+   //slider active dot  style
+    .owl-dot.active {
+      width: 10px !important;
+      height: 10px !important;
+      background-color: $debugSlideDot !important;
+    
+     }
+
+   //slider dot hover
+    .owl-dot:hover {
+    background-color: #035b96 !important;
+  }
+
+  .owl-stage {
+    display: flex;
+    align-items: center;
+  }
+
+  //slider arrow's styles 
+  .owl-nav {
+   .owl-prev {
+    ::before {
+      content: url(../../images/home/left_arrow.png);
+      font-family: FontAwesome;
+      color: #d4d4d4;
+      font-size: 18px;
+      position: absolute;
+      right: 17%;
+      bottom: 5px;
+      @include for-size(tablet-landscape-up){
+        right: 20%;
+    }
+    @include for-size(phone-only){
+      right: 15%;
+  }
+    }
+   
+   }
+   .owl-next {
+    ::before {
+      content: url(../../images/home/left_arrow.png);
+      position: absolute;
+      right: 12%;
+      bottom: 10px;
+      margin: 0 15px;
+      transform: rotate(180deg); 
+      @include for-size(phone-only){
+        right: 0;
+    }
+    
+ }
+  
+   }
+ }
+  span {
+    color: white;
+   }
+  span:hover:before {
+   color: #035b96 !important;
+  }
+
+  .owl-item {
+    display: flex;
+    justify-content: center;
+  }
+
+    //slider customer logos styles
+    .customer_logo {
+      width: 130px !important;
+      @include for-size(phone-only){
+        width: 100px !important;
+      }
+    
+    }

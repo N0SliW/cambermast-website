@@ -1,0 +1,35 @@
+//pagination styles
+.pagination_section {
+    grid-area: 3 / 1 / span 1 / span 2;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+.page-link {
+    border: transparent !important;
+    border-radius: 50%;
+    background-color: unset  !important;
+    padding: 5px 10px !important;
+    color: #3e4143 !important;
+   
+}
+
+.page-link:focus {
+    box-shadow: unset !important;
+    border: 1px solid #035b96 !important;
+    border-radius: 50%;
+    color: #035b96 !important;
+}
+.pagination {
+    align-items: center;
+}
+.pagination_arrow {
+    color: #c3d8e6;
+    padding: 0 20px;
+    
+}
+.pagination_arrow:hover {
+    text-decoration: none !important;
+
+}
+

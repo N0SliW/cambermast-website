@@ -1,0 +1,50 @@
+// Sass mixins
+// Reference: https://itnext.io/writing-media-queries-with-sass-mixins-3ea591ea3ea4
+
+// Mobile content display <=767px, then large-screen >767
+@mixin for-size($size) {
+    @if $size == full-size {
+      @media (min-width: 1800px) { @content; } 
+    } @else if $size == desktop-up {
+      @media (max-width: 1200px) { @content; }
+     }@else if $size == tablet-landscape-up {
+      @media (max-width: 900px) { @content; }
+     }@else if $size == tablet-only {
+      @media (max-width: 768px) { @content; }
+    }@else if $size == phone-only {
+      @media (max-width: 599px) { @content; }
+      
+    }
+  }
+ 
+
+//   Reference: https://medium.com/@timothyrobards/structuring-your-sass-projects-c8d41fa55ed4
+//   If you want to take it a step further you could use conditionals to setup your mixins. 
+//   You create just one @mixin block and set the parameters to be passed in — which we use to select our breakpoints, like so:
+//   @mixin for-size($size) {
+//     @if $size == phone-only {
+//       @media (max-width: 599px) { @content; }
+//     } @else if $size == tablet-portrait-up {
+//       @media (min-width: 600px) { @content; }
+//     } @else if $size == tablet-landscape-up {
+//       @media (min-width: 900px) { @content; }
+//     } @else if $size == desktop-up {
+//       @media (min-width: 1200px) { @content; }
+//     } @else if $size == big-desktop-up {
+//       @media (min-width: 1800px) { @content; }
+//     }
+//   }
+//   Then to use our mixins in this manner, we’d select it like so:
+//   .header-title {  
+//      font-size: 2rem;  
+   
+//      @include for-size(phone-only) {    
+//         font-size: 1rem; 
+//      }
+//   }
+//   Conclusion
+//   It’s that simple! Writing media queries doesn’t need to be a headache. 
+//   By using Sass mixins, we have one centralized location in which to manage our media queries. 
+//   And handling the responsivity of our projects just got a whole lot easier!
+//   I hope you found this article useful! You can follow me on Medium. I’m also on Twitter. 
+//   Feel free to leave any questions in the comments below. I’ll be glad to help out!

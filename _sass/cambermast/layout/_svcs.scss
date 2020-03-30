@@ -1,0 +1,89 @@
+// layout for services
+
+
+// display a 2-column grid
+
+    .services_area {
+    grid-area: svcs;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    @include for-size(tablet-only) {
+      grid-area: svcs;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto;
+
+      // this class is defined for solving the problem in  services section for mobile version  
+      .second_services_section{
+        grid-area: 3 / 1 / span 1;
+      }
+
+    @if $debug { background-color: $debugServicesArea; }
+    }
+  }
+
+// services img 
+.services_image {
+    width: 100%;
+    height: auto;
+}
+.main_container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+   
+    @include for-size(phone-only){
+      padding-top: 0;
+     }
+  }
+ // services text styles
+.services_text {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  @include for-size(tablet-only) {
+   text-align: center;
+ }
+}
+.services_section_text {
+  width: 55%;
+  margin: auto;
+
+  @include for-size(desktop-up){
+    width: 75%;
+  }
+  @include for-size(tablet-only){
+    width: 90%;
+   padding-top: 0;
+   padding-bottom: 20px;
+  }
+ 
+}
+// get started button styles
+.general_btn {
+  width: 180px;
+  height: 50px;
+  border: 1px solid $debugblueBtn;
+  background-color: #ffffff;
+  color: $debugblueBtn;
+  font-size: 16px;
+  font-weight: 600;
+  
+  @include for-size(desktop-up){
+    font-size: 12px;
+    width: 160px;
+    padding: 10px 0;
+  }
+}
+
+.title_area {
+  @include for-size(desktop-up){
+   margin-bottom: 0;
+   }
+  
+}
+
+
+
+

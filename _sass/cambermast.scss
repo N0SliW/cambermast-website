@@ -1,0 +1,70 @@
+// All styles, media queries, and mixins for the site.
+// Generally follows the 7-1 methodology:
+// https://itnext.io/structuring-your-sass-projects-c8d41fa55ed4
+
+@import 'cambermast/abstracts/variables';
+@import 'cambermast/abstracts/mixins';
+@import 'cambermast/abstracts/functions';
+@import 'cambermast/base/typography';
+@import 'cambermast/layout/grid';
+@import 'cambermast/layout/logo';
+@import 'cambermast/layout/nav';
+@import 'cambermast/layout/playpod';
+@import 'cambermast/layout/tban';
+@import 'cambermast/layout/title';
+@import 'cambermast/layout/svcs';
+@import 'cambermast/layout/footer';
+@import 'cambermast/layout/newsletter';
+@import 'cambermast/layout/pocket_guide';
+@import 'cambermast/layout/action_podcast';
+@import 'cambermast/layout/customers';
+@import 'cambermast/layout/blog';
+@import 'cambermast/layout/posts';
+@import 'cambermast/layout/pagination';
+@import 'cambermast/layout/events';
+@import 'cambermast/layout/podcast';
+@import 'cambermast/layout/services';
+@import 'cambermast/layout/testimonials';
+@import 'cambermast/bootstrap.min.css';
+
+
+
+// 7-1 Reference guide
+// sass/
+// |
+// |– abstracts/ (or utilities/)
+// |   |– _variables.scss    // Sass Variables
+// |   |– _functions.scss    // Sass Functions
+// |   |– _mixins.scss       // Sass Mixins
+// |
+// |– base/
+// |   |– _reset.scss        // Reset/normalize
+// |   |– _typography.scss   // Typography rules
+// |
+// |– components/ (or modules/)
+// |   |– _buttons.scss      // Buttons
+// |   |– _carousel.scss     // Carousel
+// |   |– _slider.scss       // Slider
+// |
+// |– layout/
+// |   |– _navigation.scss   // Navigation
+// |   |– _grid.scss         // Grid system
+// |   |– _header.scss       // Header
+// |   |– _footer.scss       // Footer
+// |   |– _sidebar.scss      // Sidebar
+// |   |– _forms.scss        // Forms
+// |
+// |– pages/
+// |   |– _home.scss         // Home specific styles
+// |   |– _about.scss        // About specific styles
+// |   |– _contact.scss      // Contact specific styles
+// |
+// |– themes/
+// |   |– _theme.scss        // Default theme
+// |   |– _admin.scss        // Admin theme
+// |
+// |– vendors/
+// |   |– _bootstrap.scss    // Bootstrap
+// |   |– _jquery-ui.scss    // jQuery UI
+// |
+// `– main.scss              // Main Sass file

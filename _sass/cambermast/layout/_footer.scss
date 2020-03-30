@@ -1,0 +1,140 @@
+
+//footer section styles
+
+
+// footer section grid
+.general_footer_section {
+    grid-area: 5 / 1 /span 1 / span 2;
+   
+  }
+
+.footer_section {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+   
+    @include for-size(tablet-only){
+        grid-template-columns: auto auto;
+        width: 90%;
+        margin: auto;
+     }
+
+   
+    //footer section title's style
+    
+    .footer_title {
+        font-size: 18px;
+        text-align: left;
+        margin-bottom: 30px;
+       
+        @include for-size(desktop-up){
+            font-size: 15px;
+            margin-bottom: 20px;
+          }
+   
+      @include for-size(phone-only){
+        font-size: 13px;
+     }
+    }
+
+    // footer section contact style
+
+     p {
+        text-align: left;
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: gray;
+        
+        @include for-size(desktop-up){
+            font-size: 12px;
+          }
+    }
+    .twitter {
+        margin: 0 15px;
+    }
+    
+    ul {
+        text-align: left;
+        line-height: 24px;
+       
+        @include for-size(tablet-only){
+            padding-bottom: 25px;
+         }
+    
+    }
+}
+// footer link styles
+.footer_link {
+    font-size: 16px;
+    color: gray;
+    text-decoration: none;
+    @include for-size(desktop-up){
+        font-size: 14px;
+      }
+   
+    @include for-size(phone-only){
+        font-size: 11px;
+     }
+   
+}
+ // footer section logo styles
+
+ .footer_logo {
+    width: 160px;
+    margin-bottom: 15px;
+
+   @include for-size(tablet-landscape-up){
+    width: 140px;
+ }
+  
+    @include for-size(phone-only){
+        width: 100px;
+     }
+}
+
+.logo_section > div {
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    
+    @include for-size(tablet-only){
+        width: unset;
+     }
+    
+}
+.logo_section {
+    .social_btn {
+        font-size: 23px !important;
+        
+        @include for-size(phone-only){
+            font-size: 20px !important;
+         }
+    }
+}
+
+// Copyright section grid
+.copyright_section {
+    grid-area: 8 / 1 /span 1 / span 2;
+    text-align: center;
+  }
+
+//styles of copyright
+
+.copyright {
+    font-size: 14px;
+    color: #c3c3c3;
+    margin: 50px 0;
+    
+    @include for-size(tablet-landscape-up){
+        margin-top: 0;
+     }
+    
+    @include for-size(phone-only){
+        margin-top: 0;
+        margin-bottom: 25px;
+     }
+}
+.footer_icons {
+    width: 18px;
+    margin-right: 10px;
+}
+

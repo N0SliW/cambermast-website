@@ -1,0 +1,59 @@
+// Styles for the top banner
+
+// to test: https://bryanlrobinson.com/blog/how-to-use-css-grid-to-mix-and-match-design-patterns/
+
+// overlapping grids: https://cssgrid-generator.netlify.com/
+// 1x1, then click three times on the cell.
+.top_banner_area {
+    display: grid;
+    grid-area: tban;
+    align-content: center;
+    justify-content: center;
+
+    // create a secondary grid.
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    // place items over the banner image.
+    .banner_image_div   { grid-area: 1 / 1 / 2 / 2; } // image
+    .banner_overlay_div { grid-area: 1 / 1 / 2 / 2; } // gradient or other overlay
+    .banner_text_div    { grid-area: 1 / 1 / 2 / 2; } // overlay objects like text, buttons, etc.
+}
+
+// allow the banner image to resize.
+.banner_image {
+    min-width: 350px; // Do not resize to smaller than this.
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner_overlay_div {
+    max-width: 100%;
+    background: black;
+    background: linear-gradient(60deg, rgba(0,0,0,0.7777485994397759) 30%, rgba(255,255,255,0) 100%);
+}
+
+.banner_text_div {
+    margin-left: $bannerMarginLeft;
+    margin-top: $bannerMarginTop;
+    width: 30%;
+    @include for-size(desktop-up){
+        width: 45%;
+      }
+    @include for-size(tablet-landscape-up){
+        width: 60%;
+        margin-left: 5%;
+        margin-top: 4%;
+      }
+      @include for-size(tablet-only){
+        width: 80%;
+       
+      }
+}
+
+.banner_head_btn_div {
+    margin-top: $bannerHeadBtnMarginTop;
+}

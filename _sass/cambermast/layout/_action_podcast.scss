@@ -1,0 +1,23 @@
+// Action Podcast styles
+
+// grid area of action podcast section
+.action_podcast_section {
+    grid-area: 3 / 1 / span 1 / span 2;
+    background-image: url(../../images/banners/banner-podcast.png);
+  
+  }
+  // styles for content
+.podcast_section {
+    width: 63%;
+    margin: auto;
+    text-align: center;
+    padding: 100px 0;
+    @include for-size(tablet-only){
+      width: 85%;
+      padding: 50px 0;
+    }
+    @include for-size(phone-only){
+      width: 85%;
+      padding: 30px 0;
+    }
+  }

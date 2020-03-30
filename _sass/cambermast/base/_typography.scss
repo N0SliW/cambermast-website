@@ -1,0 +1,237 @@
+// typography for the website
+
+// body
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+button {
+    outline: none !important;
+}
+input {
+    outline: none;
+}
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+
+
+// play podcast text
+
+.play_podcast {
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+// top banner image (text)
+.banner_head_1 {
+    font-size: 40px;
+    letter-spacing: .05em;
+    font-weight: bolder;
+    color: $bannerHead1Color;
+    @include for-size(desktop-up){
+       font-size: 32px;
+      }
+      @include for-size(tablet-landscape-up){
+        font-size: 28px;
+        line-height: normal;
+      }
+      @include for-size(tablet-only){
+        font-size: 24px;
+      }
+}
+
+.banner_short_text {
+    font-size: 18px;
+    line-height: 24px;
+    color: $bannerHead1Color;
+    margin-top: $bannerHead2MarginTop;
+    margin-bottom: 40px;
+    @include for-size(desktop-up){
+        font-size: 16px;
+        line-height: 22px;
+       }
+       @include for-size(tablet-landscape-up){
+        font-size: 12px;
+      }
+      @include for-size(phone-only){
+        line-height: normal;
+      }
+}
+
+// Get started button
+.button_default {
+    font-size: 14px;
+    padding: 14px 30px;
+    color: $btnDefaultColor;
+    background-color: $btnDefaultBgColor;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid $btnDefaultBorderColor;
+
+    &:link { text-decoration: none; }
+    &:visited { text-decoration: none;}
+    @include for-size(tablet-landscape-up){
+        font-size: 12px;
+        padding: 11px 30px;
+      }
+   }
+   
+// all h1 styles of page
+
+h1 {
+    text-align: center;
+    font-size: 28px ;
+    font-weight: bold ;
+    text-transform: uppercase;
+    margin: 40px 0 ;
+    @include for-size(desktop-up){
+        font-size: 24px;
+        margin: 30px 0 ;
+      }
+      @include for-size(tablet-only){
+       margin-bottom: 0;
+      }
+      @include for-size(phone-only){
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 0;
+      }
+}
+
+//services section texts styles
+.services_section_text {
+  h3 {
+    font-size: 28px;
+     margin-bottom: 20px;
+    @include for-size(desktop-up){
+      font-size: 24px;
+    }
+    @include for-size(phone-only){
+      font-size: 22px;
+    }
+  }
+  p {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 45px;
+    @include for-size(desktop-up){
+      font-size: 14px;
+      margin-bottom: 20px;
+      line-height: 23px;
+    }
+  }
+}
+//all h2 styles of page
+h2 {
+    color: #ffffff;
+    font-size: 28px;
+    margin: 20px 0 ;
+    @include for-size(phone-only){
+      font-size: 22px ;
+    }
+}
+
+// all h3 styles of page
+h3 {
+  font-size: 28px;
+    margin: 20px 0 ;
+    @include for-size(phone-only){
+      font-size: 24px ;
+      padding: 0 5px;
+    }
+}
+p {
+  @include for-size(phone-only){
+    line-height: normal ;
+  }
+}
+
+// Newsletter section text
+.small_text {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 25px;
+  margin: 0;
+  margin: 0 0 50px  0;
+  @include for-size(phone-only){
+    font-size: 16px;
+  }
+}
+
+
+// Placeholder styles of inputs 
+
+::placeholder {
+  font-size: 16px;
+  @include for-size(phone-only){
+    font-size: 14px;
+  }
+}
+
+// General styles for all background images
+
+.background_styles {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.post_text_style {
+  font-size: 16px;
+  color: $debugPostText;
+  margin-bottom: 20px;
+
+  @include for-size(desktop-up){
+    font-size: 14px;
+  }
+  @include for-size(tablet-landscape-up){
+    font-size: 12px;
+}
+  @include for-size(phone-only){
+    margin-top: 12px;
+    font-size: 14px;
+  }
+}
+//all h5 styles 
+h5 {
+  font-size: 22px ;
+  margin: 20px 0 ;
+  @include for-size(desktop-up){
+    font-size: 20px ;
+  }
+  @include for-size(tablet-landscape-up){
+    font-size: 14px;
+}
+@include for-size(phone-only){
+  font-size: 16px;
+}
+ 
+  
+}
+h6 {
+  font-size: 20px !important;
+  margin: 0 0 15px 0 !important;
+  @include for-size(desktop-up){
+    font-size: 16px !important;
+}
+@include for-size(tablet-only){
+  font-size: 14px !important;
+  padding-top: 10px;
+}
+@include for-size(phone-only){
+  font-size: 16px !important;
+}
+}
+

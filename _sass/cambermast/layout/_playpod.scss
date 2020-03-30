@@ -1,0 +1,44 @@
+// Layout for the logo area
+
+.playpod_area {
+    grid-area: playpod;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    background-color: $playPodBgColor;
+    height: 24px;
+    @if $debug { background-color: $debugPlayPodArea; }
+}
+
+.btn_play_small {
+    align-items: center;
+    background: white;
+    border-radius: 100%;
+    display: inline-flex;
+    height: 16px;
+    justify-content: center;
+    position: relative;
+    width: 16px;
+    
+    &:after {
+      border-color: transparent;
+      border-style: solid;
+      border-width: 4px;
+      border-left-color: $playPodBgColor;
+      border-left-width: 8px;
+      border-right-width: 0;
+      content: '';
+      height: 0;
+      margin-left: 2px;
+      width: 0;
+    }
+  }
+  .play_podcast:hover {
+    color: #ffffff !important;
+
+  }
+  .play_podcast {
+    span {
+      margin-right: 10px;
+    }
+  }

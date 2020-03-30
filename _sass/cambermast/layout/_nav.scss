@@ -1,0 +1,121 @@
+// Layout for the navigation bar.
+
+// layout
+.nav_section {
+    grid-area: nav;
+    display: grid;
+    align-content: center;
+    grid-auto-flow: column;
+    grid-auto-rows: auto;
+    background-color: $navBackground;
+    white-space: nowrap; // don't wrap any multi-word menu items.
+    width: 80%;
+    margin: 0 25px 0 auto;
+    @include for-size(desktop-up){
+        width: 93%;
+     }
+     @include for-size(tablet-only){
+        width: 97%;
+     }
+     @include for-size(phone-only){
+        display: none;
+     }
+    
+    @if $debug { background-color: $debugNavArea; }
+   
+}
+
+
+// hover
+.nav_section .nav-item {
+
+    &:hover{
+        color: $navHoverColor;
+        border-top: $navHoverBorderSize solid $navHoverBorderColor;
+    }
+}
+
+// selected
+.nav_section .nav-item {
+    font-size: 16px;
+    color: $navDefaultColor;
+    text-decoration: none;
+    text-transform: uppercase;
+    @include for-size(desktop-up){
+        font-size: 16px;
+     }
+     @include for-size(tablet-landscape-up){
+        font-size: 12px;
+     }
+     @include for-size(tablet-only){
+        font-size: 11px;
+     }
+    &:active{
+        color: $navSelectedColor;
+        border-top: $navSelectedBorderSize solid $navSelectedBorderColor;
+    }
+}
+// Social buttons in navigation menu
+.social_btn {
+    color: $debugSocialBtns;
+    font-size: 20px !important;
+    @include for-size(tablet-landscape-up){
+        font-size: 18px !important;
+     }
+     @include for-size(tablet-only){
+        font-size: 14px !important;
+     }
+}
+.menu_item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    a {
+        display: flex;
+        align-items: center;
+        height: 50px;
+    }
+    img {
+        width: 20px;
+        @include for-size(tablet-landscape-up){
+           width: 16px;;
+         }
+    }
+}
+
+
+// Responsive navigation menu styles
+.responsive_nav {
+    display: none !important;
+    @include for-size(phone-only){
+        display: flex !important;
+       
+     }
+}
+.mobile_social_btn {
+    display: flex;
+    a {
+        margin-right: 20px;
+    }
+}
+.navbar-light .navbar-toggler {
+    outline: none;
+    border: transparent;
+}
+// Mobile navigation menu icon
+.navbar-toggler-icon {
+    width: 25px !important;
+}
+
+// Responsive naveigation menu links 
+.navbar-nav .nav-link {
+   color: #2A2929 !important;
+   font-size: 16px !important;
+   padding-top: 5px !important;
+   padding-bottom: 0 !important;
+  
+}
+// Responsive naveigation menu hover 
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #035B96 !important;
+}

@@ -3,3 +3,31 @@ Find a place for the social icons:
 <div class="menu-item"><a class="nav-item" href="https://twitter.com/billraymonde"><image class="nav-logo" src="{{ '/assets/logos/twitter-logo.svg' | relative_url }}" alt="Cambermast: Agile in Action"></image></a></div>
 <div class="menu-item"><a class="nav-item" href="https://twitter.com/billraymonde"><image class="nav-logo" src="{{ '/assets/logos/linkedin-logo.svg' | relative_url }}" alt="Cambermast: Agile in Action"></image></a></div>
 <div class="menu-item"><a class="nav-item" href="https://twitter.com/billraymonde"><image class="nav-logo" src="{{ '/assets/logos/github-logo.svg' | relative_url }}" alt="Cambermast: Agile in Action"></image></a></div>
+
+
+
+            {% assign navs = site.data.main-nav.items | sort: "orderby" %}
+            {% for item in navs %}
+                {% if item.display %}
+                    <a class="nav-item" href="{{-item.url-}}">{{-item.title-}}</a>
+                {% endif %}
+            {% endfor %}
+
+            // styling for the nav item
+.nav-item {
+    // font-size: calc(12px + .2vw);
+    text-transform: uppercase;
+    color: $navDefaultColor;
+    text-decoration: none;
+
+    &:hover {
+        font-weight: bold;
+    }
+    &:visited {
+        color: $navDefaultColor;
+    }
+
+    &:active {
+        font-weight: bolder;
+    }
+}

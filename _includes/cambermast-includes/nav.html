@@ -1,10 +1,20 @@
 <!-- site navigation -->
 <nav class="nav-section">
+    <!-- Logo for the top nav -->
+    <div class="logo-wrapper">
+        <div class="nav-logo">
+            <image class="nav-logo-image" src="{{ '/assets/logos/cambermast-logo.svg' | relative_url }}" alt="Cambermast: Agile in Action"></image>
+        </div>
+    </div>
+    <!-- nav menu items -->
     <div class="nav-wrapper">
-        <div class="nav-item"><a class="nav-item" href="index.html">Home</a></div>
-        <div class="nav-item"><a class="nav-item" href="services.html">Services</a></div>
-        <div class="nav-item"><a class="nav-item" href="blog.html">Blog</a></div>
-        <div class="nav-item"><a class="nav-item" href="podcast.html">Podcast</a></div>
-        <div class="nav-item"><a class="nav-item" href="testimonials.html">Testimonials</a></div>
+        <div class="nav-items">
+            {% assign navs = site.data.main-nav.items | sort: "orderby" %}
+            {% for item in navs %}
+                {% if item.display %}
+                    <div class="nav-item"><a class="nav-item" href="{{-item.url-}}">{{-item.title-}}</a></div>
+                {% endif %}
+            {% endfor %}
+        </div>
     </div>
 </nav>

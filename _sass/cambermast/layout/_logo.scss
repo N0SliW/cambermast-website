@@ -1,23 +1,23 @@
 // Layout for the logo area
 
 // Larger sized devices
-.logo-section {
-    grid-area: logo;
-    display: grid;
-    justify-content: start;
-    align-content: center;
-    margin-left: $gridMarginLeft;
-    @include for-size(phone-only) {
-        justify-content: center;
-        align-content: bottom;
-        margin-left: 0px;
-    }
+// .logo-section {
+//     grid-area: logo;
+//     display: grid;
+//     justify-content: start;
+//     align-content: center;
+//     margin-left: $gridMarginLeft;
+//     @include for-size(phone-only) {
+//         justify-content: center;
+//         align-content: bottom;
+//         margin-left: 0px;
+//     }
 
-    @if $debug { background-color: $debugLogoArea; }
-}
+//     @if $debug { background-color: $debugLogoArea; }
+// }
 
-.logo-nav {
-    width: 100%;
-    height: auto;
-}
+// .logo-nav {
+//     width: 100%;
+//     height: auto;
+// }
 

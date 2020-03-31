@@ -43,7 +43,7 @@
             "type": "text",
             "content": "Content",
             "imageUrl": "",
-            "display": true,
+            "display": false,
             "orderby": 5
         },
         {
@@ -52,7 +52,7 @@
             "type": "image",
             "content": "Content",
             "imageUrl": "",
-            "display": true,
+            "display": false,
             "orderby": 6
         },
         {
@@ -61,7 +61,7 @@
             "type": "image",
             "content": "Content",
             "imageUrl": "",
-            "display": true,
+            "display": false,
             "orderby": 7
         },
         {
@@ -70,7 +70,7 @@
             "type": "image",
             "content": "Content",
             "imageUrl": "",
-            "display": true,
+            "display": false,
             "orderby": 8
         }
     ]

@@ -1,18 +1,25 @@
 // Layout for the logo area
 
-.playpod_area {
-    grid-area: playpod;
+// Local variables
+$playPodBgColor: $cambermastPrimay;
+$playPodFontColor: $cambermastWhite;
+
+
+.playpod-section {
     display: grid;
     justify-content: center;
     align-content: center;
     background-color: $playPodBgColor;
     height: 24px;
+    margin-top: 5px;
     @if $debug { background-color: $debugPlayPodArea; }
 }
 
-.btn_play_small {
+// create a white play button using css
+// https://css-tricks.com/making-pure-css-playpause-button/
+.btn-play-small {
     align-items: center;
-    background: white;
+    background: $playPodFontColor;
     border-radius: 100%;
     display: inline-flex;
     height: 16px;
@@ -33,12 +40,21 @@
       width: 0;
     }
   }
-  .play_podcast:hover {
-    color: #ffffff !important;
 
+// play podcast typography
+.play-podcast {
+  color: $playPodFontColor;
+  font-size: 12px;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $cambermastWhite;
+    font-weight: bold;
   }
-  .play_podcast {
-    span {
-      margin-right: 10px;
-    }
+}
+
+.play-podcast {
+  span {
+    margin-right: 10px;
   }
+}

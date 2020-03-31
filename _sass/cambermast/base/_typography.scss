@@ -1,4 +1,6 @@
-// typography for the website
+// site-wide typography
+// IMPORTANT: scss files will contain 'local' typography.
+//            this is for h1, h2, etc.
 
 // body
 body {
@@ -100,12 +102,7 @@ h6 {
 }
 }
 
-// play podcast text
-.play_podcast {
-    color: white;
-    font-size: 12px;
-    text-transform: uppercase;
-}
+
 
 // // top banner image (text)
 // .banner_head_1 {

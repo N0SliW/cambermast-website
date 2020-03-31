@@ -6,16 +6,24 @@
   margin-top: 10px;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  justify-content: center;
+  justify-items: center;
   grid-auto-flow: row dense;
-
-  @include for-size(phone-only) {
-    display: block;
-  }
-
   margin-left: $gridMarginLeft;
   margin-right: $gridMarginRight;
+
+  // do not put a side border on the grid if mobile
+  @include for-size(tablet-only){
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: start;
+  }
+
   @if $debug { background-color: $debugServicesArea; }
+}
+
+.services-text {
+    margin-left: calc(5px + .2vw);
+    margin-right: calc(5px + .2vw);
 }
 
 // alternate the services columns for each row, like this:
@@ -27,36 +35,30 @@
   grid-column-start: 2;
 }
 
-// get started button styles
-.general-btn {
-  width: 180px;
-  height: 50px;
-  border: 1px solid $debugblueBtn;
-  margin-top: 10px;
-  background-color: #ffffff;
-  color: $debugblueBtn;
-  font-size: 16px;
-  font-weight: 600;
-}
-
 .services-image {
   width: 100%;
   height: auto;
 }
 
-// more or less center the content of the service description.
-.services-section-text {
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-// space out the lines of text in the services description.
-// todo: move to typography.
 .services-description {
-  line-height: 1.5;
+  font-size: calc(12px + .2vw); // responsive size, but keep a minimum.
+  margin-bottom: 1em;
 }
 
-// move the service title down closer to the service description.
-.services-title {
-  line-height: 0px;
+// Get started button
+.button-services {
+  font-size: calc(12px + .08vw); // responsive size, but keep a minimum.
+  padding-top: calc(5px + .08vw);
+  padding-bottom: calc(5px + .08vw);
+  padding-left: calc(5px + .08vw);
+  padding-right: calc(5px + .08vw);
+  color: $btnDefaultColor;
+  background-color: $btnDefaultBgColor;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid $btnDefaultBorderColor;
+
+    &:link { text-decoration: none; }
+    &:visited { text-decoration: none;}
 }

@@ -1,7 +1,7 @@
-// Layouts for the grids (mobile and large screen)
+// Base layout for the site.
 
 
-// Default grid layout for the home page
+// Define the width, margins, etc for the home page.
 .home-container {
     margin: auto;
     margin-top: 10px;
@@ -9,6 +9,7 @@
     max-width: 1366px;
 }
 
+// TODO: Delete this stuff
 // // Default layout for larger sizes
 // .home-container {
 //         // this is for all other size devices

@@ -92,73 +92,67 @@ h6 {
   margin: 0 0 15px 0 !important;
   @include for-size(desktop-up){
     font-size: 16px !important;
+  }
+  @include for-size(tablet-only){
+    font-size: 14px !important;
+    padding-top: 10px;
+  }
+  @include for-size(phone-only){
+    font-size: 16px !important;
+  }
 }
-@include for-size(tablet-only){
-  font-size: 14px !important;
-  padding-top: 10px;
+
+// top banner image (text)
+.banner-h1 {
+  font-size: 32px;
+  letter-spacing: .05em;
+  font-weight: bolder;
+  color: $bannerHead1Color;
+  @include for-size(tablet-landscape-up){
+    font-size: 28px;
+    line-height: normal;
+  }
+  @include for-size(phone-only){
+    font-size: 16px;
+  }
 }
-@include for-size(phone-only){
-  font-size: 16px !important;
+
+.banner-text {
+    font-size: 18px;
+    line-height: 24px;
+    color: $bannerHead1Color;
+    margin-top: $bannerHead2MarginTop;
+    margin-bottom: 20px;
+    @include for-size(desktop-up){
+      font-size: 16px;
+      line-height: 22px;
+    }
+    @include for-size(tablet-landscape-up){
+      font-size: 12px;
+    }
+    @include for-size(phone-only){
+        line-height: normal;
+    }
 }
+
+// Get started button
+.button-default {
+  font-size: 14px;
+  padding: 14px 30px;
+  color: $btnDefaultColor;
+  background-color: $btnDefaultBgColor;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 1px solid $btnDefaultBorderColor;
+
+    &:link { text-decoration: none; }
+    &:visited { text-decoration: none;}
+    @include for-size(tablet-landscape-up){
+        font-size: 12px;
+        padding: 5px 15px;
+    }
 }
-
-
-
-// // top banner image (text)
-// .banner_head_1 {
-//     font-size: 40px;
-//     letter-spacing: .05em;
-//     font-weight: bolder;
-//     color: $bannerHead1Color;
-//     @include for-size(desktop-up){
-//        font-size: 32px;
-//       }
-//       @include for-size(tablet-landscape-up){
-//         font-size: 28px;
-//         line-height: normal;
-//       }
-//       @include for-size(tablet-only){
-//         font-size: 24px;
-//       }
-// }
-
-// .banner_short_text {
-//     font-size: 18px;
-//     line-height: 24px;
-//     color: $bannerHead1Color;
-//     margin-top: $bannerHead2MarginTop;
-//     margin-bottom: 40px;
-//     @include for-size(desktop-up){
-//         font-size: 16px;
-//         line-height: 22px;
-//        }
-//        @include for-size(tablet-landscape-up){
-//         font-size: 12px;
-//       }
-//       @include for-size(phone-only){
-//         line-height: normal;
-//       }
-// }
-
-// // Get started button
-// .button_default {
-//     font-size: 14px;
-//     padding: 14px 30px;
-//     color: $btnDefaultColor;
-//     background-color: $btnDefaultBgColor;
-//     text-align: center;
-//     text-transform: uppercase;
-//     font-weight: bold;
-//     border: 1px solid $btnDefaultBorderColor;
-
-//     &:link { text-decoration: none; }
-//     &:visited { text-decoration: none;}
-//     @include for-size(tablet-landscape-up){
-//         font-size: 12px;
-//         padding: 11px 30px;
-//       }
-//    }
-   
 
 
 // //services section texts styles

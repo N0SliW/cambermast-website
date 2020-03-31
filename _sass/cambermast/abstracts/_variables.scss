@@ -45,15 +45,16 @@ $gridMarginLeft: 25px;
 $gridMarginRight: 25px;
 
 // Top banner image
-$bannerMarginLeft: 10%;
 $bannerMarginTop: 7%;
-$bannerHead1Color: white;
-$bannerHead2Color: white;
+$bannerMarginLeft: 10%;
+
+$bannerHead1Color: $cambermastWhite;
+$bannerHead2Color: $cambermastWhite;
 $bannerHead2MarginTop: 5%;
 $bannerHeadBtnMarginTop: 2.5%;
 
 // Default button to use for the website
-$btnDefaultColor: #035B96;
-$btnDefaultBorderColor: #035B96;
-$btnDefaultBgColor: white;
+$btnDefaultColor: $cambermastAltLightBlue;
+$btnDefaultBorderColor: $cambermastAltLightBlue;
+$btnDefaultBgColor: $cambermastWhite;
 $btnDefaultPadding: .8% 1%;

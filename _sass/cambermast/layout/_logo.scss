@@ -1,32 +1,23 @@
 // Layout for the logo area
 
-.logo_area {
+// Larger sized devices
+.logo-section {
     grid-area: logo;
     display: grid;
     justify-content: start;
     align-content: center;
     margin-left: $gridMarginLeft;
-    @include for-size(phone-only){
-       display: none;
-       }
+    @include for-size(phone-only) {
+        justify-content: center;
+        align-content: bottom;
+        margin-left: 0px;
+    }
 
     @if $debug { background-color: $debugLogoArea; }
 }
 
-.logo{
-    width: 175px;
+.logo-nav {
+    width: 100%;
     height: auto;
-    @include for-size(desktop-up){
-        width: 155px;
-       }
-       @include for-size(tablet-only){
-        width: 115px;
-       }
-       @include for-size(phone-only){
-        width: 140px;
-       }
 }
 
-@include for-size(full-size) {
-    justify-content: end;
-}

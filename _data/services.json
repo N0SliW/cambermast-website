@@ -3,28 +3,28 @@
     "items": [
         {
             "title": "Agile Transformation",
-            "url": "services/agile-transformation",
+            "url": "/services/agile-transformation",
             "type": "text",
             "content": "Optimize your organization for high performing teams.",
-            "imageUrl": "",
+            "imageUrl": "/assets/images-services/home-agile-transformation.png",
             "display": "true",
             "orderby": 1
         },
         {
             "title": "Agile Coaching",
-            "url": "services/agile-coaching",
+            "url": "/services/agile-coaching",
             "type": "text",
             "content": "Improve team consistency and delivery with support from veteran agile practitioners.",
-            "imageUrl": "",
+            "imageUrl": "/assets/images-services/home-agile-coaching.png",
             "display": "true",
             "orderby": 2
         },
         {
             "title": "Software Implementation",
-            "url": "services/software-implementation",
+            "url": "/services/software-implementation",
             "type": "text",
             "content": "Thoughtful design will drive successful project management software adoption.",
-            "imageUrl": "",
+            "imageUrl": "/assets/images-services/home-agile-sw-implementation.png",
             "display": "true",
             "orderby": 3
         }

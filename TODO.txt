@@ -31,3 +31,25 @@ Find a place for the social icons:
         font-weight: bolder;
     }
 }
+
+
+
+<div class="services-section">
+    {% assign services = site.data.services.items | sort: "orderby" %}
+    {% for item in services %}
+        {% if item.display %}
+            <!-- Display all available services -->
+            <div class="services-text">
+                <div class="services-section-text">
+                    <h3 class="services-title">{{-item.title-}}</h3>
+                    <p class="services-description">{{-item.content-}}
+                    </p>
+                    <button class="general-btn">GET STARTED &#8594;</button>
+                </div>
+            </div>
+            <div class="services-image-div">
+                <img class="services-image" src="{{-item.imageUrl | relative_url-}}" alt="Agile transformation image.">
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>

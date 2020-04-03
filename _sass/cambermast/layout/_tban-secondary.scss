@@ -2,7 +2,7 @@
 
 // overlapping grids: https://cssgrid-generator.netlify.com/
 // 1x1, then click three times on the cell.
-.top-banner-section {
+.top-banner-secondary-section {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -12,32 +12,64 @@
     justify-content: center;
 
     // place items over the banner image.
-    .banner-image-div   { grid-area: 1 / 1 / 2 / 2; } // image
-    .banner-overlay-div { grid-area: 1 / 1 / 2 / 2; } // gradient or other overlay
-    .banner-text-div    { grid-area: 1 / 1 / 2 / 2; } // overlay objects like text, buttons, etc.
+    .banner-image-secondary-div   { grid-area: 1 / 1 / 2 / 2; } // image
+    .banner-overlay-secondary-div { grid-area: 1 / 1 / 2 / 2; } // gradient or other overlay
+    .banner-text-secondary-div    { grid-area: 1 / 1 / 2 / 2; } // overlay objects like text, buttons, etc.
 }
 
 // allow the banner image to resize.
-.banner-image {
+.banner-image-secondary {
     min-width: 350px; // Do not resize to smaller than this.
     width: 100%;
     height: auto;
     display: block;
 }
 
-.banner-overlay-div {
+.banner-overlay-secondary-div {
     max-width: 100%;
     background: black;
     background: linear-gradient(60deg, rgba(0,0,0,0.7777485994397759) 30%, rgba(255,255,255,0) 100%);
 }
 
-.banner-text-div {
+.banner-text-secondary-div {
     margin-left: $bannerMarginLeft;
     margin-top: $bannerMarginTop;
     width: 50%;
 }
 
-.banner-head-btn-div {
+.banner-head-btn-secondary-div {
     margin-top: $bannerHeadBtnMarginTop;
 }
 
+// top banner image (text)
+.banner-secodary-h1 {
+    font-size: 32px;
+    letter-spacing: .05em;
+    font-weight: bolder;
+    color: $bannerHead1Color;
+    @include for-size(tablet-landscape-up){
+      font-size: 28px;
+      line-height: normal;
+    }
+    @include for-size(phone-only){
+      font-size: 16px;
+    }
+  }
+  
+  .banner-secondary-text {
+      font-size: 18px;
+      line-height: 24px;
+      color: $bannerHead1Color;
+      margin-top: $bannerHead2MarginTop;
+      margin-bottom: 20px;
+      @include for-size(desktop-up){
+        font-size: 16px;
+        line-height: 22px;
+      }
+      @include for-size(tablet-landscape-up){
+        font-size: 12px;
+      }
+      @include for-size(phone-only){
+          line-height: normal;
+      }
+  }

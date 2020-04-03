@@ -1,0 +1,43 @@
+// Styles for the top banner
+
+// overlapping grids: https://cssgrid-generator.netlify.com/
+// 1x1, then click three times on the cell.
+.top-banner-section {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    align-content: center;
+    justify-content: center;
+
+    // place items over the banner image.
+    .banner-image-div   { grid-area: 1 / 1 / 2 / 2; } // image
+    .banner-overlay-div { grid-area: 1 / 1 / 2 / 2; } // gradient or other overlay
+    .banner-text-div    { grid-area: 1 / 1 / 2 / 2; } // overlay objects like text, buttons, etc.
+}
+
+// allow the banner image to resize.
+.banner-image {
+    min-width: 350px; // Do not resize to smaller than this.
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.banner-overlay-div {
+    max-width: 100%;
+    background: black;
+    background: linear-gradient(60deg, rgba(0,0,0,0.7777485994397759) 30%, rgba(255,255,255,0) 100%);
+}
+
+.banner-text-div {
+    margin-left: $bannerMarginLeft;
+    margin-top: $bannerMarginTop;
+    width: 50%;
+}
+
+.banner-head-btn-div {
+    margin-top: $bannerHeadBtnMarginTop;
+}
+

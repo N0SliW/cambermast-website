@@ -73,3 +73,36 @@
           line-height: normal;
       }
   }
+
+// banner secondary text
+.banner-secondary-h1 {
+  font-size: 32px;
+  letter-spacing: .05em;
+  font-weight: bolder;
+  color: $bannerHead1Color;
+  @include for-size(tablet-landscape-up){
+    font-size: 28px;
+    line-height: normal;
+  }
+  @include for-size(phone-only){
+    font-size: 16px;
+  }
+}
+
+.banner-text-secondary {
+    font-size: 18px;
+    line-height: 24px;
+    color: $bannerHead1Color;
+    margin-top: $bannerHead2MarginTop;
+    margin-bottom: 20px;
+    @include for-size(desktop-up){
+      font-size: 16px;
+      line-height: 22px;
+    }
+    @include for-size(tablet-landscape-up){
+      font-size: 12px;
+    }
+    @include for-size(phone-only){
+        line-height: normal;
+    }
+}

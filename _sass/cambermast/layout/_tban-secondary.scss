@@ -36,11 +36,7 @@
   display: grid;
   grid-template-areas:  "banhead banhead"
                         "bancrumb bancrumb";
-
-  // height: 100%;
-  // text-align: center;
-  // vertical-align: 
-  // display: inline-block;
+  grid-template-columns: 1fr;
 }
 
 // center the heading horizontally and vertically

@@ -1,0 +1,28 @@
+<!-- Blog feed section -->
+<div class="blog-feed-section">
+    {%- if site.posts.size > 0 -%}
+        {%- for post in site.posts -%}
+            {%- if post.layout == 'post' -%}
+                <div class="blog-feed-item">
+                    <div class="blog-feed-image-div">
+                        <!-- Display the post's featured image, otherwise display a default -->
+                        {%- if post.image -%}
+                            <img class="blog-feed-image" src="{{- post.image | relative_url }}" alt="{{- post.title -}}">
+                        {%- else -%}
+                            <img class="blog-feed-image" src="{{- '/assets/featured-images/blog-feed-placeholder.jpg' | relative_url }}" alt="{{- post.title -}}">
+                        {%- endif -%}
+                    </div>
+                    <div class="blog-feed-title-div">
+                        <a href="" class="blog-feed-title">{{- post.title | escape -}}</a>
+                    </div>
+                    <div class="blog-feed-excerpt-div">
+                        {%- assign previewText = post.excerpt -%}
+                        {%- assign previewText = previewText | strip_html -%}
+                        {%- assign previewText = previewText | escape -%}
+                        {{- previewText -}}
+                    </div>
+                </div>
+            {%- endif -%}
+        {%- endfor -%}
+    {%- endif -%}
+</div>

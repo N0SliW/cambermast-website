@@ -13,7 +13,7 @@
                         {%- endif -%}
                     </div>
                     <div class="blog-feed-title-div">
-                        <a href="{{- post.url -}}" class="blog-feed-title">{{- post.title | escape -}}</a>
+                        <a href="{{- post.url | relative_url -}}" class="blog-feed-title">{{- post.title | escape -}}</a>
                     </div>
                     <div class="blog-feed-excerpt-div">
                         <!-- Preview text should be plain text -->

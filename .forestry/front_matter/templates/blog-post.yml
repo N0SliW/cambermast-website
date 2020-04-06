@@ -31,4 +31,4 @@ fields:
     maxSize: 250
   label: Featured image
   description: Select an image to display at the top of the post.
-  default: "/uploads/blog-feed-placeholder.jpg"
+  default: ''

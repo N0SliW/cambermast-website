@@ -1,3 +1,3 @@
 ---
-layout: cambermast-blog
+layout: cambermast-blog-post
 ---

@@ -1,12 +1,14 @@
 <!-- Blog feed section -->
 <div class="blog-feed-section">
+    <!-- Check to make sure there are posts -->
     {%- if site.posts.size > 0 -%}
         {%- for post in site.posts -%}
-            {%- if post.layout == 'post' -%}
+            <!-- Layout must be agile-blog -->
+            {%- if post.categories[0] == 'agile-blog' -%}
                 <div class="blog-feed-item">
                     <div class="blog-feed-image-div">
                         <!-- Display the post's featured image, otherwise display a default -->
-                        {%- if post.image -%}
+                        {%- if post.featuredImage -%}
                             <img class="blog-feed-image" src="{{- post.image | relative_url }}" alt="{{- post.title -}}">
                         {%- else -%}
                             <img class="blog-feed-image" src="{{- '/assets/featured-images/blog-feed-placeholder.jpg' | relative_url -}}">

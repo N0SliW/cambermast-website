@@ -10,24 +10,17 @@ fields:
     required: true
   hidden: true
 - type: text
-  name: title
-  label: title
-  config:
-    required: true
-- type: datetime
-  name: date
-  label: date
-  config:
-    required: true
-  default: now
-  hidden: true
-- type: text
   name: categories
   label: categories
   config:
     required: true
   default: agile-blog
   hidden: true
+- type: text
+  name: title
+  label: title
+  config:
+    required: true
 - name: featuredImage
   type: file
   config:
@@ -35,3 +28,10 @@ fields:
   label: Featured image
   description: Select an image to display at the top of the post.
   default: ''
+- type: datetime
+  name: date
+  label: date
+  config:
+    required: true
+  default: now
+  hidden: false

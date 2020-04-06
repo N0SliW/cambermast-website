@@ -10,7 +10,7 @@
         {%- assign navs = site.data.main-nav.items | sort: "orderby" -%}
         {%- for item in navs -%}
             {%- if item.display -%}
-                <a class="nav-item" href="{{-item.url-}}">{{-item.title-}}</a>
+                <a class="nav-item" href="{{- item.url | relative_url -}}">{{-item.title-}}</a>
             {%- endif -%}
         {%- endfor -%}
         </div>

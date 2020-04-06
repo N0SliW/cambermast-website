@@ -1,4 +1,5 @@
-
+display the featured image for a blog item.
+                           <img class="blog-feed-image" src="{{- '/assets/featured-images/blog-feed-placeholder.jpg' | relative_url }}" alt="{{- post.title -}}">
 Find a place for the social icons:
 <div class="menu-item"><a class="nav-item" href="https://twitter.com/billraymonde"><image class="nav-logo" src="{{ '/assets/logos/twitter-logo.svg' | relative_url }}" alt="Cambermast: Agile in Action"></image></a></div>
 <div class="menu-item"><a class="nav-item" href="https://twitter.com/billraymonde"><image class="nav-logo" src="{{ '/assets/logos/linkedin-logo.svg' | relative_url }}" alt="Cambermast: Agile in Action"></image></a></div>

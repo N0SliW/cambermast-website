@@ -9,16 +9,20 @@
                         {%- if post.image -%}
                             <img class="blog-feed-image" src="{{- post.image | relative_url }}" alt="{{- post.title -}}">
                         {%- else -%}
-                            <img class="blog-feed-image" src="{{- '/assets/featured-images/blog-feed-placeholder.jpg' | relative_url }}" alt="{{- post.title -}}">
+                            <img class="blog-feed-image" src="{{- '/assets/featured-images/blog-feed-placeholder.jpg' | relative_url -}}">
                         {%- endif -%}
                     </div>
                     <div class="blog-feed-title-div">
-                        <a href="" class="blog-feed-title">{{- post.title | escape -}}</a>
+                        <a href="{{- post.url -}}" class="blog-feed-title">{{- post.title | escape -}}</a>
                     </div>
                     <div class="blog-feed-excerpt-div">
+                        <!-- Preview text should be plain text -->
                         {%- assign previewText = post.excerpt -%}
                         {%- assign previewText = previewText | strip_html -%}
                         {%- assign previewText = previewText | escape -%}
+                        {%- assign previewText = previewText | lstrip -%}
+                        {%- assign previewText = previewText | rstrip -%}
+                        {%- assign previewText = previewText | append: "..." -%}
                         {{- previewText -}}
                     </div>
                 </div>

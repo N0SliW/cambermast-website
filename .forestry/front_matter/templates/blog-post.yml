@@ -36,4 +36,4 @@ fields:
   default: now
   hidden: false
 pages:
-- _posts/this-is-a-test-with-a-featured-image.md
+- _posts/2020-04-06-this-is-a-test-with-a-featured-image.md

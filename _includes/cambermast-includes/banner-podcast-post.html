@@ -1,0 +1,15 @@
+<!-- home banner image -->
+<div class="featured-image-section">
+    <!-- Display the image -->
+    <div class="featured-image-secondary-div">
+        {%- if page.featuredImage -%}
+          <img class="featured-image-secondary" src="{{- page.featuredImage | relative_url -}}" alt="Banner Image" />
+        {%- else -%}
+          <img class="featured-image-secondary" src="{{- '/assets/featured-images/blog-feed-placeholder.jpg' | relative_url -}}" alt="Banner Image" />
+        {%- endif -%}
+    </div>
+    <!-- Display the text -->
+    <div class="featured-image-secondary-div">
+        <div class="featured-image-h1">{{- page.title -}}</div>
+    </div>
+</div>

@@ -1,12 +1,12 @@
-// Podcast Feed Section Styles
+// Blog Feed Section Styles
 
 .podcast-feed-section {
     display: grid;
     // show as many columns as possible, not going smaller than 350px.
     grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
     margin-top: 10px;  // separate the grid from the top banner.
-    margin-left: $gridMarginLeft; // indent the blog list.
-    margin-right: $gridMarginRight; // indent the blog list.
+    margin-left: $gridMarginLeft; // indent the podcast list.
+    margin-right: $gridMarginRight; // indent the podcast list.
     column-gap: 1vw; 
     row-gap: 1vw;
 }
@@ -18,7 +18,7 @@
     border-radius: 5px;
 }
 
-// topography for the blog reed.
+// topography for the podcast reed.
 .podcast-feed-title {
     font-size: calc(12px + .9vw);
     color:$navHoverColor;

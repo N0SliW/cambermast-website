@@ -1,5 +1,5 @@
 ---
-layout: agile-in-action-podcast
+layout: cambermast-podcast-post
 categories: agile-in-action-podcast
 date: 2020-04-07 11:55:48 -0700
 title: Podcast post 1

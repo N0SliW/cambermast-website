@@ -12,12 +12,13 @@ fields:
   label: categories
   default: agile-in-action-podcast
   hidden: true
+- type: file
+  name: featuredImage
+  label: Featured image
+  description: Select an image to display at the top of the post.
 - type: datetime
   name: date
   label: date
 - type: text
   name: title
   label: title
-- type: file
-  name: featuredImage
-  label: featuredImage

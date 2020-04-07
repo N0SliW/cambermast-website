@@ -21,7 +21,6 @@
 .featured-image-secondary {
     min-width: 350px; // Do not resize to smaller than this.
     width: 100%;
-    // height: 350px;
     height: calc(80px + 18vw);
     object-fit: cover;
 }

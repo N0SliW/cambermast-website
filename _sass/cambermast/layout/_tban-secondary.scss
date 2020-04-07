@@ -21,8 +21,9 @@
 .banner-image-secondary {
     min-width: 350px; // Do not resize to smaller than this.
     width: 100%;
-    height: auto;
+    height: calc(80px + 18vw);
     display: block;
+    object-fit: cover;
 }
 
 .banner-overlay-secondary-div {

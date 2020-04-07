@@ -5,7 +5,7 @@
 .featured-image-section {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
     align-content: center;
@@ -21,40 +21,27 @@
 .featured-image-secondary {
     min-width: 350px; // Do not resize to smaller than this.
     width: 100%;
-    height: auto;
-    display: block;
+    // height: 350px;
+    height: calc(80px + 18vw);
+    object-fit: cover;
 }
 
+// display a gradient on the featured image.
 .featured-image-secondary-div {
     max-width: 100%;
     background: black;
     background: linear-gradient(60deg, rgba(0,0,0,0.7777485994397759) 30%, rgba(255,255,255,0) 100%);
 }
 
-// create a 2-row grid
-.featured-image-secondary-div {
-  display: grid;
-  grid-template-areas:  "fihead fihead"
-                        "ficrumb ficrumb";
-  grid-template-columns: 1fr;
-}
-
 // center the heading horizontally and vertically
 .featured-image-h1 {
   display: grid;
-  grid-area: fihead;
-  justify-items: center;
-  align-items: center;
+  height: 100%;
+  justify-items: start;
+  align-items: end;
+  margin-left: $gridMarginLeft;
+  margin-right: $gridMarginRight;
 }
-
-// special text that goes along with the title
-.featured-image-breadcrumnbs {
-  display: grid;
-  grid-area: ficrumb;
-  justify-items: center;
-  align-items: start;
-}
-
 
 // featured image secondary text
 .featured-image-h1 {
@@ -64,16 +51,3 @@
   text-transform: uppercase;
   color: $bannerHead1Color;
 }
-
-.featured-image-href-secondary {
-    font-size: calc(10px + .2vw);
-    color: $bannerHead1Color;
-    margin-top: $bannerHead2MarginTop;
-    margin-bottom: 20px;
-    text-decoration: none;
-
-    &:hover { color: $bannerHead1Color; };
-    &:visited { color: $bannerHead1Color; } d
-    &:active { color: $bannerHead1Color; }
-}
-

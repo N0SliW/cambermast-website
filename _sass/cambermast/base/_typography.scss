@@ -11,9 +11,6 @@ body {
 input {
     outline: none;
 }
-h1, h2, h3, h4 {
-    margin: 0;
-}
 
 ul {
     list-style-type: none;
@@ -42,57 +39,6 @@ h1 {
     font-size: 22px;
     margin-top: 20px;
     margin-bottom: 0;
-  }
-}
-
-// h2 styles
-h2 {
-  color: #ffffff;
-  font-size: 28px;
-  margin: 20px 0 ;
-  @include for-size(phone-only){
-    font-size: 22px ;
-  }
-}
-
-// h3 styles
-h3 {
-  font-size: calc(12px + 1vw); // responsive size, but keep a minimum.
-  margin-bottom: .25em;
-
-  // do not wrap text
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-// h5 styles
-h5 {
-  font-size: 22px ;
-  margin: 20px 0 ;
-  @include for-size(desktop-up){
-    font-size: 20px ;
-  }
-  @include for-size(tablet-landscape-up){
-    font-size: 14px;
-  }
-  @include for-size(phone-only){
-    font-size: 16px;
-  }
-}
-
-// h6 styles
-h6 {
-  font-size: 20px;
-  margin: 0 0 15px 0;
-  @include for-size(desktop-up){
-    font-size: 16px;
-  }
-  @include for-size(tablet-only){
-    font-size: 14px;
-    padding-top: 10px;
-  }
-  @include for-size(phone-only){
-    font-size: 16px;
   }
 }
 

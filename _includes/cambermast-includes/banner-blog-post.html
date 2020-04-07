@@ -3,23 +3,13 @@
     <!-- Display the image -->
     <div class="featured-image-secondary-div">
         {%- if page.featuredImage -%}
-        <img class="featured-image-secondary" src="{{- page.featuredImage | relative_url -}}" alt="Banner Image" />
+          <img class="featured-image-secondary" src="{{- page.featuredImage | relative_url -}}" alt="Banner Image" />
         {%- else -%}
-        <img class="featured-image-secondary" src="{{- 'assets/banners/banner-blog.jpg' | relative_url -}}" alt="Banner Image" />
+          <img class="featured-image-secondary" src="{{- '/assets/featured-images/blog-feed-placeholder.jpg' | relative_url -}}" alt="Banner Image" />
         {%- endif -%}
     </div>
-    <!-- Display the graident overlay -->
-    <div class="featured-image-overlay-secondary-div"></div>
     <!-- Display the text -->
     <div class="featured-image-secondary-div">
-        <div class="featured-image-h1">{{- page.featuredImage -}}</div>
-        <div class="featured-image-breadcrumnbs">
-            <span>
-            <a class="featured-image-href-secondary" href="{{- '/' | relative_url -}}">Home</a>
-            <span class="featured-image-href-secondary"> &#10095;</span>
-            <a class="featured-image-href-secondary" href="{{- '/agile-blog' | relative_url -}}"><strong>Blog</strong></a>
-            <a class="featured-image-href-secondary" href="{{- '/feed.xml' | relative_url -}}"> (feed)</a>
-            </span>
-        </div>
+        <div class="featured-image-h1">{{- page.title -}}</div>
     </div>
 </div>

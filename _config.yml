@@ -36,6 +36,8 @@ podcast_description: >-
   a competitive edge. We also feature agile practitioners who share best practices 
   while running agile projects in the trenches with some of today’s top companies.
 
+author: Bill Raymond
+
 # Build settings
 theme: minima
 plugins:

@@ -1,26 +1,24 @@
 <!--Footer section-->
 <div class="footer-section">
-        <!-- Display footer information from the data file -->
-        <div class="footer-data">
-        {%- assign items = site.data.main-footer.items | sort: "orderby" -%}
-        <!-- Cycle through each footer item -->
-        {%- for item in items -%}
-            <!-- Display must be true -->
-            {%- if item.display -%}
-                <!-- If there is content, display it -->
-                {%- if item.content == true -%}   
-                    <a class="footer-item" href="{{- item.url -}}">{{- item.content -}}</a>
-                <!-- Otherwise, just display the title -->
-                {%- else -%}
-                    <a class="footer-item" href="{{- item.url -}}">{{- item.title -}}</a>
-                {%- endif -%}
+    <!-- Display footer information from the data file -->
+    <div class="footer-data">
+    {%- assign items = site.data.main-footer.items | sort: "orderby" -%}
+    <!-- Cycle through each footer item -->
+    {%- for item in items -%}
+        <!-- Display must be true -->
+        {%- if item.display -%}
+            <!-- If there is content, display it -->
+            {%- if item.content == true -%}   
+                <a class="footer-item" href="{{- item.url -}}">{{- item.content -}}</a>
+            <!-- Otherwise, just display the title -->
+            {%- else -%}
+                <a class="footer-item" href="{{- item.url -}}">{{- item.title -}}</a>
             {%- endif -%}
-        {%- endfor -%}
-        </div>
-        <div class="footer-copyright">
-            <div class="footer-item">&copy; {{ 'now' | date: '%Y' }}, Cambermast LLC</div>
-        </div>
-        
-    </nav>
+        {%- endif -%}
+    {%- endfor -%}
+    </div>
+    <div class="footer-copyright">
+        <div class="footer-item">&copy; {{ 'now' | date: '%Y' }}, Cambermast LLC</div>
+    </div>
 </div>
 

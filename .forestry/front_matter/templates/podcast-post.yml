@@ -5,6 +5,8 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: agile-in-action-podcast
+  hidden: true
 - type: text
   name: categories
   label: categories

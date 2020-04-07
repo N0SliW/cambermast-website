@@ -4,7 +4,7 @@
 .nav-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 20px auto;
+    grid-template-rows: 30px auto;
     margin-left: $gridMarginLeft;
     margin-right: $gridMarginRight;
     @include for-size(phone-only) {
@@ -21,6 +21,12 @@
         // center if in mobile
         justify-items: center;
     }
+}
+
+// display the logo
+.nav-logo-image {
+    width: auto;
+    height: 100%;
 }
 
 // display the navigation items
@@ -41,15 +47,9 @@
     }
 }
 
-// display the logo
-.nav-logo-image {
-    width: auto;
-    height: 100%;
-}
-
 // styling for the navigation items.
 .nav-item {
-    font-size: calc(12px + .2vw); // responsive size, but keep a minimum.
+    font-size: calc(12px + .15vw); // responsive size, but keep a minimum.
     text-transform: uppercase;
     color: $navDefaultColor;
     text-decoration: none;

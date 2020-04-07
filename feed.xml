@@ -7,40 +7,40 @@
 <!-- Test with https://validator.w3.org/feed/ -->
 
 <!-- get all static feed data -->
-{%- assign feeditems = site.data.feed-atom-main -%}
+{%- assign feedMetaData = site.data.feed-atom-main -%}
 
 <feed xmlns="http://www.w3.org/2005/Atom">
     <!-- Required -->
-    <id>{{feeditems.id}}</id>
-    <title>{{feeditems.title}}</title>
+    <id>{{- feedMetaData.id -}}</id>
+    <title>{{- feedMetaData.title -}}</title>
     <updated>{{- site.time | date_to_xmlschema -}}</updated>
     <!-- Recommended -->
     <author>
         <name>
-            {{- feeditems.author -}}
+            {{- feedMetaData.author -}}
         </name>
     </author> 
-    <link href="{{- feeditems.link_rel | absolute_url -}}" rel="self" type="application/atom+xml"/>
+    <link href="{{- feedMetaData.link_rel | absolute_url -}}" rel="self" type="application/atom+xml"/>
     <link href="{{- "" | absolute_url -}}" rel="alternate" type="text/html" />
     <!-- Optional -->
-    <category term="{{- feeditems.category -}}" />
+    <category term="{{- feedMetaData.category -}}" />
     <contributor>
-        <name>{{feeditems.contributor}}</name>
+        <name>{{feedMetaData.contributor}}</name>
     </contributor>
-    <generator uri="{{feeditems.generator_uri}}" version="{{feeditems.generator_version}}">
-        {{- feeditems.generator_name -}}
+    <generator uri="{{- feedMetaData.generator_uri -}}" version="{{- feedMetaData.generator_version -}}">
+        {{- feedMetaData.generator_name -}}
     </generator>
     <icon>
-        {{- feeditems.icon | absolute_url -}}
+        {{- feedMetaData.icon | absolute_url -}}
     </icon>
     <logo>
-        {{- feeditems.logo | absolute_url -}}
+        {{- feedMetaData.logo | absolute_url -}}
     </logo>
     <rights>
-        {{- feeditems.rights -}}
+        {{- feedMetaData.rights -}}
     </rights>
     <subtitle>
-        {{- feeditems.subtitle | strip_html | lstrip | rstrip -}}
+        {{- feedMetaData.subtitle | strip_html | lstrip | rstrip -}}
     </subtitle>
     <!-- Entries -->
     {%- for post in site.posts limit: 20 -%}
@@ -53,7 +53,7 @@
                 {%- if post.author -%}
                     {{- post.author -}}
                 {%- else -%}
-                    {{- feeditems.author -}}
+                    {{- feedMetaData.author -}}
                 {%- endif -%}
             </name>
         </author>
@@ -72,7 +72,7 @@
                 {%- if post.author -%}
                     {{- post.author -}}
                 {%- else -%}
-                    {{- feeditems.author -}}
+                    {{- feedMetaData.author -}}
                 {%- endif -%}
             </name>
         </contributor>
@@ -80,7 +80,7 @@
         <published>{{- post.date | date_to_xmlschema -}}</published>
         <!-- there are no rights for a post by default, so use the default for the site. -->
         <rights>
-            {{- feeditems.rights -}}
+            {{- feedMetaData.rights -}}
         </rights>
         <!-- If you have a <source>, add it below. -->
     </entry>

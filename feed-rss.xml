@@ -8,33 +8,33 @@
 <!-- Validator: https://validator.w3.org/ -->
 
 <!-- get all static feed data -->
-{%- assign feeditems = site.data.feed-rss-main -%}
+{%- assign feedMetaData = site.data.feed-rss-main -%}
 
 <rss version="2.0">
     <channel>
         <!-- required channel elements-->
-        <title>{{- feeditems.title -}}</title>
-        <link>{{- feeditems.link -}}</link>
+        <title>{{- feedMetaData.title -}}</title>
+        <link>{{- feedMetaData.link -}}</link>
         <description>{{- site.podcast_description | escape -}}</description>
 
         <!-- optional channel elements -->
-        <language>{{- feeditems.language -}}</language>
-        <copyright>{{- feeditems.copyright -}}</copyright>
-        <managingEditor>{{ feeditems.managingEditorEmail }} ({{- feeditems.managingEditorName -}})</managingEditor>
+        <language>{{- feedMetaData.language -}}</language>
+        <copyright>{{- feedMetaData.copyright -}}</copyright>
+        <managingEditor>{{ feedMetaData.managingEditorEmail }} ({{- feedMetaData.managingEditorName -}})</managingEditor>
         <!-- By default, pubDate and lastBuildDate are the same -->
         <pubDate>{{- site.time | date_to_rfc822 -}}</pubDate>
         <lastBuildDate>{{- site.time | date_to_rfc822 -}}</lastBuildDate>
-        <category>{{- feeditems.category -}}</category>
-        <generator>{{- feeditems.generator -}}</generator>
-        <docs>{{- feeditems.docs -}}</docs>
+        <category>{{- feedMetaData.category -}}</category>
+        <generator>{{- feedMetaData.generator -}}</generator>
+        <docs>{{- feedMetaData.docs -}}</docs>
         <!-- by default, not using cloud -->
         <!-- <cloud /> -->
-        <ttl>{{- feeditems.ttl -}}</ttl>
+        <ttl>{{- feedMetaData.ttl -}}</ttl>
         <image>
-            <url>{{- feeditems.imageUrl | absolute_url -}}</url>
+            <url>{{- feedMetaData.imageUrl | absolute_url -}}</url>
             <!-- Title and link much be the same as the channel image and link -->
-            <title>{{- feeditems.title -}}</title>
-            <link>{{- feeditems.link -}}</link>
+            <title>{{- feedMetaData.title -}}</title>
+            <link>{{- feedMetaData.link -}}</link>
         </image>
         <!-- by default, not using textInput -->
         <!-- <textInput /> -->
@@ -53,18 +53,18 @@
                   {{- post.excerpt | strip_html | lstrip | rstrip -}}
                {%- endif -%}
             </description>
-            <author>{{ feeditems.authorEmail}} (
+            <author>{{ feedMetaData.authorEmail}} (
                 {%- if post.author -%}
                     {{- post.author -}})
                 {%- else -%}
-                    {{- feeditems.authorName -}}
+                    {{- feedMetaData.authorName -}}
                 {%- endif -%})</author>
             <!-- Use the first word in the yml categories or the default category -->
             <category>
                 {%- if post.categories[0] -%}
                     {{- post.categories[0] -}}
                 {%- else -%}
-                    {{- feeditems.categoryDefault -}}
+                    {{- feedMetaData.categoryDefault -}}
                 {%- endif -%}
             </category>
             <!-- by default, not using comments. -->
@@ -73,8 +73,8 @@
             <!-- <enclosure /> -->
             <guid>{{- post.url | absolute_url -}}</guid>
             <pubDate>{{- post.date | date_to_rfc822 -}}</pubDate>
-            <source url="{{- feeditems.sourceUrl | absolute_url -}}">
-                {{- feeditems.sourceChannelTitle -}}
+            <source url="{{- feedMetaData.sourceUrl | absolute_url -}}">
+                {{- feedMetaData.sourceChannelTitle -}}
             </source>
         </item>
         {%- endfor- %}

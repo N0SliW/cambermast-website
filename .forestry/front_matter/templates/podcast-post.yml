@@ -26,4 +26,4 @@ fields:
     required: true
   default: now
 pages:
-- _posts/podcast-post-1.md
+- _posts/2020-04-07-podcast-post-1.md

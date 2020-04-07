@@ -9,6 +9,14 @@
     margin-right: $gridMarginRight; // indent the blog list.
     column-gap: 1vw; 
     row-gap: 1vw;
+
+    // reduce the side border on the grid if mobile
+    @include for-size(tablet-only){
+        margin-left: 5px;
+        margin-right: 5px;
+        align-items: start;
+        column-gap: 0px;
+    }
 }
 
 // .blog-feed-item {

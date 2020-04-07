@@ -6,6 +6,6 @@ title: Second podcast post
 featuredImage: "/uploads/perry-grone-lbLgFFlADrY-unsplash.jpg"
 
 ---
-##  In conversation with Sharon Mitchel
+## In conversation with Sharon Mitchell
 
 Sharon is well known in her field with...

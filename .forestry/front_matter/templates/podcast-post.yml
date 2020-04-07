@@ -1,0 +1,29 @@
+---
+label: Podcast Post
+hide_body: false
+fields:
+- type: text
+  name: layout
+  label: layout
+  default: agile-in-action-podcast
+  hidden: true
+- type: text
+  name: categories
+  label: categories
+  default: agile-in-action-podcast
+  hidden: true
+- type: text
+  name: title
+  label: title
+- type: file
+  name: featuredImage
+  label: Featured image
+  description: Select an image to display at the top of the post.
+- type: datetime
+  name: date
+  label: date
+  config:
+    required: true
+  default: now
+pages:
+- _posts/2020-04-07-podcast-post-1.md

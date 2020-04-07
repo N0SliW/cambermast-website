@@ -25,6 +25,14 @@ fields:
   config:
     required: true
   default: now
+- name: author
+  type: text
+  config:
+    required: true
+  label: author
+  default: Bill Raymond
+  description: The name of the person writing the article
 pages:
 - _posts/2020-04-07-podcast-post-1.md
 - _posts/2020-04-07-second-podcast-post.md
+- _posts/2020-04-07-this-is-a-podcast-with-a-different-author.md

@@ -1,6 +1,6 @@
 ---
 layout: cambermast-blog-post
-title:  "Test cambermast-blog-post layout"
+title:  "How to implement a better PMO"
 date:   2020-03-09 16:23:53 -0700
 categories: agile-blog
 ---

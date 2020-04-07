@@ -25,9 +25,10 @@
 
 // topography for the blog reed.
 .blog-feed-title {
-    font-size: calc(12px + .9vw);
+    font-size: calc(12px + .4vw);
     color:$navHoverColor;
     text-decoration: none;
+    text-transform: uppercase;
     &:link { color: $navHoverColor; }
     &:hover { color: $navHoverColor; }
     &:active { color: $navHoverColor; }

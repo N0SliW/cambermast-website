@@ -1,7 +1,7 @@
 ---
 layout: cambermast-podcast-post
 categories: agile-in-action-podcast
-date: 2020-04-07 12:23:42 -0700
+date: 2020-04-07T19:23:42.000+00:00
 title: Second podcast post
 featuredImage: "/uploads/perry-grone-lbLgFFlADrY-unsplash.jpg"
 

@@ -12,6 +12,9 @@ fields:
   label: categories
   default: agile-in-action-podcast
   hidden: true
+- type: text
+  name: title
+  label: title
 - type: file
   name: featuredImage
   label: Featured image
@@ -19,6 +22,3 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: text
-  name: title
-  label: title

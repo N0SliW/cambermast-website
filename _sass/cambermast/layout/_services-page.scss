@@ -27,7 +27,7 @@
 }
 
 
-// topography for the blog reed.
+// topography for the blog feed.
 .services-page-title {
     font-size: calc(12px + .4vw);
     color:$navHoverColor;
@@ -68,7 +68,7 @@
         top: 5px; 
         width: 3px;
         height: 6px;
-        border: solid red;
+        border: solid $cambermastAltGreen;
         border-width: 0 2px 2px 0;
         -webkit-transform: rotate(45deg);
         -moz-transform: rotate(45deg);

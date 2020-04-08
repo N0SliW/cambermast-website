@@ -28,9 +28,9 @@
 
 // topography for the podcast reed.
 .podcast-feed-title {
-    font-size: calc(12px + .9vw);
     color:$navHoverColor;
     text-decoration: none;
+    text-transform: uppercase;
     &:link { color: $navHoverColor; }
     &:hover { color: $navHoverColor; }
     &:active { color: $navHoverColor; }

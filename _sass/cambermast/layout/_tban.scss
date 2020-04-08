@@ -25,19 +25,58 @@
     display: block;
 }
 
+// gradient overlay
 .banner-overlay-div {
     max-width: 100%;
     background: black;
     background: linear-gradient(60deg, rgba(0,0,0,0.7777485994397759) 30%, rgba(255,255,255,0) 100%);
 }
 
+// banner text
 .banner-text-div {
-    margin-left: $bannerMarginLeft;
-    margin-top: $bannerMarginTop;
-    width: 50%;
+    display: grid;
+    align-items: center;
+    margin-left: $gridMarginLeft;
+    margin-right: $gridMarginRight;
 }
 
-.banner-head-btn-div {
-    margin-top: $bannerHeadBtnMarginTop;
+// Typograhy
+.banner-h1-text {
+    font-size: calc(16px + .9vw); // approximately 32px at the largest width
+    letter-spacing: .05em;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: $bannerHead1Color;
+  }
+
+.banner-body-text {
+    font-size: calc(10px + .2vw);
+    margin-top: .5em;
+    color: $bannerHead1Color;
+    text-decoration: none;
+
+    &:hover { color: $bannerHead1Color; };
+    &:visited { color: $bannerHead1Color; }
+    &:active { color: $bannerHead1Color; }
 }
 
+.banner-btn {
+    margin-top: calc(2em + .08vw);
+}
+
+.banner-btn-item {
+    font-size: calc(12px + .08vw); // responsive size, but keep a minimum.
+    padding-top: calc(.5em + .08vw);
+    padding-bottom: calc(.5em + .08vw);
+    padding-left: calc(.5em + .08vw);
+    padding-right: calc(.5em + .08vw);
+    color: $btnDefaultColor;
+    background-color: $btnDefaultBgColor;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 1px solid $btnDefaultBorderColor;
+
+      &:link { text-decoration: none; }
+      &:visited { text-decoration: none;}
+}

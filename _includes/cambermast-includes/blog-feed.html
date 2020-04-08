@@ -8,10 +8,12 @@
                 <div class="blog-feed-item">
                     <div class="blog-feed-image-div">
                         <!-- Display the post's featured image, otherwise display a default -->
-                        {%- if post.featuredImage -%}
-                            <img class="blog-feed-image" src="{{- post.featuredImage | relative_url }}" alt="{{- post.title -}}">
-                        {%- else -%}
+                         {%- if post.featuredImage == "" or post.featuredImage == nil -%}
+                            <!-- Display the default image -->
                             <img class="blog-feed-image" src="{{- '/assets/featured-images/blog-feed-placeholder.jpg' | relative_url -}}">
+                        {%- else -%}
+                            <!-- Display the posts's featured image -->
+                            <img class="blog-feed-image" src="{{- post.featuredImage | relative_url }}" alt="{{- post.title -}}">
                         {%- endif -%}
                     </div>
                     <div class="blog-feed-title-div">

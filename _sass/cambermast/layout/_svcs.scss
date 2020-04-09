@@ -34,9 +34,11 @@
   grid-column-start: 2;
 }
 
+// give the image a rounded edge.
 .services-image {
   width: 100%;
   height: auto;
+  border-radius: 5px;
 }
 
 .services-title {

@@ -4,7 +4,7 @@
 .services-section {
   display: grid;
   margin-top: 10px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(2, minmax(350px,1fr));
   align-items: center;
   justify-items: center;
   grid-auto-flow: row dense;
@@ -12,7 +12,8 @@
   margin-right: $gridMarginRight;
 
   // do not put a side border on the grid if mobile
-  @include for-size(tablet-only){
+  @include for-size(phone-only) {
+    grid-template-columns: repeat(1, minmax(350px,1fr));
     margin-left: 0px;
     margin-right: 0px;
     align-items: start;
@@ -21,7 +22,7 @@
   @if $debug { background-color: $debugServicesArea; }
 }
 
-.services-text {
+.services-text-div {
     margin-left: calc(5px + .2vw);
     margin-right: calc(5px + .2vw);
 }
@@ -31,8 +32,10 @@
 // | image   | service |
 // | service | image   |
 // | image   | service |
-.services-section > :nth-child(4n-1) {
-  grid-column-start: 2;
+@include for-size(tablet-portait-up) {
+  .services-section > :nth-child(4n-1) {
+    grid-column-start: 2;
+  }
 }
 
 .services-image {
@@ -41,17 +44,17 @@
 }
 
 .services-description {
-  font-size: calc(12px + .2vw); // responsive size, but keep a minimum.
-  margin-bottom: 1em;
+  font-size: calc(10px + .2vw); // responsive size, but keep a minimum.
+  margin-bottom: .5em;
 }
 
 // Get started button
 .button-services {
-  font-size: calc(12px + .08vw); // responsive size, but keep a minimum.
-  padding-top: calc(5px + .08vw);
-  padding-bottom: calc(5px + .08vw);
-  padding-left: calc(5px + .08vw);
-  padding-right: calc(5px + .08vw);
+  font-size: calc(10px + .06vw); // responsive size, but keep a minimum.
+  padding-top: calc(.5em + .08vw);
+  padding-bottom: calc(.5em + .08vw);
+  padding-left: calc(.5em + .08vw);
+  padding-right: calc(.5em + .08vw);
   color: $btnDefaultColor;
   background-color: $btnDefaultBgColor;
   text-align: center;

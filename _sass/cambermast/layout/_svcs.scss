@@ -15,7 +15,6 @@
   @include for-size(phone-only){
     margin-left: 5px;
     margin-right: 5px;
-    align-items: start;
   }
 
   @if $debug { background-color: $debugServicesArea; }
@@ -42,7 +41,8 @@
 
 .services-title {
   font-size: calc(12pt + .2vw); // responsive size, but keep a minimum.
-  margin-bottom: 1em;
+  font-weight: bold;
+  margin-bottom: .25em;
 }
 
 .services-description {
@@ -52,9 +52,9 @@
 
 // Get started button
 .button-services {
-  font-size: calc(10px + .08vw); // responsive size, but keep a minimum.
+  font-size: calc(8pt + .08vw); // responsive size, but keep a minimum.
   padding-top: calc(.25em + .08vw);
-  padding-bottom: calc(.25em + .08vw);
+  padding-bottom: calc(.2em + .08vw);
   padding-left: calc(.25em + .08vw);
   padding-right: calc(.25em + .08vw);
   color: $btnDefaultColor;

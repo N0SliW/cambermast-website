@@ -39,7 +39,7 @@ podcast_description: >-
 author: Bill Raymond
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
 #  - jekyll-feed
 

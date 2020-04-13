@@ -3,7 +3,7 @@
 // Create a 2-column, 2-row grid for the nav bar.
 .footer-section {
     display: grid;
-    margin-top: 25px;
+    margin-top: 100px;
     grid-template-columns: 1fr;
     grid-template-rows: 20px 20px 20px;
   }

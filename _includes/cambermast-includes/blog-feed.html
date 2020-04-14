@@ -28,7 +28,13 @@
                         <img class="blog-feed-image" src="{{- fiImageUrl | relative_url }}" alt="{{- post.title -}}">
                     </div>
                     <div class="blog-feed-title-div">
-                        <a href="{{- post.url | relative_url -}}" class="blog-feed-title">{{- post.title | escape -}}</a>
+                        {% if type == 'agile-blog' %}
+                             {%- assign postTitle = post.title -%}
+                         {% endif %}
+                        {% if type == 'agile-in-action-podcast' %}
+                             {%- assign postTitle = post.title | append: " (podcast)" -%}
+                         {% endif %}
+                        <a href="{{- post.url | relative_url -}}" class="blog-feed-title">{{- postTitle | escape -}}</a>
                     </div>
                     <div class="blog-feed-excerpt-div">
                         <!-- Preview text should be plain text -->

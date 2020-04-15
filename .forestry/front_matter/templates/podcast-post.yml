@@ -32,5 +32,3 @@ fields:
   label: author
   default: Bill Raymond
   description: The name of the person writing the article
-pages:
-- _posts/podcast-post.md

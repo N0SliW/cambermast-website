@@ -32,5 +32,3 @@ fields:
   label: author
   default: Bill Raymond
   description: The name of the person writing the article
-pages:
-- _posts/a-conversation-with-john-smith-of-acme-inc.md

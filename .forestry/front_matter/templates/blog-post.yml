@@ -43,4 +43,4 @@ fields:
   description: The name of the person writing the article
   default: Bill Raymond
 pages:
-- _posts/this-is-a-test-post.md
+- _posts/2020-04-15-this-is-a-test-post.md

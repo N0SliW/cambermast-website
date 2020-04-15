@@ -3,4 +3,9 @@
     margin-top: 25px;
     margin-left: $gridMarginLeft;
     margin-right: $gridMarginRight;
+
+    img {
+        max-width: 50%;
+        height: auto;
+    }
 }

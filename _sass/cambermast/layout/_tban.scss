@@ -42,7 +42,7 @@
 
 // Typograhy
 .banner-h1-text {
-    font-size: calc(16px + .9vw); // approximately 32px at the largest width
+    font-size: calc(10pt + .15vw); // set a minimum font size
     letter-spacing: .05em;
     font-weight: bolder;
     text-transform: uppercase;
@@ -50,7 +50,7 @@
   }
 
 .banner-body-text {
-    font-size: calc(10px + .2vw);
+    font-size: calc(10pt + .15vw);
     margin-top: .5em;
     color: $bannerHead1Color;
     text-decoration: none;
@@ -61,11 +61,11 @@
 }
 
 .banner-btn {
-    margin-top: calc(2em + .08vw);
+    margin-top: 1em;
 }
 
 .banner-btn-item {
-    font-size: calc(12px + .08vw); // responsive size, but keep a minimum.
+    font-size: calc(8pt + .15vw); // responsive size, but keep a minimum.
     padding-top: calc(.5em + .08vw);
     padding-bottom: calc(.5em + .08vw);
     padding-left: calc(.5em + .08vw);

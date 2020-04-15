@@ -43,8 +43,5 @@ fields:
   description: The name of the person writing the article
   default: Bill Raymond
 pages:
-- _posts/2020-04-06-this-is-a-test-with-a-featured-image.md
-- _posts/2020-04-07-blog-with-an-author.md
-- _posts/2020-04-13-markdown-text.md
-- _posts/second-markdown-test.md
 - _posts/test-featured-image.md
+- _posts/test.md

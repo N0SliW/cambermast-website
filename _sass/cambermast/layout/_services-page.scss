@@ -4,14 +4,14 @@
     display: grid;
     // show as many columns as possible, not going smaller than 350px.
     grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
-    margin-top: 10px;  // separate the grid from the top banner.
+    margin-top: 10px;  // separate the grid from the content above.
     margin-left: $gridMarginLeft; // indent the blog list.
     margin-right: $gridMarginRight; // indent the blog list.
     column-gap: 1vw; 
     row-gap: 1vw;
 
     // reduce the side border on the grid if mobile
-    @include for-size(tablet-only){
+    @include for-size(phone-only){
         margin-left: 5px;
         margin-right: 5px;
         align-items: start;

@@ -44,3 +44,4 @@ fields:
   default: Bill Raymond
 pages:
 - _posts/2020-04-15-this-is-a-test-post.md
+- _posts/this-is-an-rss-subscription-test-2.md

@@ -4,7 +4,7 @@
 .nav-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30px auto;
+    grid-template-rows: $navHeight auto;
     margin-left: $gridMarginLeft;
     margin-right: $gridMarginRight;
     @include for-size(phone-only) {
@@ -26,7 +26,7 @@
 // display the logo
 .nav-logo-image {
     width: auto;
-    height: 100%;
+    height: $navHeight;
 }
 
 // display the navigation items

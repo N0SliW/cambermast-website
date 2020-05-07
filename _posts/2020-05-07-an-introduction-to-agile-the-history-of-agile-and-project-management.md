@@ -129,28 +129,27 @@ The term "going agile" means creating lean, fast-moving teams. Those teams have 
 
 ![An image that describes the difference between project management, aile, and methodologies and frameworks.](https://media-exp1.licdn.com/dms/image/C5612AQH846tm0WgBfw/article-inline_image-shrink_1500_2232/0?e=1594252800&v=beta&t=wKyYiSP-qj_z0CcVKiVYdibQdLce7GyMYCad7W9Y3zs)
 
-## Learn more, get educational materials
+### **Free training**
 
-![A picture of two dogs in a Zoom meeting.](https://media-exp1.licdn.com/dms/image/C5612AQEYO9QviGgDKw/article-inline_image-shrink_1500_2232/0?e=1594252800&v=beta&t=Tb4eV0JjnInAF-V1PRxQ0x3Z1GAQAGeMq8owuhxIr4w)
-
-**Free training.** Click the link below and I will present this material to your team in an interactive one-hour meeting. Click the link now to book the training:
+![A picture of two dogs in a Zoom meeting.](https://media-exp1.licdn.com/dms/image/C5612AQEYO9QviGgDKw/article-inline_image-shrink_1500_2232/0?e=1594252800&v=beta&t=Tb4eV0JjnInAF-V1PRxQ0x3Z1GAQAGeMq8owuhxIr4w)Click the link below and I will present this material to your team in an interactive one-hour meeting. Click the link now to book the training:
 
 [https://calendly.com/billraymond/meet](https://calendly.com/billraymond/meet "https://calendly.com/billraymond/meet")
 
+### Educational training package
+
 ![A picture of a computer that represents the ability to download the training materials covered in this article.](https://media-exp1.licdn.com/dms/image/C5612AQGxb9hG5iq7CA/article-inline_image-shrink_1500_2232/0?e=1594252800&v=beta&t=jV5-O0lllBrhVj7bLHD0NSeceG1SCV3Fyk_qb94ZMrU)
 
-**Purchase the training kit.** An enterprise and educator's license is available with a PowerPoint deck, training video, PDF, and the text of this article. Click the link below to learn more:
+An enterprise and educator's license is available with a PowerPoint deck, training video, PDF, and the text of this article. Click the link below to learn more:
 
-<script src="https://gumroad.com/js/gumroad.js"></script>
-<a class="gumroad-button" href="https://gum.co/lKfhF" target="_blank">Purchase the training kit</a>
+<script src="https://gumroad.com/js/gumroad.js"></script> <a class="gumroad-button" href="https://gum.co/lKfhF" target="_blank">Purchase the training kit</a>
 
-![An image of a computer on a YouTube channel. This represents an opportunity for you to view this material as a pre-recorded video.](https://media-exp1.licdn.com/dms/image/C5612AQGoO1KJjU5g7Q/article-inline_image-shrink_1500_2232/0?e=1594252800&v=beta&t=9buBnf4xg7nlxBKizyaB1FCz1RvfcKeHJ-d_rN-LpU0)
-
-**Subscribe to my YouTube channel.** Click the link below to watch a pre-recorded session that covers this material on YouTube:
-
-[YouTube Channel](https://www.youtube.com/channel/UCo63gWfWRfEciJ98mJLIU0Q)
+### Watch the supplemental YouTube video
 
 <iframe width="325" height="183" src="https://www.youtube.com/embed/3lG7vpXNyu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Click the link below to watch a pre-recorded session that covers this material on YouTube:
+
+[YouTube Channel](https://www.youtube.com/channel/UCo63gWfWRfEciJ98mJLIU0Q)
 
 #### Acknowledgments and disclaimers
 

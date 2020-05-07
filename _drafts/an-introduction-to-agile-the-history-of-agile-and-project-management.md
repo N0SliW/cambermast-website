@@ -9,9 +9,12 @@ featuredImage: "/uploads/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg"
 ---
 **_Note_**_: This is part 1 of a 5-part series that introduces agile concepts. In this first part, I level-set with the history of project management and agile so you can see where we have come from and where we are going in the project management industry._
 
+<script src="https://gumroad.com/js/gumroad.js"></script>
+<a class="gumroad-button" href="https://gum.co/lKfhF" target="_blank">Purchase a full training kit</a>
+
 It would be wrong to say that project management and agile are two different and competing ideologies. Let's unpack that statement with a look into the rearview mirror to see how project management and agile found their way into our corporate lexicon.
 
-### The "waterfall" method
+## The "waterfall" method
 
 Around 1896, Karol Adamiecki created what we refer to as the harmonogram/harmonograf. Around 1910, Henry Gantt popularized the chart, and we all know it today as the Gantt chart.
 
@@ -23,7 +26,7 @@ Some projects benefit greatly from this waterfall approach, such as construction
 
 Contrary to popular belief, the waterfall method is not designed to be so set in stone that you cannot make changes. If along the way, there is new scope, you define it and place it into the work breakdown structure where appropriate. However, as you can imagine, managing a project that is more than a few months in length could cause a significant load to maintain the project, so you typically need a project manager or project scheduler to keep it up to date.
 
-### Project Management formality
+## Project Management formality
 
 In the late 80s and early 90s, the formal title of project manager became extremely popular in almost every industry. For example, when I was working in IT at a refinery just outside Boston, my formal title was _IT Analyst_. However, it was obvious that my role was focused on building plans, managing teams, reporting on status, and all the things a project manager might do. I took night courses at Boston University to receive my project management certification and was promoted with the title of Sr. Project Manager.
 
@@ -33,13 +36,13 @@ To provide standardized testing and create a common lexicon, the Project Managem
 
 The PMBOK is a small book that covers all the primary topics and goes from there to highlight other areas of study. To this day, anyone with the title Project Manager will have likely read, has been trained in, or has knowledge of the PMBOK.
 
-### Project management offices (PMOs)
+## Project management offices (PMOs)
 
 In the early 2000s, we saw an ever-increasing number of project managers in all areas of business. These project managers were great at the work they do, but their approach to how they track their projects and report on status rarely matched that of their peers. In other words, even with all these standards, there was no central clearinghouse for how a company manages, reports, and assigns resources consistently.
 
 Executives saw this as a problem, and we saw the rise of Project Management Offices (or PMOs). Every organization treated a PMO differently, and sometimes there were many PMOs. For example, the CFO might have a PMO that tracks capital and opex project costs while IT might have a PMO that manages software development efforts. Further, if IT was managing a large scale project, there could be a separate PMO just for that effort. Facilities groups would have PMOs to prioritize and track their building ane maintenance efforts. In short, PMOs were everywhere.
 
-### Enterprise Project Management software
+## Enterprise Project Management software
 
 So what happens when project managers need standards, but there are too many PMOs with too many standards? You use software to consolidate and standardize. Prior to the 2000s, most software was installed on a computer. For example, project managers would use the popular Microsoft Project or Primavera software products to manage their Gantt charts and critical paths. However, rolling all those projects, resources (people), budgets, etc. was not easy because there was no back-end database to pull the details together.
 
@@ -47,7 +50,7 @@ In the early 2000s we saw the emergence of enterprise project management (or EPM
 
 ![An image representing enterprise software, and specifically enterprise project management software (or EPM software), that is now referred to as Portfolio and Project Management (PPM) software.](https://media-exp1.licdn.com/dms/image/C5612AQGnCk5NQ5oxUw/article-inline_image-shrink_1000_1488/0?e=1594252800&v=beta&t=2X9jTBnE-Tgi398xxmkqHiLlQmFXbCNrA0vZi0HD8WA)
 
-### Agile team flow
+## Agile team flow
 
 As the story goes, in 2001, a group of 17 software developers and engineers met at The Lodge at the Snowbird Ski Resort in Utah. Out of that meeting came a set of values, termed the Agile Manifesto, or as titled initially, the _Manifesto for Agile Software Development_.
 
@@ -73,7 +76,7 @@ To optimize waterfall plans, we need diagrams like PERT charts and techniques li
 
 As you can see, all these and other high profile projects helped shine a light on these best practices and tools, which resulted in high adoption rates across many industries.
 
-### Scrum and agile frameworks
+## Scrum and agile frameworks
 
 Having a list of four agile values would not be enough to gain traction.
 
@@ -89,7 +92,7 @@ Finally, the whole process starts over again with another sprint and more shippa
 
 ![An image that depicts the Scrum framework. This image shows how developers manage their work using sprints and deliver shippable increments.](https://media-exp1.licdn.com/dms/image/C5612AQFbrFEMh5uUfw/article-inline_image-shrink_1000_1488/0?e=1594252800&v=beta&t=xvWkZUklysAql0zOTrwdtne67UJdIwlE6wxdHItf1v4)
 
-### Agile's "Hoover Dam"
+## Agile's "Hoover Dam"
 
 ![A picture of a monolith. The monolith represents software that cannot easily change.](https://media-exp1.licdn.com/dms/image/C5612AQGNHskUTbkLnA/article-inline_image-shrink_1500_2232/0?e=1594252800&v=beta&t=nsFZ51hT0f8p21Ey6uEB3sp9_Lmiji5a_EstmoeuzFY)
 
@@ -113,7 +116,7 @@ The \[then\] radical approach with AWS was that it freed developers from buildin
 
 So it was that the "Hoover Dam" for agile was a set of services and new hardware that would drive a sort of arms race for businesses to remain relevant and adopt technology at a pace as we have never seen. Of course, it meant breaking down the old method of building applications and rethinking team structures.
 
-### Agile is organizational design, not project management
+## Agile is organizational design, not project management
 
 Now, in 2020, many organizations have been considering what it means to "go agile." Some of those organizations are still grappling with the software development part of agile, but others are moving full-speed ahead with implementing agile in other lines of business, like Marketing and HR, to name a few.
 
@@ -147,6 +150,6 @@ The term "going agile" means creating lean, fast-moving teams. Those teams have 
 
 [YouTube Channel](https://www.youtube.com/channel/UCo63gWfWRfEciJ98mJLIU0Q)
 
-## Acknowledgments and disclaimers
+#### Acknowledgments and disclaimers
 
 I have compiled the history of project management from research, with a heavy reliance on Wikipedia and similar sources. Photos are courtesy of unsplash.com and pixabay.com. The Scrum framework image was from scrum.org. All copyrights and trademarks are property of their respective owners, and I do not represent any third party organizations other than my own, which is Cambermast LLC. Original images were designed by me, Bill Raymond.

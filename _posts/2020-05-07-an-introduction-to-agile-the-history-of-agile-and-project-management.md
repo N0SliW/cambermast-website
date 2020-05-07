@@ -141,7 +141,8 @@ The term "going agile" means creating lean, fast-moving teams. Those teams have 
 
 **Purchase the training kit.** An enterprise and educator's license is available with a PowerPoint deck, training video, PDF, and the text of this article. Click the link below to learn more:
 
-[https://gum.co/lKfhF](https://gum.co/lKfhF "https://gum.co/lKfhF")
+<script src="https://gumroad.com/js/gumroad.js"></script>
+<a class="gumroad-button" href="https://gum.co/lKfhF" target="_blank">Purchase the training kit</a>
 
 ![An image of a computer on a YouTube channel. This represents an opportunity for you to view this material as a pre-recorded video.](https://media-exp1.licdn.com/dms/image/C5612AQGoO1KJjU5g7Q/article-inline_image-shrink_1500_2232/0?e=1594252800&v=beta&t=9buBnf4xg7nlxBKizyaB1FCz1RvfcKeHJ-d_rN-LpU0)
 

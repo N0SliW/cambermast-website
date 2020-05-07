@@ -150,7 +150,7 @@ The term "going agile" means creating lean, fast-moving teams. Those teams have 
 
 [YouTube Channel](https://www.youtube.com/channel/UCo63gWfWRfEciJ98mJLIU0Q)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3lG7vpXNyu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="325" height="183" src="https://www.youtube.com/embed/3lG7vpXNyu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### Acknowledgments and disclaimers
 

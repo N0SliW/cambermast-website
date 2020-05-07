@@ -150,6 +150,8 @@ The term "going agile" means creating lean, fast-moving teams. Those teams have 
 
 [YouTube Channel](https://www.youtube.com/channel/UCo63gWfWRfEciJ98mJLIU0Q)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3lG7vpXNyu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 #### Acknowledgments and disclaimers
 
 I have compiled the history of project management from research, with a heavy reliance on Wikipedia and similar sources. Photos are courtesy of unsplash.com and pixabay.com. The Scrum framework image was from scrum.org. All copyrights and trademarks are property of their respective owners, and I do not represent any third party organizations other than my own, which is Cambermast LLC. Original images were designed by me, Bill Raymond.

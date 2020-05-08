@@ -147,8 +147,6 @@ An enterprise and educator's license is available with a PowerPoint deck, traini
 
 <iframe width="325" height="183" src="https://www.youtube.com/embed/3lG7vpXNyu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Click the link below to watch a pre-recorded session that covers this material on YouTube:
-
 [YouTube Channel](https://www.youtube.com/channel/UCo63gWfWRfEciJ98mJLIU0Q)
 
 #### Acknowledgments and disclaimers

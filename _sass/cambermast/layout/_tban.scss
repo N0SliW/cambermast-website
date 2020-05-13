@@ -19,14 +19,15 @@
 
 // allow the banner image to resize.
 .banner-image {
+    display: grid;
     min-width: 350px; // Do not resize to smaller than this.
     width: 100%;
     height: auto;
-    display: block;
 }
 
 // gradient overlay
 .banner-overlay-div {
+    display: grid;
     max-width: 100%;
     background: black;
     background: linear-gradient(60deg, rgba(0,0,0,0.7777485994397759) 30%, rgba(255,255,255,0) 100%);

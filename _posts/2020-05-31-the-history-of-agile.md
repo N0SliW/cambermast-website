@@ -9,7 +9,9 @@ featuredImage: "/uploads/bill-raymond.png"
 ---
 <img src="/uploads/bill-raymond.png" style="float:right;" width="200"/>
 William "Bill" Raymond has worked in the project management industry for over 20 years and inspired others to collaborate while bringing several teams together with the Agile Methodology. He is the founder of Cambermast; an award-winning strategic consulting firm focused on helping companies stay relevant in today's fast-paced, technology-driven company. Bill guides his clients through workshops where they learn how to innovate and use the methods of Agile Methodology to collaborate and create solutions through co-creation.
+
   <p>&nbsp;</p> 
+
 <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/14523032/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
   <p>&nbsp;</p> 
 <div class="podwrap"> <a href="https://open.spotify.com/show/6ntGFKgVK1vurtfFBCCwLq" target="_blank" rel="noopener"><img class="alignnone wp-image-1313" src="/uploads/listen-spotify.png" alt="Listen to Spotify" width="180" height="95" /></a> <a href="https://www.stitcher.com/podcast/rise25-media/agile-in-action-with-bill-raymond" target="_blank" rel="noopener"> <img class="alignnone wp-image-1318" src="/uploads/sticher-min.png" alt="sticher" width="180" height="95" style="top: 6px; position: relative;" /> </a> <a href="https://www.deezer.com/show/1285692" target="_blank" rel="noopener"><img class="alignnone wp-image-1318" src="/uploads/deezer-logo.png" alt="Deezer" width="180" height="95" /></a></div>
@@ -52,4 +54,4 @@ The clientele of Cambermast range from tech companies such as [Microsoft](https:
 
 To learn morea about the [services they offer](https://www.cambermast.com/services/), visit their [website](http://www.cambermast.com) or email them at [info@cambermast.com](mailto:info@cambermast.com).
 
-<style>ul{list-style:disc;padding-left:20px;}p{text-align:justify;margin-bottom:20px;} ul li{margin-bottom:10px;}</style>
+<style>ul{list-style:disc;padding-left:20px;}p{text-align:justify;margin-bottom:20px;} ul li{margin-bottom:10px;}h3{font-size:25px;</style>

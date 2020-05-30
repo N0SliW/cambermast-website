@@ -7,6 +7,7 @@ title: 'The History of Agile '
 featuredImage: "/uploads/bill-raymond.png"
 
 ---
+<img src="/uploads/bill-raymond.png" style="float:right;"/>
 William "Bill" Raymond has worked in the project management industry for over 20 years and inspired others to collaborate while bringing several teams together with the Agile Methodology. He is the founder of Cambermast; an award-winning strategic consulting firm focused on helping companies stay relevant in today's fast-paced, technology-driven company. Bill guides his clients through workshops where they learn how to innovate and use the methods of Agile Methodology to collaborate and create solutions through co-creation.
 
   <p>&nbsp;</p> 

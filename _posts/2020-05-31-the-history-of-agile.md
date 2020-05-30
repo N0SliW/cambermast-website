@@ -19,14 +19,6 @@ William "Bill" Raymond has worked in the project management industry for over 20
 
 
 ### **Here’s a glimpse of what you’ll learn:**
-<ul style="list-style:disc;padding-left:20px;">
-<li>The history of agile and how the Agile Manifesto was formed</li>
-<li>Has the move towards cloud computing affected the agile methodology?</li>
-<li>The four key values of the agile framework</li>
-<li>The importance of customer collaboration over contract negotiations</li>
-<li>The value of being able to put together the right team in order to pivot your company in the right direction</li>
-<li>Why you need to embrace and adapt change into your organization</li>
-</ul>
 
 * The history of agile and how the Agile Manifesto was formed
 * Has the move towards cloud computing affected the agile methodology?

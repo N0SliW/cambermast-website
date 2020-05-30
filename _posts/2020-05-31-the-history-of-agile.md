@@ -12,7 +12,8 @@ William "Bill" Raymond has worked in the project management industry for over 20
 
 <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/14523032/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
     
-  <div><a href="https://open.spotify.com/show/6ntGFKgVK1vurtfFBCCwLq" target="_blank"></div><div><img src="/uploads/listen-spotify.png" /></a></div><div><a href="https://www.stitcher.com/podcast/rise25-media/agile-in-action-with-bill-raymond" target="_blank"></div><div><img src="/uploads/deezer-logo.png" /></a></div><div><a href="https://www.deezer.com/show/1285692" target="_blank"></div><div><img src="/uploads/sticher-min.png" /></a></div>
+ <div><a href="https://open.spotify.com/show/6ntGFKgVK1vurtfFBCCwLq" target="_blank"><img src="/uploads/listen-spotify.png" /></a></div><div><a href="https://www.stitcher.com/podcast/rise25-media/agile-in-action-with-bill-raymond" target="_blank"><img src="/uploads/deezer-logo.png" /></a></div><div><a href="https://www.deezer.com/show/1285692" target="_blank"><img src="/uploads/sticher-min.png" /></a></div>
+
 
 ### **Here’s a glimpse of what you’ll learn:**
 

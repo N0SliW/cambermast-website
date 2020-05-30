@@ -7,10 +7,11 @@ title: 'The History of Agile '
 featuredImage: "/uploads/bill-raymond.png"
 
 ---
-<img src="/uploads/bill-raymond.png" style="float:right;"/>
+<img src="/uploads/bill-raymond.png" style="float:right;" width="200"/>
 William "Bill" Raymond has worked in the project management industry for over 20 years and inspired others to collaborate while bringing several teams together with the Agile Methodology. He is the founder of Cambermast; an award-winning strategic consulting firm focused on helping companies stay relevant in today's fast-paced, technology-driven company. Bill guides his clients through workshops where they learn how to innovate and use the methods of Agile Methodology to collaborate and create solutions through co-creation.
 
   <p>&nbsp;</p> 
+  https://oembed.libsyn.com/embed?item_id=14523032
 
 <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/14523032/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
   <p>&nbsp;</p> 

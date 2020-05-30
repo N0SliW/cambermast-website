@@ -53,3 +53,5 @@ This episode is brought to you by [Cambermast](https://www.cambermast.com/), an 
 The clientele of Cambermast range from tech companies such as [Microsoft](https://www.microsoft.com/en-ph) to [Duke Energy](https://www.duke-energy.com/home), and [Moen Corporation](https://www.moen.com/about-moen/moen-offices). No matter what your business is, they can help you and your company to keep up with the changes in your industry using agile techniques and tools.
 
 To learn morea about the [services they offer](https://www.cambermast.com/services/), visit their [website](http://www.cambermast.com) or email them at [info@cambermast.com](mailto:info@cambermast.com).
+
+<style>ul{list-style:disc;padding-left:20px;}</style>

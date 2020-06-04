@@ -1,9 +1,9 @@
 ---
 layout: cambermast-podcast-post
 categories: agile-in-action-podcast
-date: 2020-05-31 13:00:50 -0700
+date: 2020-05-31T20:00:50.000+00:00
 author: Bill Raymond
-title: 'The History of Agile '
+title: 'A Short History of Agile '
 featuredImage: "/uploads/bill-raymond.png"
 
 ---

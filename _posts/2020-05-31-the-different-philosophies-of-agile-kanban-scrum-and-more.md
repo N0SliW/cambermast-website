@@ -1,9 +1,9 @@
 ---
 layout: cambermast-podcast-post
 categories: agile-in-action-podcast
-date: 2020-05-31 14:00:52 -0700
+date: 2020-05-31T21:00:52.000+00:00
 author: Bill Raymond
-title: The Different Philosophies of Agile- Kanban, SCRUM, and More
+title: A quick look at agile frameworks
 featuredImage: "/uploads/bill-raymond.png"
 
 ---

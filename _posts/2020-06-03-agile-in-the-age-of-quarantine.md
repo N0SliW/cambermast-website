@@ -7,9 +7,7 @@ title: Agile in the age of quarantine
 featuredImage: ''
 
 ---
-<img src="/uploads/bill-raymond.png" style="float:right;" width="200"/> 
-
-In this inaugural podcast, my colleague John Cororcoran interviews me about the history of agile. -Bill
+<img src="/uploads/bill-raymond.png" style="float:right;" width="200"/>In this inaugural podcast, my colleague John Cororcoran interviews me about the history of agile. -Bill
 
 William "Bill" Raymond is the founder of Cambermas,; an award-winning strategic consulting firm focused on helping companies stay relevant in today's fast-paced, technology-driven company. Bill guides his clients through workshops where they learn how to innovate and use agile methods and tools to collaborate and create solutions that help them stay relevant and up-to-date. He has worked in the project management industry for over 20 years and continues to inspire others to collaborate and to bring teams together.
 

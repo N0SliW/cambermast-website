@@ -15,6 +15,7 @@ William "Bill" Raymond is the founder and CEO of Cambermast. Cambermast is an aw
 
 <div class="podwrap"> <a href="https://open.spotify.com/show/6ntGFKgVK1vurtfFBCCwLq" target="_blank" rel="noopener"><img class="alignnone wp-image-1313" src="/uploads/listen-spotify.png" alt="Listen to Spotify" width="180" height="95" /></a> <a href="https://www.stitcher.com/podcast/rise25-media/agile-in-action-with-bill-raymond" target="_blank" rel="noopener"> <img class="alignnone wp-image-1318" src="/uploads/sticher-min.png" alt="sticher" width="180" height="95" style="top: 6px; position: relative;" /> </a> <a href="https://www.deezer.com/show/1285692" target="_blank" rel="noopener"><img class="alignnone wp-image-1318" src="/uploads/deezer-logo.png" alt="Deezer" width="180" height="95" /></a></div>
 
+
 ### **Here’s a glimpse of what you’ll learn:**
 
 * How do you know which Agile Philosophy is right for you?

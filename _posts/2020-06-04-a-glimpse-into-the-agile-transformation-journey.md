@@ -7,7 +7,7 @@ title: A Glimpse Into the Agile Transformation Journey
 featuredImage: ''
 
 ---
-<img src="/uploads/bethann-zaveson.png" style="float:right;margin-left: 20px;"  width="200"/> In this podcast, I speak with long-time friend and colleague Bethann Zaveson. We talk about her project management career and how it progressed from more traditional approaches to using agile concepts. We learn how Bethann considers agile teams as a critical foundation to remain competitive. -Bill
+<img src="/uploads/bethann-zaveson.png" style="float:right;margin-left: 20px;" width="200"/> In this podcast, I speak with long-time friend and colleague Bethann Zaveson. We talk about her project management career and how it progressed from more traditional approaches to using agile concepts. We learn how Bethann considers agile teams as a critical foundation to remain competitive. -Bill
 
 Bethann Zaveson is the Director of Portfolio Management for IT at AmTrust Financial Services, Inc., a New York City-based multinational property and casualty insurance company, offering workers' compensation, general liability, business owners policies, cyber liability, EPLI, and more.
 
@@ -15,7 +15,7 @@ Bethann’s career started in mechanical engineering and advanced towards market
 
 <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/14719565/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
-    <div class="podwrap"> <a href="https://open.spotify.com/show/6ntGFKgVK1vurtfFBCCwLq" target="_blank" rel="noopener"><img class="alignnone wp-image-1313" src="/uploads/listen-spotify.png" alt="Listen to Spotify" width="180" height="95" /></a> <a href="https://www.stitcher.com/podcast/rise25-media/agile-in-action-with-bill-raymond" target="_blank" rel="noopener"> <img class="alignnone wp-image-1318" src="/uploads/sticher-min.png" alt="sticher" width="180" height="95" style="top: 6px; position: relative;" /> </a> <a href="https://www.deezer.com/show/1285692" target="_blank" rel="noopener"><img class="alignnone wp-image-1318" src="/uploads/deezer-logo.png" alt="Deezer" width="180" height="95" /></a></div>
+<div class="podwrap"> <a href="https://open.spotify.com/show/6ntGFKgVK1vurtfFBCCwLq" target="_blank" rel="noopener"><img class="alignnone wp-image-1313" src="/uploads/listen-spotify.png" alt="Listen to Spotify" width="180" height="95" /></a> <a href="https://www.stitcher.com/podcast/rise25-media/agile-in-action-with-bill-raymond" target="_blank" rel="noopener"> <img class="alignnone wp-image-1318" src="/uploads/sticher-min.png" alt="sticher" width="180" height="95" style="top: 6px; position: relative;" /> </a> <a href="https://www.deezer.com/show/1285692" target="_blank" rel="noopener"><img class="alignnone wp-image-1318" src="/uploads/deezer-logo.png" alt="Deezer" width="180" height="95" /></a></div>
 
 ### **Here’s a glimpse of what you’ll learn:**
 

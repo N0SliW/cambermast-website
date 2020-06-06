@@ -3,8 +3,7 @@ layout: cambermast-podcast-post
 categories: agile-in-action-podcast
 date: 2020-06-03 13:00:42 -0700
 author: Bill Raymond
-title: 'Changing the Way You Collaborate Using Agile, with William "Bill" Raymond,
-  Founder and CEO of Cambermast. '
+title: Agile in the Age of Quarantine
 featuredImage: "/uploads/bill-raymond.png"
 
 ---

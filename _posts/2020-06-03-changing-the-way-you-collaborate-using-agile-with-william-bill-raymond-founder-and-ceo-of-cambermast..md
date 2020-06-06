@@ -5,7 +5,7 @@ date: 2020-06-03 13:00:42 -0700
 author: Bill Raymond
 title: 'Changing the Way You Collaborate Using Agile, with William "Bill" Raymond,
   Founder and CEO of Cambermast. '
-featuredImage: ''
+featuredImage: "/uploads/bill-raymond.png"
 
 ---
 <img src="/uploads/bill-raymond.png" style="float:right;" width="200"/> In this inaugural podcast, my colleague John Cororcoran interviews me about the history of agile. -Bill
@@ -50,4 +50,4 @@ The clientele of Cambermast range from tech companies such as [Microsoft](https:
 
 To learn morea about the [services they offer](https://www.cambermast.com/services/), visit their [website](http://www.cambermast.com) or email them at [info@cambermast.com](mailto:info@cambermast.com).
 
-<style>ul{list-style:disc;padding-left:20px;}p{text-align:justify;margin-bottom:20px;} ul li{margin-bottom:10px;}h3{font-size:25px;</style>
+<style>ul{list-style:disc;padding-left:20px;}p{text-align:justify;margin-bottom:20px;} ul li{margin-bottom:10px;}h3{font-size:25px;}.featured-image-section .featured-image-secondary-div{padding:20px;}.featured-image-secondary{display:none;}</style>

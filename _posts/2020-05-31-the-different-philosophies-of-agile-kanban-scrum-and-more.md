@@ -4,7 +4,7 @@ categories: agile-in-action-podcast
 date: 2020-05-31T21:00:52.000+00:00
 author: Bill Raymond
 title: A quick look at agile frameworks
-featuredImage: ''
+featuredImage: "#"
 
 ---
 <img src="/uploads/bill-raymond.png" style="float:right;" width="200"/>

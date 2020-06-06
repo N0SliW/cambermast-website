@@ -7,13 +7,11 @@ title: A Glimpse Into the Agile Transformation Journey
 featuredImage: ''
 
 ---
-<img src="/uploads/bethann-zaveson.png" style="float:right;" width="200"/>In this podcast, I speak with long-time friend and colleague Bethann Zaveson. We talk about her project management career and how it progressed from more traditional approaches to using agile concepts. We learn how Bethann considers agile teams as a critical foundation to remain competitive. -Bill
+<img src="/uploads/bethann-zaveson.png" style="float:right;" width="200"/> In this podcast, I speak with long-time friend and colleague Bethann Zaveson. We talk about her project management career and how it progressed from more traditional approaches to using agile concepts. We learn how Bethann considers agile teams as a critical foundation to remain competitive. -Bill
 
 Bethann Zaveson is the Director of Portfolio Management for IT at AmTrust Financial Services, Inc., a New York City-based multinational property and casualty insurance company, offering workers' compensation, general liability, business owners policies, cyber liability, EPLI, and more.
 
 Bethann’s career started in mechanical engineering and advanced towards marketing and creating centralized strategies to achieve her client's goals. She has 14 years of experience in portfolio management that spans across several industries, from insurance to real estate.
-
-<p> </p>
 
 <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/14719565/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
@@ -51,6 +49,6 @@ This episode is brought to you by [Cambermast](https://www.cambermast.com/), an 
 
 The clientele of Cambermast range from tech companies such as [Microsoft](https://www.microsoft.com/en-ph) to [Duke Energy](https://www.duke-energy.com/home), and [Moen Corporation](https://www.moen.com/about-moen/moen-offices). No matter what your business is, they can help you and your company to keep up with the changes in your industry using agile techniques and tools.
 
-To learn morea about the [services they offer](https://www.cambermast.com/services/), visit their [website](http://www.cambermast.com) or email them at [info@cambermast.com](mailto:info@cambermast.com).
+To learn more about the [services they offer](https://www.cambermast.com/services/), visit their [website](http://www.cambermast.com) or email them at [info@cambermast.com](mailto:info@cambermast.com).
 
 <style>ul{list-style:disc;padding-left:20px;}p{text-align:justify;margin-bottom:20px;} ul li{margin-bottom:10px;}h3{font-size:25px;}/_.featured-image-section .featured-image-secondary-div{padding:20px;}.featured-image-secondary{display:none;}_*/</style>

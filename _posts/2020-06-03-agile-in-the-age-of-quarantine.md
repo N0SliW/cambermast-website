@@ -7,17 +7,17 @@ title: Agile in the age of quarantine
 featuredImage: ''
 
 ---
-<img src="/uploads/bill-raymond.png" style="float:right;" width="200"/> In this inaugural podcast, my colleague John Cororcoran interviews me about the history of agile. -Bill
+<img src="/uploads/bill-raymond.png" style="float:right;" width="200"/> 
+
+In this inaugural podcast, my colleague John Cororcoran interviews me about the history of agile. -Bill
 
 William "Bill" Raymond is the founder of Cambermas,; an award-winning strategic consulting firm focused on helping companies stay relevant in today's fast-paced, technology-driven company. Bill guides his clients through workshops where they learn how to innovate and use agile methods and tools to collaborate and create solutions that help them stay relevant and up-to-date. He has worked in the project management industry for over 20 years and continues to inspire others to collaborate and to bring teams together.
 
 <p> </p>
 
-<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/14427992/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe> 
+<iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/14427992/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 <div class="podwrap"> <a href="https://open.spotify.com/show/6ntGFKgVK1vurtfFBCCwLq" target="_blank" rel="noopener"><img class="alignnone wp-image-1313" src="/uploads/listen-spotify.png" alt="Listen to Spotify" width="180" height="95" /></a> <a href="https://www.stitcher.com/podcast/rise25-media/agile-in-action-with-bill-raymond" target="_blank" rel="noopener"> <img class="alignnone wp-image-1318" src="/uploads/sticher-min.png" alt="sticher" width="180" height="95" style="top: 6px; position: relative;" /> </a> <a href="https://www.deezer.com/show/1285692" target="_blank" rel="noopener"><img class="alignnone wp-image-1318" src="/uploads/deezer-logo.png" alt="Deezer" width="180" height="95" /></a></div>
-
-
 
 ### **Here’s a glimpse of what you’ll learn:**
 

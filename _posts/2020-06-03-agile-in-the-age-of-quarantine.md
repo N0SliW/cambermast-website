@@ -51,4 +51,4 @@ The clientele of Cambermast range from tech companies such as [Microsoft](https:
 
 To learn morea about the [services they offer](https://www.cambermast.com/services/), visit their [website](http://www.cambermast.com) or email them at [info@cambermast.com](mailto:info@cambermast.com).
 
-<style>ul{list-style:disc;padding-left:20px;}p{text-align:justify;margin-bottom:20px;} ul li{margin-bottom:10px;}h3{font-size:25px;}_.featured-image-section .featured-image-secondary-div{padding:20px;}.featured-image-secondary{display:none;}_</style>
+<style>ul{list-style:disc;padding-left:20px;}p{text-align:justify;margin-bottom:20px;} ul li{margin-bottom:10px;}h3{font-size:25px;} _._featured-image-secondary-div_{padding:20px;} .featured-image-secondary{display:none;}_</style>

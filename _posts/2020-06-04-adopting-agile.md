@@ -7,7 +7,7 @@ title: Adopting agile
 featuredImage: ''
 
 ---
-<img src="/bill-raymond.png" style="float:right;" width="200"/>Too often, organizations assume that if they use a framework like SCRUM or SAFe, they are adopting agile. In reality, agile is improving team efficiencies and leaning out waste. In this conversation, I speak with my colleague John Corcoran about some key elements of what you should be thinking about when adopting agile. -Bill 
+<img src="/uploads/bill-raymond.png" style="float:right;" width="200"/>Too often, organizations assume that if they use a framework like SCRUM or SAFe, they are adopting agile. In reality, agile is improving team efficiencies and leaning out waste. In this conversation, I speak with my colleague John Corcoran about some key elements of what you should be thinking about when adopting agile. -Bill 
 
 William "Bill" Raymond is the founder and CEO of Cambermast. Cambermast is an award-winning strategic consulting firm focused on helping companies stay relevant in today's fast-paced, tech-driven society. With over 20 years of experience in the project management industry, Bill has uses his expertise and understanding of Agile Methodology to help companies innovate with a new customer-focused mentality through workshops where they learn how to relate to their customers and use the methods of Agile Methodology to collaborate and create solutions through co-creation.
 

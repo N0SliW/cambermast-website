@@ -1,7 +1,7 @@
 ---
 layout: cambermast-podcast-post
 categories: agile-in-action-podcast
-date: 2020-06-03 14:00:51 -0700
+date: 2020-05-31 13:30:51 -0700
 author: Bill Raymond
 title: Agile in the age of quarantine
 featuredImage: ''

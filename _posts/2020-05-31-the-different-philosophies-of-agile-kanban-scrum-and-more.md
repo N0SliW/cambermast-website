@@ -25,7 +25,7 @@ William "Bill" Raymond is the founder and CEO of Cambermast, an award-winning st
 * Working in a SCRUM way and how to get the most out of stand-up meetings
 * How agile works for an enterprise and the cultural change that helps agile take root
 
-### In this episode…
+### **In this episode…**
 
 Agile has the power of helping a business transform their structure but for the framework to work, they need to have the capacity to adapt and embrace change. There are multiple approaches and philosophies of agile that often overlap with traditional ways of thinking and the cultural shifts that happen within a company must focus on the missing links to streamlining a conversation or project. And getting companies to effectively incorporate agile methods into companies is what Bill Raymond, Founder and CEO of Cambermast, is good at.
 

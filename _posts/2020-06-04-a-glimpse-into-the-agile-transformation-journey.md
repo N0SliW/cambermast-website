@@ -8,7 +8,7 @@ featuredImage: ''
 
 ---
 <img src="/uploads/bethann-zaveson.png" style="float:right;margin-left: 20px;" width="200"/> In this podcast, I speak with long-time friend and colleague Bethann Zaveson. We talk about her project management career and how it progressed from more traditional approaches to using agile concepts. We learn how Bethann considers agile teams as a critical foundation to remain competitive. -Bill
-
+ 
 Bethann Zaveson is the Director of Portfolio Management for IT at AmTrust Financial Services, Inc., a New York City-based multinational property and casualty insurance company, offering workers' compensation, general liability, business owners policies, cyber liability, EPLI, and more.
 
 Bethann’s career started in mechanical engineering and advanced towards marketing and creating centralized strategies to achieve her client's goals. She has 14 years of experience in portfolio management that spans across several industries, from insurance to real estate.

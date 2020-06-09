@@ -20,13 +20,14 @@
 }
 
 .podcast-feed-image {
-    width: 100%;
+    display: grid;
+    width: 250px;
     height: 250px;
     object-fit: cover;
     border-radius: 5px;
 }
 
-// topography for the podcast feed.
+// typography for the podcast feed.
 .podcast-feed-title {
     color:$navHoverColor;
     text-decoration: none;

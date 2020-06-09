@@ -9,7 +9,7 @@
                     <div class="podcast-feed-image-div">
                         <!-- Display the post's featured image, otherwise display a default -->
                         {%- if post.featuredImage == "" or post.featuredImage == nil -%}
-                            <img class="podcast-feed-image" src="{{- '/assets/featured-images/podcast-feed-placeholder.jpg' | relative_url -}}">
+                            <img class="podcast-feed-image" src="{{- '/assets/featured-images/podcast-feed-placeholder.png' | relative_url -}}">
                         {%- else -%}
                            <img class="podcast-feed-image" src="{{- post.featuredImage | relative_url }}" alt="{{- post.title -}}">
                         {%- endif -%}

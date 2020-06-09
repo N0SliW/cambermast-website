@@ -22,7 +22,7 @@
                 {%- assign fiImageUrl = '/assets/featured-images/podcast-feed-placeholder.jpg' -%}
         {%- endif -%}
             <!-- Begin displaying the feed -->
-            {%- if type == 'agile-blog' or type == 'agile-in-action-podcast' -%}
+            {%- if type == 'agile-blog' -%}
                 <div class="blog-feed-item">
                     <div class="blog-feed-image-div">
                         <img class="blog-feed-image" src="{{- fiImageUrl | relative_url }}" alt="{{- post.title -}}">

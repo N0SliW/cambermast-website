@@ -1,0 +1,32 @@
+<!-- Feed listing for blogs, podcasts, or other post types -->
+<main class="feed-section">
+    {%- if site.posts.size > 0 -%} <!-- Only display content if there are posts -->
+        {%- for post in site.posts -%}
+            {%- if post.categories[0] == page.feed-type -%} <!-- only display posts with the defined feed type -->
+            <div class="post-card">
+                <div class="post-card-image"> <!-- Display the post's featured image, otherwise display a default -->
+                    {%- if post.featuredImage == "" or post.featuredImage == nil -%}
+                        <!-- No featured image provided, so get it from the index.html file. -->
+                        <img class="featured-image" src="{{- page.default-image | relative_url -}}">
+                    {%- else -%}
+                        <!-- There is a featured image, so use that -->
+                        <img class="featured-image" src="{{- post.featuredImage | relative_url }}" alt="{{- post.title -}}">
+                    {%- endif -%}
+                </div> <!-- end post image -->
+                <div class="post-card-title">
+                    <a href="{{- post.url | relative_url -}}" class="post-title">{{- post.title | escape -}}</a>
+                </div>
+                <div class="post-card-excerpt">
+                    <!-- Excerpt text should be plain text -->
+                    {%- assign excerptText = post.excerpt -%}
+                    {%- assign excerptText = excerptText | strip_html -%}
+                    {%- assign excerptText = excerptText | escape -%}
+                    {%- assign excerptText = excerptText | lstrip -%}
+                    {%- assign excerptText = excerptText | rstrip -%}
+                    {{- excerptText -}}
+                </div>
+            </div> <!-- end excerpt -->
+            {%- endif -%}
+        {%- endfor -%}
+    {%- endif -%}
+</main>

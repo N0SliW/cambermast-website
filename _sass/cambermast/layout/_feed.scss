@@ -1,0 +1,32 @@
+// layout for any posts (blog, podcast, etc.)
+
+.feed-section {
+    display: grid;
+    margin-top: 50px;
+    margin-left: $gridMarginLeft; // indent the podcast list.
+    margin-right: $gridMarginRight; // indent the podcast list.
+    row-gap: 15px;
+
+    // reduce the side border on the grid if mobile
+    @include for-size(phone-only){
+        margin-left: 5px;
+        margin-right: 5px;
+        align-items: start;
+        column-gap: 0px;
+    }
+}
+
+// the "card" is the image, title, author, etc. for a post.
+.post-card {
+    display: grid;
+    grid-template-columns: 110px 1fr;
+    grid-template-rows: 110px;
+    column-gap: 20px;
+}
+
+.featured-image {
+    height: 100px;
+    object-fit: cover;
+}
+
+// typography

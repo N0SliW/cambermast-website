@@ -1,6 +1,7 @@
 // layout for any posts (blog, podcast, etc.)
 
 .feed-section {
+    // container for the feed items
     display: grid;
     margin-top: 50px;
     margin-left: $gridMarginLeft; // indent the podcast list.
@@ -16,17 +17,75 @@
     }
 }
 
-// the "card" is the image, title, author, etc. for a post.
-.post-card {
+// the "card" is the display for a single post.
+.feed-card {
+    // display a 2-column, single-row grid that repeats vertically.
     display: grid;
     grid-template-columns: 110px 1fr;
     grid-template-rows: 110px;
-    column-gap: 20px;
+    column-gap: 20px; // space between the image and the title.
+    // align-items: center;
 }
 
-.featured-image {
-    height: 100px;
+.feed-item-image {
+    height: 100%;
+    width: auto;
     object-fit: cover;
 }
 
+// display three rows to the right of the feed item's image.
+.feed-card-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: min-content auto min-content;
+    grid-template-areas: 
+        "feed-card-title" 
+        "feed-card-excerpt"
+        "feed-card-author";
+}
+
+.feed-card-title {
+    grid-area: feed-card-title;
+    margin-top: 5px;
+}
+
+.feed-card-excerpt {
+    grid-area: feed-card-excerpt;
+    margin-top: 5px;
+    @include for-size(phone-only){
+        margin-top: 0px;
+    }
+}
+
+.feed-card-author {
+    grid-area: feed-card-author;
+    align-content: flex-end;
+    margin-bottom: 5px;
+    @include for-size(phone-only){
+        margin-bottom: 0px;
+    }
+}
+
 // typography
+.feed-item-title {
+    font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300))); // min and max font size
+}
+
+.feed-item-link {
+    text-decoration: none;
+    color: $cambermastPrimary;
+    &:link { color: $cambermastPrimary; }
+    &:visited { color: $cambermastPrimary; }
+    &:hover { color: $cambermastAltDarkBlue; }
+}
+
+.feed-item-excerpt {
+    font-size: calc(12px + (14 - 12) * ((100vw - 300px) / (1600 - 300))); // min and max font size
+    color: grey;
+}
+
+.feed-item-author {
+    font-size: calc(12px + (14 - 12) * ((100vw - 300px) / (1600 - 300))); // min and max font size
+    text-transform: uppercase;
+    color: grey;
+}

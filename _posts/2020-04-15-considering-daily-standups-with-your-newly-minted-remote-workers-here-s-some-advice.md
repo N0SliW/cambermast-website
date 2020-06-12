@@ -8,7 +8,7 @@ title: Considering daily standups with your newly minted remote workers? Here's 
 featuredImage: "/uploads/mimi-thian-BYGLQ32Wjx8-unsplash.jpg"
 
 ---
-We are in March 2020, and if you are an office worker, there is a good chance your office is now your living room, or you are at least practicing the new "it" term, social distancing. In short, you are probably not able to catch up with people and pop in and out of meetings like you did a few weeks ago.
+I write this article in March 2020, and if you are an office worker, there is a good chance your office is now your living room.  You are also practicing the new "it" term, social distancing. In short, you are probably not able to catch up with people and pop in and out of meetings like you did a few weeks ago.
 
 Another "it" term is agile, and as an agile practitioner, I can tell you the most prominent "it" in agile is standup meetings.
 

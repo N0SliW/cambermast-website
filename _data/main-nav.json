@@ -43,7 +43,7 @@
             "type": "text",
             "content": "Content",
             "imageUrl": "",
-            "display": true,
+            "display": false,
             "orderby": 5
         },
         {

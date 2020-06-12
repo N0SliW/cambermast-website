@@ -8,7 +8,7 @@ featuredImage: ''
 
 ---
 Adopting agile means organizing your teams for efficiency, or as authors Manuel Pais and Matthew Skelton put it, improving team flow. Their book Team Topologies is a must-read for any organization that wants to adopt agile. -Bill
-
+ 
 <img src="/uploads/manuel-pais-min.jpg" style="float:right;" width="200"/>
 
 Manuel Pais is the co-author of _Team Topologies_, a book focused on team organization and agile in corporate spaces. He is a lead Editor at Conflux, and the DevOps Lead Editor at InfoQ, where he uses his background in team topologies and DevOps to further ideas on creating an efficient team in the workplace and beyond. Manuel is also an IT Organizational Consultant and trainer, helping clients understand their organizations and accelerate workflow and delivery practices.

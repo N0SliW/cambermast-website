@@ -24,10 +24,6 @@
     grid-template-columns: 110px minmax(600px, 1fr);
     grid-template-rows: 110px;
     column-gap: 20px; // space between the image and the title.
-
-    @include for-size(phone-only){
-        grid-template-columns: 110px 1fr);
-    }
 }
 
 .feed-item-image {

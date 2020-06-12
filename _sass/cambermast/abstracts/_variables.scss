@@ -25,8 +25,8 @@ $debugEventBorder: #e3e3e3;
 $debug: false;
 
 // Cambermast branding
-$cambermastPrimay: #0037Be;
-$cambermastBlack: #000000;
+$cambermastPrimary: #0037Be;
+$cambermastBlack: #0e0c0c;
 $cambermastWhite: #ffffff;
 $cambermastAltLightBlue: #0063f2;
 $cambermastAltDarkBlue: #012072;
@@ -36,9 +36,9 @@ $cambermastAltSand: #e5a16e;
 
 // Navigation area
 $navBackground: wite;
-$navDefaultColor: $cambermastPrimay;
-$navHoverColor: $cambermastPrimay;
-$navSelectedColor: $cambermastPrimay;
+$navDefaultColor: $cambermastPrimary;
+$navHoverColor: $cambermastPrimary;
+$navSelectedColor: $cambermastPrimary;
 $navHeight: 30px;
 
 // Left and right border, usually for the primary content for the website (under a page banner, for example)

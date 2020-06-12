@@ -7,8 +7,8 @@ title: A quick look at agile frameworks
 featuredImage: ''
 
 ---
-<img src="/uploads/bill-raymond.png" style="float:right;" width="200"/> Mention agile and there's a good chance frameworks like Scrum, SAFe and others will come up in the conversation. Today, I speak with my colleague John Corcoran to discuss the various agile frameworks and how they fit into the agile conversation. -Bill
- 
+<img src="/uploads/bill-raymond.png" style="float:right;" width="200"/>Mention agile and there's a good chance frameworks like Scrum, SAFe and others will come up in the conversation. Today, I speak with my colleague John Corcoran to discuss the various agile frameworks and how they fit into the agile conversation. -Bill
+
 William "Bill" Raymond is the founder and CEO of Cambermast, an award-winning strategic consulting firm focused on helping companies stay relevant in today's fast-paced, tech-driven society. With over 20 years of experience in the project management industry, Bill has used his expertise and understanding of Agile Methodology to help companies innovate with a new customer-focused mentality, helping them collaborate and co-create in order to drive their business further.
 
 <p> </p>

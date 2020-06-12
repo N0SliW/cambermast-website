@@ -38,6 +38,15 @@
             "orderby": 4
         },
         {
+            "title": "Feed",
+            "url": "/feed",
+            "type": "text",
+            "content": "Content",
+            "imageUrl": "",
+            "display": false,
+            "orderby": 5
+        },
+        {
             "title": "Testimonials",
             "url": "/testimonials",
             "type": "text",

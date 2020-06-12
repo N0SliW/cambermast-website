@@ -8,7 +8,7 @@
                     <!-- Display the post's featured image. -->
                    {%- if post.featuredImage == "" or post.featuredImage == nil -%}
                        <!-- No featured image provided, so get it from the index.html file. -->
-                       <img class="feed-item-image" src="{{- page.default-image | relative_url -}}" alt="{{- post.title -}}">
+                       <img class="feed-item-image" src="{{- page.caption-image | relative_url -}}" alt="{{- post.title -}}">
                    {%- else -%}
                        <!-- There is a featured image, so use that -->
                        <img class="feed-item-image" src="{{- post.featuredImage | relative_url }}" alt="{{- post.title -}}">

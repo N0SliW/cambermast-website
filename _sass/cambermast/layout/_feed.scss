@@ -1,6 +1,12 @@
 // Generic list of all items in a feed. The calling HTML page will
 // determine whether the user is looking at a list of blog, podcast, or other types.
 
+// typography usage:
+// font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+// 18px is the smallest size. 24 is the largest size (24px).
+// to change from 10px to 12px, change 10 in both places:
+// font-size: calc(10px + (12 - 10) * ((100vw - 300px) / (1600 - 300)));
+
 .feed-section {
     // container for the feed items
     display: grid;
@@ -49,6 +55,9 @@
 .feed-card-title {
     grid-area: feed-card-title;
     margin-top: 5px;
+    @include for-size(phone-only){
+        margin-top: 0px;
+    }
 }
 
 // row to display the excerpt of the item

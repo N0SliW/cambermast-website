@@ -1,4 +1,5 @@
-// A feed can be any item 
+// Generic list of all items in a feed. The calling HTML page will
+// determine whether the user is looking at a list of blog, podcast, or other types.
 
 .feed-section {
     // container for the feed items
@@ -21,7 +22,7 @@
 .feed-card {
     // display a 2-column, single-row grid that repeats vertically.
     display: grid;
-    grid-template-columns: 110px minmax(600px, 1fr);
+    grid-template-columns: 110px 1fr;
     grid-template-rows: 110px;
     column-gap: 20px; // space between the image and the title.
 }
@@ -44,11 +45,13 @@
         "feed-card-author";
 }
 
+// row to display the title of the item
 .feed-card-title {
     grid-area: feed-card-title;
     margin-top: 5px;
 }
 
+// row to display the excerpt of the item
 .feed-card-excerpt {
     grid-area: feed-card-excerpt;
     margin-top: 5px;
@@ -57,6 +60,7 @@
     }
 }
 
+// row to display the author of the item
 .feed-card-author {
     grid-area: feed-card-author;
     align-content: flex-end;
@@ -80,7 +84,7 @@
 }
 
 .feed-item-excerpt {
-    font-size: calc(12px + (14 - 12) * ((100vw - 300px) / (1600 - 300))); // min and max font size
+    font-size: calc(10px + (14 - 10) * ((100vw - 300px) / (1600 - 300))); // min and max font size
     color: grey;
 }
 

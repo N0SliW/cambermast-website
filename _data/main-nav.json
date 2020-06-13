@@ -21,7 +21,7 @@
         },
         {
             "title": "Blog",
-            "url": "/agile-blog",
+            "url": "/feed/blog",
             "type": "text",
             "content": "Content",
             "imageUrl": "",

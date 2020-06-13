@@ -1,12 +1,6 @@
 // Generic list of all items in a feed. The calling HTML page will
 // determine whether the user is looking at a list of blog, podcast, or other types.
 
-// typography usage:
-// font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
-// 18px is the smallest size. 24 is the largest size (24px).
-// to change from 10px to 12px, change 10 in both places:
-// font-size: calc(10px + (12 - 10) * ((100vw - 300px) / (1600 - 300)));
-
 .feed-section {
     // container for the feed items
     display: grid;
@@ -88,7 +82,7 @@
 
 // typography
 .feed-item-title {
-    font-size: calc(11 + (24 - 11) * ((100vw - 300px) / (1600 - 300))); // min and max font size
+    @include fluid-type(11px, 24px);
 }
 
 .feed-item-link {
@@ -100,12 +94,12 @@
 }
 
 .feed-item-excerpt {
-    font-size: calc(11px + (14 - 11) * ((100vw - 300px) / (1600 - 300))); // min and max font size
+    @include fluid-type(11px, 16px);
     color: grey;
 }
 
 .feed-item-author {
-    font-size: calc(8px + (14 - 8) * ((100vw - 300px) / (1600 - 300))); // min and max font size
+    @include fluid-type(11px, 14px);
     text-transform: uppercase;
     color: grey;
 }

@@ -2,7 +2,16 @@
 layout: cambermast-default
 ---
 <div class="home-container">
-  <!-- Display the feed (blog, podcast, etc) content -->
-  {%- include cambermast-includes/feed.html -%}
+    <!-- Display the navigation section -->
+      {%- include cambermast-includes/nav.html -%}
+    <!-- Display the play podcast section -->
+      {%- include cambermast-includes/playpod.html -%}
+    <!-- Display the home page header image -->
+    <!-- TODO #1: Automate this with Liquid -->
+      {%- include cambermast-includes/banner-podcast-feed.html -%}
+    <!-- Display the feed (blog, podcast, etc) content -->
+      {%- include cambermast-includes/feed.html -%}
+    <!-- Display the footer section -->
+      {%- include cambermast-includes/footer.html -%}
 </div>
 

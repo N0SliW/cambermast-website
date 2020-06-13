@@ -30,7 +30,7 @@
         },
         {
             "title": "Podcast",
-            "url": "/agile-in-action-podcast",
+            "url": "/feed/podcast",
             "type": "text",
             "content": "Content",
             "imageUrl": "",

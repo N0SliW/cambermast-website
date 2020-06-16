@@ -38,7 +38,7 @@ QuickBooks and TurboTax are practically household names. Intuit drives projects 
 
 In this week's episode, Bill Raymond chats with Vincent Abbate, Senior Content Designer at Intuit, about the process he uses for content design and how he applies agile methods into it. Vincent talks about how he uses test users to understand the UX and deliver a more relatable product, what it takes to have a successful agile team, and the importance of trust and human connections. Stay tuned.
 
-### **Resources Mentioned in this episode**
+### **Resources Mentioned in this episode** 
 
 * [Bill Raymond on LinkedIn](https://www.linkedin.com/in/williamraymond)
 * Bill Raymond’s email address: [Bill.Raymond@Cambermast.com](mailto:Bill.Raymond@Cambermast.com)

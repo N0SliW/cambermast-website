@@ -70,7 +70,7 @@
 // Usage:
 //        @include fluid-type(14px, 18px);
 //        or
-//        @include fluid-type(20px, 32px, $vw-min: 500px);
+///        @include fluid-type(20px, 32px, $vw-min: 500px);
 /// Responsive font sizing. The size of the font will scale with the viewport
 /// based on the information that you provide it. Additional properties may be
 /// adding for things like padding.
@@ -148,9 +148,7 @@
       }
     }
   } @else {
-    @error "All units must be the same. Incompatible units were passed:
-    #{unit($font-size-min)}, #{unit($font-size-max)}, #{unit($vw-min)},
-    #{unit($vw-max)}";
+    @error "All units must be the same. Incompatible units were passed: #{unit($font-size-min)}, #{unit($font-size-max)}, #{unit($vw-min)}, #{unit($vw-max)}";
   }
 }
 

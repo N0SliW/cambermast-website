@@ -40,15 +40,13 @@ In this week's episode, Bill Raymond chats with Vincent Abbate, Senior Content D
 
 ### **Resources Mentioned in this episode**
 
-    <ul>
-    <li><a href="https://www.linkedin.com/in/williamraymond" target="_blank" rel="noopener">Bill Raymond on LinkedIn </a></li>
-    <li>Bill Raymond’s email address: <a href="mailto:Bill.Raymond@Cambermast.com" target="_blank" rel="noopener">Bill.Raymond@Cambermast.com</a></li>
-    <li><a href="https://twitter.com/billraymonde" target="_blank" rel="noopener">Bill Raymond on Twitter</a></li>
-    <li><a href="http://techgenix.com/podcast/the-t-suite/" target="_blank" rel="noopener">T-Suite Podcast by Bill Raymond</a></li>
-    <li><a href="https://www.linkedin.com/in/copywritervince" target="_blank" rel="noopener">Vincent Abbate on LinkedIn</a></li>
-    <li><a href="https://www.intuit.com/" target="_blank" rel="noopener">Intuit </a></li>
-    <li><a href="https://www.linkedin.com/company/intuit/about/" target="_blank" rel="noopener">Intuit on LinkedIn</a></li>
-    </ul>
+* [Bill Raymond on LinkedIn](https://www.linkedin.com/in/williamraymond)
+* Bill Raymond’s email address: [Bill.Raymond@Cambermast.com](mailto:Bill.Raymond@Cambermast.com)
+* [Bill Raymond on Twitter](https://twitter.com/billraymonde)
+* [T-Suite Podcast by Bill Raymond](http://techgenix.com/podcast/the-t-suite/)
+* [Vincent Abbate on LinkedIn](https://www.linkedin.com/in/copywritervince)
+* [Intuit](https://www.intuit.com/)
+* [Intuit on LinkedIn](https://www.linkedin.com/company/intuit/about/)
 
 ### **Sponsor for this episode...**
 

@@ -38,10 +38,9 @@ Join Agile in Action with host Bill Raymond in this episode as he talks to John 
 ### **Resources Mentioned in this episode**
 
 * [Bill Raymond on LinkedIn](https://www.linkedin.com/in/williamraymond)
-* [Bill’s Email](http://bill.raymond@cambermast.com)
-* [T-Suite Podcast by Bill Raymond](http://techgenix.com/podcast/the-t-suite/)
+* [Bill’s Email](Bill.Raymond@Cambermast.com)
 * [Cambermast](https://www.cambermast.com/)
-* [Cambermast on Twitter](https://twitter.com/cambermast?lang=en)
+* [Bill Raymond on Twitter](https://twitter.com/billraymonde)
 * [The Agile Manifesto](https://agilemanifesto.org/)
 * [John Corcoran on LinkedIn](https://www.linkedin.com/in/corcoran)
 * [Rise25](http://rise25.com)

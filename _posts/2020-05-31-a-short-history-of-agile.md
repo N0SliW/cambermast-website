@@ -10,7 +10,7 @@ featuredImage: "/uploads/bill-raymond.png"
 <img src="/uploads/bill-raymond.png" style="float:right;" width="200"/>
 In this inaugural podcast, my colleague John Cororcoran interviews me about the history of agile. -Bill
 
-William "Bill" Raymond has worked in the project management industry for over 20 years and inspired others to collaborate while bringing several teams together with the Agile Methodology. He is the founder of Cambermast; an award-winning strategic consulting firm focused on helping companies stay relevant in today's fast-paced, technology-driven company. Bill guides his clients through workshops where they learn how to innovate and use the methods of Agile Methodology to collaborate and create solutions through co-creation.
+Bill Raymond is the founder and CEO of Cambermast; an award-winning strategic consulting firm focused on helping companies stay relevant in today’s fast-paced, technology-driven economy. With over 20 years of experience in the project management industry, Bill has used his industry knowledge to help clients optimize efficiency and innovate with a customer-focused mentality.
 
 <p> </p>
 

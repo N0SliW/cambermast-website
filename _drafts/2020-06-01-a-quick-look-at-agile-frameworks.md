@@ -1,7 +1,7 @@
 ---
 layout: cambermast-podcast-post
 categories: agile-in-action-podcast
-date: 2020-06-01 13:00:16 -0700
+date: 2020-06-01T13:00:16.000-07:00
 author: Bill Raymond
 title: A quick look at agile frameworks
 featuredImage: ''

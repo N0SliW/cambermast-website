@@ -1,7 +1,7 @@
 ---
 layout: cambermast-podcast-post
 categories: agile-in-action-podcast
-date: 2020-05-31 13:20:00 -0700
+date: 2020-05-31T13:20:00.000-07:00
 author: Bill Raymond
 title: Team topologies and obsession over a rapid flow of change
 featuredImage: ''

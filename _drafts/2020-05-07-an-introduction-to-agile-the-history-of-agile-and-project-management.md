@@ -1,7 +1,7 @@
 ---
 layout: cambermast-blog-post
 categories: agile-blog
-date: 2020-05-07 12:44:34 -0700
+date: 2020-05-07T12:44:34.000-07:00
 author: Bill Raymond
 title: 'An introduction to agile: The history of agile and project management'
 featuredImage: "/uploads/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg"

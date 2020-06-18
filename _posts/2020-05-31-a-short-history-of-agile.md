@@ -20,12 +20,12 @@ Bill Raymond is the founder and CEO of Cambermast; an award-winning strategic co
 
 ### **Here’s a glimpse of what you’ll learn:**
 
-* The history of agile and how the Agile Manifesto was formed
+* The history of agile and how the Agile Manifesto was formed.
 * Has the move towards cloud computing affected the agile methodology?
-* The four key values of the agile framework
-* The importance of customer collaboration over contract negotiations
-* The value of being able to put together the right team in order to pivot your company in the right direction
-* Why you need to embrace and adapt change into your organization
+* The four key values of the agile framework.
+* The importance of customer collaboration over contract negotiations.
+* The value of being able to put together the right team in order to pivot your company in the right direction.
+* Why you need to embrace and adapt change into your organization?
 
 ### **In this episode…**
 

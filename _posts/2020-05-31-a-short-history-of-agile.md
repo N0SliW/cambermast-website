@@ -4,7 +4,7 @@ categories: agile-in-action-podcast
 date: 2020-05-31T20:00:50.000+00:00
 author: Bill Raymond
 title: 'A Short History of Agile '
-featuredImage: "/uploads/bill-raymond.png"
+featuredImage: ''
 
 ---
 <img src="/uploads/bill-raymond.png" style="float:right;" width="200"/>
@@ -38,7 +38,7 @@ Join Agile in Action with host Bill Raymond in this episode as he talks to John 
 ### **Resources Mentioned in this episode**
 
 * [Bill Raymond on LinkedIn](https://www.linkedin.com/in/williamraymond)
-* [Bill’s Email][mailto](Bill.Raymond@Cambermast.com) 
+* \[Bill’s Email\][mailto](Bill.Raymond@Cambermast.com)
 * [Cambermast](https://www.cambermast.com/)
 * [Bill Raymond on Twitter](https://twitter.com/billraymonde)
 * [The Agile Manifesto](https://agilemanifesto.org/)
@@ -53,4 +53,4 @@ The clientele of Cambermast range from tech companies such as [Microsoft](https:
 
 To learn more about the [services they offer](https://www.cambermast.com/services/), visit their [website](http://www.cambermast.com) or email them at [info@cambermast.com](mailto:info@cambermast.com).
 
-<style>ul{list-style:disc;padding-left:20px;}p{text-align:justify;margin-bottom:20px;} ul li{margin-bottom:10px;}h3{font-size:25px;} .featured-image-section .featured-image-secondary-div{padding:20px;}.featured-image-secondary{display:none;} .podcast-post-section img{margin-left:20px;}</style>
+<style>ul{list-style:disc;padding-left:20px;}p{text-align:justify;margin-bottom:20px;} ul li{margin-bottom:10px;}h3{font-size:25px;} .featured-image-section .featured-image-secondary-div{padding:20px;}.podcast-post-section img{margin-left:20px;}</style>

@@ -38,7 +38,7 @@ Join Agile in Action with host Bill Raymond in this episode as he talks to John 
 ### **Resources Mentioned in this episode**
 
 * [Bill Raymond on LinkedIn](https://www.linkedin.com/in/williamraymond)
-* [Bill’s Email]([mailto](Bill.Raymond@Cambermast.com))
+* [Bill’s Email](mailto:Bill.Raymond@Cambermast.com) 
 * [Cambermast](https://www.cambermast.com/)
 * [Bill Raymond on Twitter](https://twitter.com/billraymonde)
 * [The Agile Manifesto](https://agilemanifesto.org/)

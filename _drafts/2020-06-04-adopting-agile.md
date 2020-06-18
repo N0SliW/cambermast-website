@@ -7,14 +7,13 @@ title: Adopting agile
 featuredImage: ''
 
 ---
-<img src="/uploads/bill-raymond.png" style="float:right;" width="200"/>Too often, organizations assume that if they use a framework like SCRUM or SAFe, they are adopting agile. In reality, agile is improving team efficiencies and leaning out waste. In this conversation, I speak with my colleague John Corcoran about some key elements of what you should be thinking about when adopting agile. -Bill 
+<img src="/uploads/bill-raymond.png" style="float:right;" width="200"/>Too often,  organizations assume that if they use a framework like SCRUM or SAFe, they are adopting agile. In reality, agile is improving team efficiencies and leaning out waste. In this conversation, I speak with my colleague John Corcoran about some key elements of what you should be thinking about when adopting agile. -Bill
 
 William "Bill" Raymond is the founder and CEO of Cambermast. Cambermast is an award-winning strategic consulting firm focused on helping companies stay relevant in today's fast-paced, tech-driven society. With over 20 years of experience in the project management industry, Bill has uses his expertise and understanding of Agile Methodology to help companies innovate with a new customer-focused mentality through workshops where they learn how to relate to their customers and use the methods of Agile Methodology to collaborate and create solutions through co-creation.
 
 <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/14719652/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 <div class="podwrap"> <a href="https://open.spotify.com/show/6ntGFKgVK1vurtfFBCCwLq" target="_blank" rel="noopener"><img class="alignnone wp-image-1313" src="/uploads/listen-spotify.png" alt="Listen to Spotify" width="180" height="95" /></a> <a href="https://www.stitcher.com/podcast/rise25-media/agile-in-action-with-bill-raymond" target="_blank" rel="noopener"> <img class="alignnone wp-image-1318" src="/uploads/sticher-min.png" alt="sticher" width="180" height="95" style="top: 6px; position: relative;" /> </a> <a href="https://www.deezer.com/show/1285692" target="_blank" rel="noopener"><img class="alignnone wp-image-1318" src="/uploads/deezer-logo.png" alt="Deezer" width="180" height="95" /></a></div>
-
 
 ### **Here’s a glimpse of what you’ll learn:**
 

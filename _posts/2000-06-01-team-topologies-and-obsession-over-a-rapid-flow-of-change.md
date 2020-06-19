@@ -4,7 +4,7 @@ categories: agile-in-action-podcast
 date: 2020-05-31T13:20:00.000-07:00
 author: Bill Raymond
 title: Team topologies and obsession over a rapid flow of change
-featuredImage: ''
+featuredImage: "/uploads/team-topologies.jpg"
 
 ---
 Adopting agile means organizing your teams for efficiency, or as authors Manuel Pais and Matthew Skelton put it, improving team flow. Their book Team Topologies is a must-read for any organization that wants to adopt agile. -Bill
@@ -14,13 +14,11 @@ Adopting agile means organizing your teams for efficiency, or as authors Manuel 
 
 Manuel Pais is the co-author of _Team Topologies_, a book focused on team organization and agile in corporate spaces. He is a lead Editor at Conflux, and the DevOps Lead Editor at InfoQ, where he uses his background in team topologies and DevOps to further ideas on creating an efficient team in the workplace and beyond. Manuel is also an IT Organizational Consultant and trainer, helping clients understand their organizations and accelerate workflow and delivery practices.
 
-
-Matthew Skelton is the co-author of _Team Topologies_ and several other books. He is also the Founder and Lead Consultant at Conflux, a specialist publisher of practitioner-led techniques for software teams, and the Lead Instigator at SenseConf, a conference held several times a year to share ideas in DevOps and Agile in corporate spaces. Matthew has written several other books on software delivery, and he also runs a blog where he shares his experiences working with teams and creating an environment where teams can grow on an individual and group scale.
+Matthew Skelton is the co-author of _Team Topologies_ and several other books. He is also the Founder and Lead Consultant at Conflux, a specialist publisher of practitioner-led techniques for software teams, and the Lead Instigator at SenseConf, a conference held several times a year to share ideas in DevOps and Agile in corporate spaces. Matthew has written several other books on software delivery, and he also runs a blog where he shares his experiences working with teams and creating an environment where teams can grow on an individual and group scale
 
 <iframe style="border: none" src="//html5-player.libsyn.com/embed/episode/id/14797205/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/87A93A/" height="90" width="100%" scrolling="no"  allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
 
 <div class="podwrap"> <a href="https://open.spotify.com/show/6ntGFKgVK1vurtfFBCCwLq" target="_blank" rel="noopener"><img class="alignnone wp-image-1313" src="/uploads/listen-spotify.png" alt="Listen to Spotify" width="180" height="95" /></a> <a href="https://www.stitcher.com/podcast/rise25-media/agile-in-action-with-bill-raymond" target="_blank" rel="noopener"> <img class="alignnone wp-image-1318" src="/uploads/sticher-min.png" alt="sticher" width="180" height="95" style="top: 6px; position: relative;" /> </a> <a href="https://www.deezer.com/show/1285692" target="_blank" rel="noopener"><img class="alignnone wp-image-1318" src="/uploads/deezer-logo.png" alt="Deezer" width="180" height="95" /></a></div>
-
 
 ### Here’s a glimpse of what you’ll learn:
 
@@ -42,11 +40,9 @@ In this week's episode, host Bill Raymond is joined by Matthew Skelton and Manue
 
 ### Resources Mentioned in this episode
 
-* [Cambermast](https://www.cambermast.com/)
 * [Bill Raymond on LinkedIn](https://www.linkedin.com/in/williamraymond)
 * Bill Raymond’s email address: [Bill.Raymond@Cambermast.com](mailto:Bill.Raymond@Cambermast.com)
 * [Bill Raymond on Twitter](https://twitter.com/billraymonde)
-* [T-Suite Podcast by Bill Raymond](http://techgenix.com/podcast/the-t-suite/)
 * [Manuel Pais on LinkedIn](https://es.linkedin.com/in/manuelpais)
 * [Manuel Pais on Twitter](https://twitter.com/manupaisable/status/1239587053580554244)
 * [Matthew Skelton on LinkedIn](https://uk.linkedin.com/in/matthewskelton)
@@ -66,4 +62,4 @@ The clientele of Cambermast range from tech companies such as [Microsoft](https:
 
 To learn more about the [services they offer](https://www.cambermast.com/services/), visit their [website](http://www.cambermast.com) or email them at [info@cambermast.com](mailto:info@cambermast.com).
 
-<style>ul{list-style:disc;padding-left:20px;}p{text-align:justify;margin-bottom:20px;} ul li{margin-bottom:10px;}h3{font-size:25px;} .featured-image-section .featured-image-secondary-div{padding:20px;}.featured-image-secondary{display:none;} .podcast-post-section img{margin-left:20px;}</style>
+<style>ul{list-style:disc;padding-left:20px;}p{text-align:justify;margin-bottom:20px;} ul li{margin-bottom:10px;}h3{font-size:25px;} .featured-image-section .featured-image-secondary-div{padding:20px;} /*_.featured-image-secondary{display:none;}_*/ .podcast-post-section img{margin-left:20px;}</style>

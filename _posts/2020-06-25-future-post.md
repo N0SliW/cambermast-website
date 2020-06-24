@@ -7,4 +7,4 @@ title: future post
 featuredImage: ''
 
 ---
-this is a future post.
+this is a future post

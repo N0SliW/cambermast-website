@@ -1,44 +1,53 @@
 {% comment %}
     Feed listing for blogs, podcasts, or other post types
-    This page takes the following parameters:
-    title: optionional in the event a page title is required
-    feed-type: the "category" of post to use, which is found on the post itself
-    caption-image: default image for any item displayed in the feed
+    This calling page accepts the following parameters:
+
+    REQUIRED:
+    feed-type:      The "category" of post to use, which is found on the post itself
+    caption-image:  default image for any item displayed in the feed
+    
+    OPTIONAL:
+    display-offset: tells the feed how many posts to skip.
+                    Default is 0 (zero)
+                    Useful if the first post is highlighted on a page and it
+                    shouldn't appear again on the feed
+    display-limit:  determines how many posts to display.
+                    Default is null (zero displays no feed items)
+
+    OPTIONAL/NOT USED:
+    title:          Use in the event a page title is required
 {% endcomment %}
 <main class="feed-section">
-    {%- if site.posts.size > 0 -%} <!-- Only display content if there are posts -->
-        {%- for post in site.posts -%}
-            {%- if post.categories[0] == page.feed-type -%} <!-- only display posts with the defined feed type -->
-            <div class="feed-card">
-                <div class="feed-card-image">
-                    {% comment %} Display the post's featured image. {% endcomment %}
-                   {%- if post.featuredImage == "" or post.featuredImage == nil -%}
-                       <!-- No featured image provided, so get it from the index.html file. -->
-                       <img class="feed-item-image" src="{{- page.caption-image | relative_url -}}" alt="{{- post.title -}}">
-                   {%- else -%}
-                       {% comment %} There is a featured image, so use that {% endcomment %}
-                       <img class="feed-item-image" src="{{- post.featuredImage | relative_url }}" alt="{{- post.title -}}">
-                   {%- endif -%}
+    {% assign feedPosts = site.posts | where: 'categories', page.feed-type %}
+    {% for post in feedPosts offset: page.display-offset limit: page.display-limit %}
+        <div class="feed-card">
+            <div class="feed-card-image">
+                {% comment %} Display the post's featured image. {% endcomment %}
+                {%- if post.featuredImage == "" or post.featuredImage == nil -%}
+                    <!-- No featured image provided, so get it from the index.html file. -->
+                    <img class="feed-item-image" src="{{- page.caption-image | relative_url -}}" alt="{{- post.title -}}">
+                {%- else -%}
+                    {% comment %} There is a featured image, so use that {% endcomment %}
+                    <img class="feed-item-image" src="{{- post.featuredImage | relative_url }}" alt="{{- post.title -}}">
+                {%- endif -%}
+            </div>
+            <div class="feed-card-content">
+                <div class="feed-card-title">
+                    <p class="feed-item-title"><a class="feed-item-link" href="{{- post.url | relative_url -}}">{{- post.title | escape -}}</a></p>
                 </div>
-                <div class="feed-card-content">
-                    <div class="feed-card-title">
-                        <p class="feed-item-title"><a class="feed-item-link" href="{{- post.url | relative_url -}}">{{- post.title | escape -}}</a></p>
-                    </div>
-                    <div class="feed-card-excerpt">
-                        {% comment %} Excerpt text should be plain text {% endcomment %}
-                        {%- assign miniExcerpt = post.excerpt -%}
-                        {%- assign miniExcerpt = miniExcerpt | strip_html -| escape | lstrip | rstrip -%}
-                        {%- assign miniExcerpt = miniExcerpt | split: ". " | first -%}
-                        {%- assign miniExcerpt = miniExcerpt | append: "." -%}
-                        <p class="feed-item-excerpt">{{- miniExcerpt -}}</p>
-                    </div>
-                    <div class="feed-card-author">
-                        {% comment %} display the post's author. Use default if necessary. {% endcomment %}
-                        <p class= "feed-item-author">{{ site.author }} - {{ post.date | date: "%A, %B %d, %Y"}}</p>
-                    </div>
+                <div class="feed-card-excerpt">
+                    {% comment %} Excerpt text should be plain text {% endcomment %}
+                    {%- assign miniExcerpt = post.excerpt -%}
+                    {%- assign miniExcerpt = miniExcerpt | strip_html -| escape | lstrip | rstrip -%}
+                    {%- assign miniExcerpt = miniExcerpt | split: ". " | first -%}
+                    {%- assign miniExcerpt = miniExcerpt | append: "." -%}
+                    <p class="feed-item-excerpt">{{- miniExcerpt -}}</p>
+                </div>
+                <div class="feed-card-author">
+                    {% comment %} display the post's author. Use default if necessary. {% endcomment %}
+                    <p class= "feed-item-author">{{ site.author }} - {{ post.date | date: "%A, %B %d, %Y"}}</p>
                 </div>
             </div>
-            {%- endif -%}
-        {%- endfor -%}
-    {%- endif -%}
+        </div>
+    {%- endfor -%}
 </main>

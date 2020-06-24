@@ -1,5 +1,5 @@
 ---
-layout: cambermast-feed
+layout: cambermast-feed-blog
 title: Agile in Action Blog
 feed-type: agile-blog
 caption-image: "/assets/agile-blog/agile-blog-caption-image.jpg"

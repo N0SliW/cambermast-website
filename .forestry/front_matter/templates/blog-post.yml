@@ -44,3 +44,4 @@ fields:
   default: Bill Raymond
 pages:
 - _posts/2020-05-07-an-introduction-to-agile-the-history-of-agile-and-project-management.md
+- _posts/future-post.md

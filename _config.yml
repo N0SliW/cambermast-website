@@ -46,6 +46,9 @@ plugins:
 # Remove the error "GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data."
 github: [metadata]
 
+# allow future posts
+future: true
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

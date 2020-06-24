@@ -1,13 +1,13 @@
 ---
 layout: cambermast-podcast-post
 categories: agile-in-action-podcast
-date: 2020-06-04 14:00:09 -0700
+date: 2020-06-04T14:00:09.000-07:00
 author: Bill Raymond
 title: A Glimpse Into the Agile Transformation Journey
 featuredImage: ''
 
 ---
-<img src="/uploads/bethann-zaveson.png" style="float:right;" width="200"/> In this podcast, I speak with long-time friend and colleague Bethann Zaveson. We talk about her project management career and how it progressed from more traditional approaches to using agile concepts. We learn how Bethann considers agile teams as a critical foundation to remain competitive. -Bill
+<img src="/uploads/bethann-zaveson.png" style="float:right;" width="200"/> In this  podcast, I speak with long-time friend and colleague Bethann Zaveson. We talk about her project management career and how it progressed from more traditional approaches to using agile concepts. We learn how Bethann considers agile teams as a critical foundation to remain competitive. -Bill
 
 Bethann Zaveson is the Director of Portfolio Management for IT at AmTrust Financial Services, Inc., a New York City-based multinational property and casualty insurance company, offering workers' compensation, general liability, business owners policies, cyber liability, EPLI, and more.
 

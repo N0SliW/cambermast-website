@@ -1,7 +1,7 @@
 ---
 layout: cambermast-blog-post
 categories: agile-blog
-date: 2020-04-15 14:28:13 -0700
+date: 2020-04-15T14:28:13.000-07:00
 author: Bill Raymond
 title: Considering daily standups with your newly minted remote workers? Here's some
   advice.

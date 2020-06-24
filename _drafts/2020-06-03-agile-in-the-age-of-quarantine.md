@@ -1,13 +1,13 @@
 ---
 layout: cambermast-podcast-post
 categories: agile-in-action-podcast
-date: 2020-05-31 13:30:51 -0700
+date: 2020-05-31T13:30:51.000-07:00
 author: Bill Raymond
 title: Agile in the age of quarantine
 featuredImage: ''
 
 ---
-<img src="/uploads/bill-raymond.png" style="float:right;" width="200"/>In this podcast, I speak with my colleague John Corcoran and we talk about the little things you can institute to improve team efficiency while working from home. -Bill
+<img src="/uploads/bill-raymond.png" style="float:right;" width="200"/>In this podcast, I  speak with my colleague John Corcoran and we talk about the little things you can institute to improve team efficiency while working from home. -Bill
 
 William "Bill" Raymond is the founder of Cambermas,; an award-winning strategic consulting firm focused on helping companies stay relevant in today's fast-paced, technology-driven company. Bill guides his clients through workshops where they learn how to innovate and use agile methods and tools to collaborate and create solutions that help them stay relevant and up-to-date. He has worked in the project management industry for over 20 years and continues to inspire others to collaborate and to bring teams together.
 

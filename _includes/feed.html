@@ -5,6 +5,9 @@
     REQUIRED:
     feed-type:      The "category" of post to use, which is found on the post itself
     caption-image:  default image for any item displayed in the feed
+    css-style:      defines the style that will be used to display the feed
+                    The feed can be used to display one or many posts,
+                    so you might want a different layout.
     
     OPTIONAL:
     display-offset: tells the feed how many posts to skip.
@@ -18,7 +21,7 @@
     OPTIONAL/NOT USED:
     title:          Use in the event a page title is required
 {% endcomment %}
-<main class="feed-section">
+<main class="{{page.css-style}}">
     {% assign feedPosts = site.posts | where: 'categories', page.feed-type %}
     {% for post in feedPosts offset: page.display-offset limit: page.display-limit %}
         <div class="feed-card">

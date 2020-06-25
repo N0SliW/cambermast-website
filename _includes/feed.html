@@ -21,15 +21,16 @@
     OPTIONAL/NOT USED:
     title:          Use in the event a page title is required
 {% endcomment %}
-<main class="{{page.css-style}}">
-    {% assign feedPosts = site.posts | where: 'categories', page.feed-type %}
+feed-type = {{c}}
+<main class="{{css-style}}">
+    {% assign feedPosts = site.posts | where: 'categories', feed-type %}
     {% for post in feedPosts offset: page.display-offset limit: page.display-limit %}
         <div class="feed-card">
             <div class="feed-card-image">
                 {% comment %} Display the post's featured image. {% endcomment %}
                 {%- if post.featuredImage == "" or post.featuredImage == nil -%}
                     <!-- No featured image provided, so get it from the index.html file. -->
-                    <img class="feed-item-image" src="{{- page.caption-image | relative_url -}}" alt="{{- post.title -}}">
+                    <img class="feed-item-image" src="{{- caption-image | relative_url -}}" alt="{{- post.title -}}">
                 {%- else -%}
                     {% comment %} There is a featured image, so use that {% endcomment %}
                     <img class="feed-item-image" src="{{- post.featuredImage | relative_url }}" alt="{{- post.title -}}">

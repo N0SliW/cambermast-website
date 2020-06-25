@@ -1,5 +1,5 @@
 ---
-layout: cambermast-podcast-post
+layout: podcast-post
 categories: agile-in-action-podcast
 date: 2020-05-31 13:33:00 -0700
 author: Bill Raymond

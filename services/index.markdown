@@ -1,3 +1,3 @@
 ---
-layout: cambermast-services
+layout: services
 ---

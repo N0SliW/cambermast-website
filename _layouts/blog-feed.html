@@ -1,5 +1,5 @@
 ---
-layout: cambermast-default
+layout: default
 ---
 <div class="home-container">
   
@@ -8,9 +8,10 @@ layout: cambermast-default
   <!-- Display the play podcast section -->
     {%- include playpod.html -%}
   <!-- Display the home page header image -->
-    {%- include banner-services.html -%}
-  <!-- Display the home page header image -->
-  {%- include services-page.html -%}
+  <!-- TODO #1: Automate this with Liquid -->
+    {%- include banner-blog-feed.html -%}
+  <!-- Display the blog feeds -->
+    {%- include blog-feed.html -%}
   <!-- Display the footer section -->
     {%- include footer.html -%}
 

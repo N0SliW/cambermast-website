@@ -1,5 +1,5 @@
 ---
-layout: cambermast-blog-post
+layout: blog-post
 categories: agile-blog
 date: 2020-04-15T14:28:13.000-07:00
 author: Bill Raymond

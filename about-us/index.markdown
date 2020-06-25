@@ -1,5 +1,5 @@
 ---
-layout: cambermast-about-us
+layout: about-us
 ---
 ## About
 Cambermast is an **award-winning** strategic consulting firm focused on helping you stay relevant in today's fast-paced, technology-driven economy.

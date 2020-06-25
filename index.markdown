@@ -1,3 +1,3 @@
 ---
-layout: cambermast-home
+layout: home
 ---

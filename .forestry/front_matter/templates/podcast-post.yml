@@ -5,7 +5,7 @@ fields:
 - type: text
   name: layout
   label: layout
-  default: cambermast-podcast-post
+  default: podcast-post
   hidden: true
 - type: text
   name: categories

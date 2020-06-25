@@ -1,35 +1,40 @@
 {% comment %}
     Feed listing for blogs, podcasts, or other post types
-    This calling page accepts the following parameters:
+    This page uses the following parameters via include variables:
 
     REQUIRED:
     feed-type:      The "category" of post to use, which is found on the post itself
+    (feedType)
+
     caption-image:  default image for any item displayed in the feed
+    (captionImage)  Important: The caption-image MUST be square
+                    or it will not display properly (ex 250x250 or 100x100)
     css-style:      the <main> style that will be used to display the feed
-                    The feed can be used to display one or many posts,
+    (cssStyle)      The feed can be used to display one or many posts,
                     so you might want a different layout.
     
     OPTIONAL:
     display-offset: tells the feed how many posts to skip.
-                    Default is 0 (zero)
+    (displayOffset) Default is 0 (zero)
                     Useful if the first post is highlighted on a page and it
                     shouldn't appear again on the feed
+
     display-limit:  determines how many posts to display.
-                    Default is null (zero displays no feed items)
-
-
-    OPTIONAL/NOT USED:
-    title:          Use in the event a page title is required
+    (displayLimit)   Default is null (zero displays no feed items)
 {% endcomment %}
-feed-type = {{c}}
-<main class="{{css-style}}">
+{%- assign css-style = include.cssStyle -%}
+<section class="{{css-style}}">
+    {% assign feed-type = include.feedType %}
     {% assign feedPosts = site.posts | where: 'categories', feed-type %}
-    {% for post in feedPosts offset: page.display-offset limit: page.display-limit %}
+    {%- assign display-offset = include.displayOffset -%}
+    {%- assign display-limit = include.displayLimit -%}
+    {% for post in feedPosts offset: display-offset limit: display-limit %}
         <div class="feed-card">
             <div class="feed-card-image">
                 {% comment %} Display the post's featured image. {% endcomment %}
                 {%- if post.featuredImage == "" or post.featuredImage == nil -%}
                     <!-- No featured image provided, so get it from the index.html file. -->
+                    {% assign caption-image = include.captionImage %}
                     <img class="feed-item-image" src="{{- caption-image | relative_url -}}" alt="{{- post.title -}}">
                 {%- else -%}
                     {% comment %} There is a featured image, so use that {% endcomment %}
@@ -55,4 +60,4 @@ feed-type = {{c}}
             </div>
         </div>
     {%- endfor -%}
-</main>
+</section>

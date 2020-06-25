@@ -9,9 +9,19 @@ layout: default
     <!-- Display the home page header image -->
     <!-- TODO #1: Automate this with Liquid -->
       {%- include banner-podcast-feed.html -%}
-    <!-- Display the feed (blog, podcast, etc) content -->
-      {%- include feed.html -%}
+    <!-- Display the feed in the form of a podcast feed -->
+      {%- assign ft = "agile-in-action-podcast" -%}
+      {%- assign ci = "/assets/agile-in-action/agile-in-action-caption-image.png" -%}
+      {%- assign cs = "feed-section" -%}
+      {%- assign do = 0 -%}
+      {%- assign dl = null -%}
+      {%- include feed.html 
+            feedType=ft 
+            captionImage = ci 
+            cssStyle = cs 
+            displayOffset = do 
+            displayLimit = dl 
+      -%}
     <!-- Display the footer section -->
       {%- include footer.html -%}
 </div>
-

@@ -9,13 +9,19 @@ layout: default
     <!-- Display the home page header image -->
     <!-- TODO #1: Automate this with Liquid -->
       {%- include banner-blog-feed.html -%}
-    <!-- Display the feed (blog, podcast, etc) content -->
-      {%- include feed.html c="agile-blog" -%}
+    <!-- Display the feed in the form of a blog feed -->
+      {%- assign ft = "agile-blog" -%}
+      {%- assign ci = "/assets/agile-blog/agile-blog-caption-image.jpg" -%}
+      {%- assign cs = "feed-section" -%}
+      {%- assign do = 0 -%}
+      {%- assign dl = null -%}
+      {%- include feed.html 
+            feedType=ft 
+            captionImage = ci 
+            cssStyle = cs 
+            displayOffset = do 
+            displayLimit = dl 
+      -%}
     <!-- Display the footer section -->
       {%- include footer.html -%}
 </div>
-
-      {% comment %} caption-image="/assets/agile-blog/agile-blog-caption-image.jpg"
-      title="Agile in Action Blog"
-      css-style="feed-section"
-      display-offset=0 {% endcomment %}

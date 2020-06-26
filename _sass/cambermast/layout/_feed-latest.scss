@@ -11,7 +11,7 @@
 .feed-latest .feed-card {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 350px;
+    grid-template-rows: 250px;
     align-content: center;
     justify-content: center;
     .feed-card-image { grid-area: 1 / 1 / 2 / 2; }

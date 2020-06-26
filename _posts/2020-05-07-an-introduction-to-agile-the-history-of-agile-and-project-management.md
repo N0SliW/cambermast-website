@@ -7,7 +7,7 @@ title: 'An introduction to agile: The history of agile and project management'
 featuredImage: "/uploads/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg"
 
 ---
-**_Note_**_: This is part 1 of a 5-part series that introduces agile concepts. In this first part, I level-set with the history of project management and agile so you can see where we have come from and where we are going in the project management industry._
+This is part 1 of a 5-part series that introduces agile concepts. In this first part, I level-set with the history of project management and agile so you can see where we have come from and where we are going in the project management industry._
 
 <script src="https://gumroad.com/js/gumroad.js"></script> <a class="gumroad-button" href="https://gum.co/lKfhF" target="_blank">Purchase the training kit</a>
 

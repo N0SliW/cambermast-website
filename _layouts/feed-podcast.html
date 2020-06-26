@@ -8,12 +8,25 @@ layout: default
       {%- include playpod.html -%}
     <!-- Display the home page header image -->
     <!-- TODO #1: Automate this with Liquid -->
-      {%- include banner-podcast-feed.html -%}
+      {% comment %} TODO: Remove this and related files: {%- include banner-podcast-feed.html -%} {% endcomment %}
+    <!-- Display the feed in the form of a podcast feed (latest post) -->
+      {%- assign ft = "agile-in-action-podcast" -%}
+      {%- assign ci = "/assets/agile-in-action/agile-in-action-caption-image.png" -%}
+      {%- assign cs = "feed-latest" -%}
+      {%- assign do = 0 -%}
+      {%- assign dl = 1 -%}
+      {%- include feed.html 
+            feedType=ft 
+            captionImage = ci 
+            cssStyle = cs 
+            displayOffset = do 
+            displayLimit = dl 
+      -%}
     <!-- Display the feed in the form of a podcast feed -->
       {%- assign ft = "agile-in-action-podcast" -%}
       {%- assign ci = "/assets/agile-in-action/agile-in-action-caption-image.png" -%}
       {%- assign cs = "feed-section" -%}
-      {%- assign do = 0 -%}
+      {%- assign do = 1 -%}
       {%- assign dl = null -%}
       {%- include feed.html 
             feedType=ft 

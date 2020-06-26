@@ -2,16 +2,18 @@
 layout: default
 ---
 <div class="home-container">
-  
   <!-- Display the navigation section -->
     {%- include nav.html -%}
   <!-- Display the play podcast section -->
     {%- include playpod.html -%}
   <!-- Display the home page header image -->
   <!-- TODO #1: Automate this with Liquid -->
-    {%- include banner-home.html -%}
+    {% comment %} TODO: Remove this page and related files: {%- include banner-home.html -%} {% endcomment %}
+  <!-- Display the services section -->
+  {%- include feed-latest-posts.html -%}
   <!-- Display the services section -->
   {%- include services-home.html -%}
   <!-- Display the footer section -->
   {%- include footer.html -%}
+
 </div>

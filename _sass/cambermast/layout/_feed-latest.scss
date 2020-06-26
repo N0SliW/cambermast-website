@@ -4,22 +4,29 @@
 // wrapper container for the whole section
 .feed-latest {
     display: grid;
-    background-color: lightgrey;
 }
 
 // container for the content to display
 .feed-latest .feed-card {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 250px;
+    grid-template-rows: 350px;
     align-content: center;
     justify-content: center;
+
+    // layer the image, gradient overlay, and post summary on top of each other:
     .feed-card-image { grid-area: 1 / 1 / 2 / 2; }
     .feed-card-image-overlay { grid-area: 1 / 1 / 2 / 2; }
+    .feed-card-content { grid-area: 1 / 1 / 2 /2; }
+
+    @include for-size(phone-only){
+        grid-template-rows: 150px;
+    }
 }
 
 .feed-latest .feed-card-image {
     display: grid;
+    border-radius: 30px;
 }
 
 .feed-latest .feed-item-image {
@@ -46,11 +53,18 @@
     margin-left: $gridMarginLeft;
     margin-right: $gridMarginRight;
     grid-template-columns: 1fr;
-    grid-template-rows: min-content auto min-content;
+    align-content: end;
+    justify-content: end;
+    grid-template-rows: auto auto auto;
     grid-template-areas: 
         "feed-card-title" 
         "feed-card-excerpt"
         "feed-card-author";
+
+    @include for-size(phone-only){
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
 
 // row to display the title of the item
@@ -74,33 +88,34 @@
 // row to display the author of the item
 .feed-latest .feed-card-author {
     grid-area: feed-card-author;
-    align-content: flex-end;
+    align-content: end;
     margin-bottom: 5px;
+    margin-top: 10px;
     @include for-size(phone-only){
         margin-bottom: 2px;
     }
 }
 
-// typography
+// TYPOGRAPHY
 .feed-latest .feed-item-title {
     @include fluid-type(11px, 24px);
 }
 
 .feed-latest .feed-item-link {
     text-decoration: none;
-    color: $cambermastPrimary;
-    &:link { color: $cambermastPrimary; }
-    &:visited { color: $cambermastPrimary; }
-    &:hover { color: $cambermastAltDarkBlue; }
+    color: $cambermastWhite;
+    &:link { color: $cambermastWhite; }
+    &:visited { color: $cambermastWhite; }
+    &:hover { color: $cambermastWhite; }
 }
 
 .feed-latest .feed-item-excerpt {
     @include fluid-type(11px, 16px);
-    color: grey;
+    color: lightgray;
 }
 
 .feed-latest .feed-item-author {
     @include fluid-type(11px, 14px);
     text-transform: uppercase;
-    color: grey;
+    color: lightgray;
 }

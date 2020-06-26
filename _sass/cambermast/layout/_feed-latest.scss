@@ -99,6 +99,7 @@
 // TYPOGRAPHY
 .feed-latest .feed-item-title {
     @include fluid-type(11px, 24px);
+    text-transform: uppercase;
 }
 
 .feed-latest .feed-item-link {

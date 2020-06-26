@@ -1,9 +1,9 @@
 ---
 layout: blog-post
 categories: agile-blog
-date: 2020-05-07T12:44:34.000-07:00
+date: 2020-06-25
 author: Bill Raymond
-title: 'Post with no featured item'
+title: 'Post with no featured image'
 featuredImage: 
 
 ---

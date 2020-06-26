@@ -16,7 +16,6 @@
     justify-content: center;
     .feed-card-image { grid-area: 1 / 1 / 2 / 2; }
     .feed-card-image-overlay { grid-area: 1 / 1 / 2 / 2; }
-    .feed-card-content { grid-area: 1 / 1 / 2 / 2; }
 }
 
 .feed-latest .feed-card-image {
@@ -47,39 +46,52 @@
     margin-left: $gridMarginLeft;
     margin-right: $gridMarginRight;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    align-items: end;
+    grid-template-rows: min-content auto min-content;
+    grid-template-areas: 
+        "feed-card-title" 
+        "feed-card-excerpt"
+        "feed-card-author";
 }
 
 // row to display the title of the item
 .feed-latest .feed-card-title {
-    display: grid;
+    grid-area: feed-card-title;
+    margin-top: 5px;
+    @include for-size(phone-only){
+        margin-top: 2px;
+    }
 }
 
 // row to display the excerpt of the item
 .feed-latest .feed-card-excerpt {
     grid-area: feed-card-excerpt;
-    display: none;
+    margin-top: 5px;
+    @include for-size(phone-only){
+        margin-top: 0px;
+    }
 }
 
 // row to display the author of the item
 .feed-latest .feed-card-author {
     grid-area: feed-card-author;
-    display: none;
+    align-content: flex-end;
+    margin-bottom: 5px;
+    @include for-size(phone-only){
+        margin-bottom: 2px;
+    }
 }
 
-// TYPOGRAPHY
+// typography
 .feed-latest .feed-item-title {
-    margin-bottom: 25px;
     @include fluid-type(11px, 24px);
 }
 
 .feed-latest .feed-item-link {
     text-decoration: none;
-    color: $cambermastWhite;
-    &:link { color: $cambermastWhite; }
-    &:visited { color: $cambermastWhite; }
-    &:hover { color: $cambermastWhite; }
+    color: $cambermastPrimary;
+    &:link { color: $cambermastPrimary; }
+    &:visited { color: $cambermastPrimary; }
+    &:hover { color: $cambermastAltDarkBlue; }
 }
 
 .feed-latest .feed-item-excerpt {

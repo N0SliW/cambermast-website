@@ -41,6 +41,10 @@
     vertical-align: middle;
 }
 
+.feed-section .feed-card-image-overlay {
+    display: none;
+}
+
 // display three rows to the right of the feed item's image.
 .feed-section .feed-card-content {
     display: grid;

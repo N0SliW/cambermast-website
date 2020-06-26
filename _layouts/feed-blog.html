@@ -8,12 +8,25 @@ layout: default
       {%- include playpod.html -%}
     <!-- Display the home page header image -->
     <!-- TODO #1: Automate this with Liquid -->
-      {%- include banner-blog-feed.html -%}
+      {% comment %} {%- include banner-blog-feed.html -%} {% endcomment %}
+    <!-- Display the feed in the form of a blog feed -->
+      {%- assign ft = "agile-blog" -%}
+      {%- assign ci = "/assets/agile-blog/agile-blog-caption-image.jpg" -%}
+      {%- assign cs = "feed-latest" -%}
+      {%- assign do = 0 -%}
+      {%- assign dl = 1 -%}
+      {%- include feed.html 
+            feedType=ft 
+            captionImage = ci 
+            cssStyle = cs 
+            displayOffset = do 
+            displayLimit = dl 
+      -%}
     <!-- Display the feed in the form of a blog feed -->
       {%- assign ft = "agile-blog" -%}
       {%- assign ci = "/assets/agile-blog/agile-blog-caption-image.jpg" -%}
       {%- assign cs = "feed-section" -%}
-      {%- assign do = 0 -%}
+      {%- assign do = 1 -%}
       {%- assign dl = null -%}
       {%- include feed.html 
             feedType=ft 

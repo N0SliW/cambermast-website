@@ -41,9 +41,10 @@
                     <img class="feed-item-image" src="{{- post.featuredImage | relative_url }}" alt="{{- post.title -}}">
                 {%- endif -%}
             </div>
+            <div class="feed-card-image-overlay"></div>
             <div class="feed-card-content">
                 <div class="feed-card-title">
-                    <p class="feed-item-title"><a class="feed-item-link" href="{{- post.url | relative_url -}}">{{- post.title | escape -}}</a></p>
+                    <span class="feed-item-title"><a class="feed-item-link" href="{{- post.url | relative_url -}}">{{- post.title | escape -}}</a></span>
                 </div>
                 <div class="feed-card-excerpt">
                     {% comment %} Excerpt text should be plain text {% endcomment %}
@@ -51,11 +52,11 @@
                     {%- assign miniExcerpt = miniExcerpt | strip_html -| escape | lstrip | rstrip -%}
                     {%- assign miniExcerpt = miniExcerpt | split: ". " | first -%}
                     {%- assign miniExcerpt = miniExcerpt | append: "." -%}
-                    <p class="feed-item-excerpt">{{- miniExcerpt -}}</p>
+                    <span class="feed-item-excerpt">{{- miniExcerpt -}}</span>
                 </div>
                 <div class="feed-card-author">
                     {% comment %} display the post's author. Use default if necessary. {% endcomment %}
-                    <p class= "feed-item-author">{{ site.author }} - {{ post.date | date: "%A, %B %d, %Y"}}</p>
+                    <span class= "feed-item-author">{{ site.author }} - {{ post.date | date: "%A, %B %d, %Y"}}</span>
                 </div>
             </div>
         </div>

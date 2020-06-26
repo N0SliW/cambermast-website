@@ -2,7 +2,11 @@
 
 // ********** DEVICE SIZE SUPPORT **********
 // Reference: https://itnext.io/writing-media-queries-with-sass-mixins-3ea591ea3ea4
-// Mobile content display <=767px, then large-screen >767
+// Example use:
+//   @include for-size(phone-only){
+//     margin-left: $gridMarginLeft;
+//     margin-right: $gridMarginRight;
+//   }
 @mixin for-size($size) {
   @if $size == phone-only {
     @media (max-width: 599px) { @content; }
@@ -16,6 +20,8 @@
     @media (min-width: 1800px) { @content; }
   }
 }
+
+
 
 // @mixin for-size($size) {
 //     @if $size == full-size {

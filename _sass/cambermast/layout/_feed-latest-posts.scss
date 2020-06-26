@@ -2,7 +2,13 @@
 // Display a single row, multi-column list of all the lataest posts
 
 // wrapper container for the whole section
+
 .feed-latest-posts {
+    display: grid;
+    grid-column: 1fr;
+}
+
+.feed-latest-post-cards {
     display: grid;
     grid-template-columns: repeat(2, .5fr); // TODO: allow any number of columns
     gap: 10px;
@@ -11,22 +17,22 @@
     }
 }
 
-.feed-latest-posts .feed-card-content {
+.feed-latest-post-cards .feed-card-content {
     display: grid;
     margin-left: 5px;
 }
 
 // row to display the title of the item
-.feed-latest-posts .feed-card-title {
+.feed-latest-posts-cards .feed-card-title {
     margin-bottom: 1rem;
 }
 
 // row to display the excerpt of the item
-.feed-latest-posts .feed-card-excerpt {
+.feed-latest-posts-cards .feed-card-excerpt {
     display: none;
 }
 
 // row to display the author of the item
-.feed-latest-posts .feed-card-author {
+.feed-latest-posts-cards .feed-card-author {
     display: none;
 }

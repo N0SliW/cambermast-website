@@ -72,7 +72,7 @@
     grid-area: feed-card-title;
     margin-top: 5px;
     @include for-size(phone-only){
-        margin-top: 2px;
+        margin-bottom: 2px;
     }
 }
 
@@ -81,7 +81,7 @@
     grid-area: feed-card-excerpt;
     margin-top: 5px;
     @include for-size(phone-only){
-        margin-top: 0px;
+        display: none;
     }
 }
 
@@ -92,7 +92,7 @@
     margin-bottom: 5px;
     margin-top: 10px;
     @include for-size(phone-only){
-        margin-bottom: 2px;
+        display: none;
     }
 }
 

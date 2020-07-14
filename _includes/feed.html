@@ -16,11 +16,15 @@
     OPTIONAL:
     display-offset: tells the feed how many posts to skip.
     (displayOffset) Default is 0 (zero)
-                    Useful if the first post is highlighted on a page and it
-                    shouldn't appear again on the feed
+                    If 0, then start by displaying the first blog post.
+                    If 1, then start by displaying the second blog post.
+                    You can use any positive integer.
 
     display-limit:  determines how many posts to display.
-    (displayLimit)   Default is null (zero displays no feed items)
+    (displayLimit)  Default is null (display all posts based on the offset)
+                    1 displays a single post.
+                    5 displays 5 posts.
+                    You can use any positive integer.
 {% endcomment %}
 {%- assign css-style = include.cssStyle -%}
 <section class="{{css-style}}">

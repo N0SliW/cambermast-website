@@ -53,8 +53,9 @@
     grid-template-columns: 1fr;
     align-content: end;
     justify-content: end;
-    grid-template-rows: auto auto auto;
+    grid-template-rows: 25px auto auto auto;
     grid-template-areas: 
+        "feed-card-icon"
         "feed-card-title" 
         "feed-card-excerpt"
         "feed-card-author";
@@ -63,6 +64,14 @@
         margin-left: 5px;
         margin-right: 5px;
     }
+}
+
+.feed-latest .feed-card-icon {
+    grid-area: feed-card-icon;
+}
+
+.feed-latest .icon-url {
+    height: 100%;
 }
 
 // row to display the title of the item

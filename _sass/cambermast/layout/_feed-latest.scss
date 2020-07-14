@@ -6,17 +6,16 @@
     display: grid;
 }
 
+// *** FEATURED IMAGE AND OVERLAY ***
 // container for the content to display
 .feed-latest .feed-card {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 350px;
-    align-content: center;
-    justify-content: center;
 
     // layer the image, gradient overlay, and post summary on top of each other:
     .feed-card-image { grid-area: 1 / 1 / 2 / 2; }
-    .feed-card-image-overlay { grid-area: 1 / 1 / 2 / 2; }
+    .feed-card-gradient-overlay { grid-area: 1 / 1 / 2 / 2; }
     .feed-card-content { grid-area: 1 / 1 / 2 /2; }
 
     @include for-size(phone-only){
@@ -34,7 +33,10 @@
     object-fit: cover; // Using this so the image can be any size and still look halfway decent.
 }
 
-.feed-latest .feed-card-image-overlay {
+
+// Add a semi-transparent gradient overlay that displays over the featured image
+// Start at black at the bottom left'ish and goes at a 60% angle. 
+.feed-latest .feed-card-gradient-overlay {
     display: grid;
     max-width: 100%;
     background: black;
@@ -42,22 +44,23 @@
       60deg,
       rgba(0, 0, 0, 0.7777485994397759) 30%,
       rgba(255, 255, 255, 0) 100%
-    ); // start at black at the bottom left'ish and goes at a 60% angle. This will make the white easy to read with nearly any image.  
+    ); 
 }
 
-// display three rows to the right of the feed item's image.
+// *** CONTENT ***
+// layout for the card content, like title, excerpt, author, etc.
 .feed-latest .feed-card-content {
     display: grid;
     margin-left: $gridMarginLeft;
     margin-right: $gridMarginRight;
+    // align-content: end;
+    grid-template-rows: auto min-content min-content min-content;
     grid-template-columns: 1fr;
-    align-content: end;
-    justify-content: end;
-    grid-template-rows: 25px auto auto auto;
-    grid-template-areas: 
+
+    grid-template-areas:
         "feed-card-icon"
         "feed-card-title" 
-        "feed-card-excerpt"
+        "feed-card-excerpt" 
         "feed-card-author";
 
     @include for-size(phone-only){
@@ -68,25 +71,29 @@
 
 .feed-latest .feed-card-icon {
     grid-area: feed-card-icon;
+    align-self: start;
+    margin-top: $gridMarginTop;
+
+    @include for-size(phone-only){
+        margin-top: 5px;
+    }
 }
 
-.feed-latest .icon-url {
-    height: 100%;
+.feed-latest .feed-item-icon {
+    width: auto;
+    height: 25px;
 }
 
 // row to display the title of the item
 .feed-latest .feed-card-title {
     grid-area: feed-card-title;
-    margin-top: 5px;
-    @include for-size(phone-only){
-        margin-bottom: 2px;
-    }
+    align-self: end;
 }
 
 // row to display the excerpt of the item
 .feed-latest .feed-card-excerpt {
     grid-area: feed-card-excerpt;
-    margin-top: 5px;
+    align-self: end;
     @include for-size(phone-only){
         display: none;
     }
@@ -95,7 +102,7 @@
 // row to display the author of the item
 .feed-latest .feed-card-author {
     grid-area: feed-card-author;
-    align-content: end;
+    align-self: end;
     margin-bottom: 5px;
     margin-top: 10px;
     @include for-size(phone-only){

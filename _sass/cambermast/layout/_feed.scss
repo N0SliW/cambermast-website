@@ -25,7 +25,6 @@
     grid-template-columns: 110px 1fr;
     grid-template-rows: 110px;
     column-gap: 20px; // space between the image and the title.
-    // border: 1px solid #000;
     border-top: lightgrey;
     border-width: 1px;
     border-top-style: solid;
@@ -41,7 +40,7 @@
     vertical-align: middle;
 }
 
-.feed-section .feed-card-image-overlay {
+.feed-section .feed-card-gradient-overlay {
     display: none;
 }
 

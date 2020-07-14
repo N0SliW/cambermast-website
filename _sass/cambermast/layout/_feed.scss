@@ -28,9 +28,29 @@
     border-top: lightgrey;
     border-width: 1px;
     border-top-style: solid;
+    .feed-card-image { grid-area: 1 / 1 / 2 / 2; }
+    .feed-card-gradient-overlay { grid-area: 1 / 1 / 2 / 2; }
+    .feed-card-icon { grid-area: 1 / 1 / 2 / 2; }
+
     @include for-size(phone-only){
         column-gap: 10px;
     }
+}
+
+.feed-section .feed-card-image {
+    grid-area: feed-card-image;
+}
+
+
+.feed-section .feed-card-gradient-overlay {
+    display: none;
+    grid-area: feed-card-gradient-overlay;
+}
+
+.feed-section .feed-card-icon {
+    grid-area: feed-card-icon;
+    width: 25px;
+    height: auto;
 }
 
 .feed-section .feed-item-image {
@@ -39,11 +59,7 @@
     object-fit: cover;
     vertical-align: middle;
 }
-
-.feed-section .feed-card-gradient-overlay {
-    display: none;
-}
-
+å
 // display three rows to the right of the feed item's image.
 .feed-section .feed-card-content {
     display: grid;

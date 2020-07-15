@@ -2,7 +2,7 @@
     Feed listing for blogs, podcasts, or other post types
     This page uses the following parameters via include variables:
 
-    REQUIRED:
+    *** REQUIRED:
     feed-type:      The "category" of post to use, which is found on the post itself
     (feedType)      agile-blog and agile-in-action-podcast are two common categories
 
@@ -16,7 +16,7 @@
     (cssStyle)      The feed can be used to display one or many posts,
                     so you might want a different layout.
     
-    OPTIONAL:
+    *** OPTIONAL:
     display-offset: tells the feed how many posts to skip.
     (displayOffset) Default is 0 (zero)
                     If 0, then start by displaying the first blog post.
@@ -40,7 +40,7 @@
             <div class="feed-card-image">
                 {% comment %} Display the post's featured image. {% endcomment %}
                 {%- if post.featuredImage == "" or post.featuredImage == nil -%}
-                    <!-- No featured image provided, so get it from the index.html file. -->
+                    <!-- No featured image provided, so get it from the referring html file. -->
                     {% assign caption-image = include.captionImage %}
                     <img class="feed-item-image" src="{{- caption-image | relative_url -}}" alt="{{- post.title -}}">
                 {%- else -%}
@@ -50,7 +50,7 @@
             </div>
             {% comment %} Where defined in the CSS, add a gradient over the image {% endcomment %}
             <div class="feed-card-gradient-overlay"></div>
-            {% comment %} Get an icon image to display with the card {% endcomment %}
+            {% comment %} Get an icon (glyph) image to display with the card {% endcomment %}
             <div class="feed-card-icon">
                 {%- assign icon-url = "" -%}
                 {%- for item in site.data.feed-icons.items -%}

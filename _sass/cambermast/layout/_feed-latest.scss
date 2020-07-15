@@ -4,6 +4,7 @@
 // wrapper container for the whole section
 .feed-latest {
     display: grid;
+    margin-top: 5px;
 }
 
 // *** FEATURED IMAGE AND OVERLAY ***
@@ -16,6 +17,7 @@
     // layer the image, gradient overlay, and post summary on top of each other:
     .feed-card-image { grid-area: 1 / 1 / 2 / 2; }
     .feed-card-gradient-overlay { grid-area: 1 / 1 / 2 / 2; }
+    .feed-card-icon { grid-area: 1 / 1 / 2 / 2;}
     .feed-card-content { grid-area: 1 / 1 / 2 /2; }
 
     @include for-size(phone-only){
@@ -30,6 +32,7 @@
 .feed-latest .feed-item-image {
     width: 100%;
     height: 100%;
+    border-radius: 5px;
     object-fit: cover; // Using this so the image can be any size and still look halfway decent.
 }
 
@@ -38,6 +41,7 @@
 // Start at black at the bottom left'ish and goes at a 60% angle. 
 .feed-latest .feed-card-gradient-overlay {
     display: grid;
+    border-radius: 5px;
     max-width: 100%;
     background: black;
     background: linear-gradient(
@@ -47,18 +51,35 @@
     ); 
 }
 
+.feed-latest .feed-card-icon {
+    display: grid;
+    align-self: start;
+    margin-left: $gridMarginLeft;
+    margin-top: $gridMarginTop;
+
+    @include for-size(phone-only){
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+}
+
+.feed-latest .feed-item-icon {
+    width: auto;
+    height: 25px;
+}
+
+
 // *** CONTENT ***
 // layout for the card content, like title, excerpt, author, etc.
 .feed-latest .feed-card-content {
     display: grid;
     margin-left: $gridMarginLeft;
     margin-right: $gridMarginRight;
-    // align-content: end;
-    grid-template-rows: auto min-content min-content min-content;
+    align-content: end;
+    grid-template-rows: min-content min-content min-content;
     grid-template-columns: 1fr;
 
     grid-template-areas:
-        "feed-card-icon"
         "feed-card-title" 
         "feed-card-excerpt" 
         "feed-card-author";
@@ -69,25 +90,14 @@
     }
 }
 
-.feed-latest .feed-card-icon {
-    grid-area: feed-card-icon;
-    align-self: start;
-    margin-top: $gridMarginTop;
-
-    @include for-size(phone-only){
-        margin-top: 5px;
-    }
-}
-
-.feed-latest .feed-item-icon {
-    width: auto;
-    height: 25px;
-}
 
 // row to display the title of the item
 .feed-latest .feed-card-title {
     grid-area: feed-card-title;
     align-self: end;
+    @include for-size(phone-only){
+        margin-bottom: 5px;
+    }
 }
 
 // row to display the excerpt of the item
@@ -103,7 +113,7 @@
 .feed-latest .feed-card-author {
     grid-area: feed-card-author;
     align-self: end;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     margin-top: 10px;
     @include for-size(phone-only){
         display: none;

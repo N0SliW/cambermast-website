@@ -5,7 +5,6 @@ date: 2020-05-07T12:44:34.000-07:00
 author: Bill Raymond
 title: 'An introduction to agile: The history of agile and project management'
 featuredImage: "/uploads/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg"
-
 ---
 This is part 1 of a 5-part series that introduces agile concepts. In this first part, I level-set with the history of project management and agile so you can see where we have come from and where we are going in the project management industry._
 

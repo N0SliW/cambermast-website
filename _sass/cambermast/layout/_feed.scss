@@ -18,6 +18,7 @@
     }
 }
 
+// *** FEATURED IMAGE ***
 // the "card" is the display for a single post.
 .feed-section .feed-card {
     // display a 2-column, single-row grid that repeats vertically.
@@ -43,14 +44,16 @@
 
 
 .feed-section .feed-card-gradient-overlay {
-    display: none;
+    display: none; // no overlay used for a feed item
     grid-area: feed-card-gradient-overlay;
 }
 
 .feed-section .feed-card-icon {
     grid-area: feed-card-icon;
-    width: 25px;
+    width: 15px;
     height: auto;
+    margin-top: 5px;
+    margin-left: 5px;
 }
 
 .feed-section .feed-item-image {
@@ -59,7 +62,8 @@
     object-fit: cover;
     vertical-align: middle;
 }
-å
+
+// *** CONTENT ***
 // display three rows to the right of the feed item's image.
 .feed-section .feed-card-content {
     display: grid;
@@ -86,6 +90,7 @@
     margin-top: 5px;
     @include for-size(phone-only){
         margin-top: 0px;
+        display: none;
     }
 }
 
@@ -121,4 +126,8 @@
     @include fluid-type(11px, 14px);
     text-transform: uppercase;
     color: grey;
+
+    @include for-size(phone-only){
+        text-transform: lowercase;
+    }
 }

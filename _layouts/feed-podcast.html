@@ -4,14 +4,12 @@ layout: default
 <div class="home-container">
     <!-- Display the navigation section -->
       {%- include nav.html -%}
-    <!-- Display the play podcast section -->
-      {%- include playpod.html -%}
     <!-- Display the home page header image -->
     <!-- TODO #1: Automate this with Liquid -->
       {% comment %} TODO: Remove this and related files: {%- include banner-podcast-feed.html -%} {% endcomment %}
     <!-- Display the feed in the form of a podcast feed (latest post) -->
       {%- assign ft = "agile-in-action-podcast" -%}
-      {%- assign ci = "/assets/agile-in-action/agile-in-action-caption-image.png" -%}
+      {%- assign ci = "/assets/agile-in-action/agile-in-action-caption-image.svg" -%}
       {%- assign cs = "feed-latest" -%}
       {%- assign do = 0 -%}
       {%- assign dl = 1 -%}
@@ -24,7 +22,7 @@ layout: default
       -%}
     <!-- Display the feed in the form of a podcast feed -->
       {%- assign ft = "agile-in-action-podcast" -%}
-      {%- assign ci = "/assets/agile-in-action/agile-in-action-caption-image.png" -%}
+      {%- assign ci = "/assets/agile-in-action/agile-in-action-caption-image.svg" -%}
       {%- assign cs = "feed-section" -%}
       {%- assign do = 1 -%}
       {%- assign dl = null -%}

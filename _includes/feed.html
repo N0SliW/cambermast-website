@@ -50,17 +50,17 @@
             </div>
             {% comment %} Where defined in the CSS, add a gradient over the image {% endcomment %}
             <div class="feed-card-gradient-overlay"></div>
+            {% comment %} Get an icon image to display with the card {% endcomment %}
+            <div class="feed-card-icon">
+                {%- assign icon-url = "" -%}
+                {%- for item in site.data.feed-icons.items -%}
+                    {%- if item.title == feed-type -%}
+                        {%- assign icon-url = item.url | relative_url -%}
+                        <img class="feed-item-icon" src="{{- icon-url -}}" alt="{{feed-type}}" >
+                    {%- endif -%}
+                {%- endfor -%}
+            </div>
             <div class="feed-card-content">
-                {% comment %} Get an icon image to display with the card {% endcomment %}
-                <div class="feed-card-icon">
-                    {%- assign icon-url = "" -%}
-                    {%- for item in site.data.feed-icons.items -%}
-                        {%- if item.title == feed-type -%}
-                            {%- assign icon-url = item.url | relative_url -%}
-                        {%- endif -%}
-                    {%- endfor -%}
-                    <img class="feed-item-icon" src="{{- icon-url -}}" alt="{{feed-type}}" >
-                </div>
                 {%- comment -%}Display the post's title{%- endcomment -%}
                 <div class="feed-card-title">
                     <span class="feed-item-title"><a class="feed-item-link" href="{{- post.url | relative_url -}}">{{- post.title | escape -}}</a></span>

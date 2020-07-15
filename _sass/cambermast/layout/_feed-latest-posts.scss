@@ -7,7 +7,9 @@
 .feed-latest-posts {
     display: grid;
     grid-column: 1fr;
+    margin-top: 5px;
 }
+
 
 .feed-latest-post-cards {
     display: grid;
@@ -23,8 +25,17 @@
     margin-left: 5px;
 }
 
+.feed-latest-post-cards .feed-item-image {
+    border-radius: 5px;
+}
+
+.feed-latest-post-cards .feed-card-gradient-overlay {
+    border-radius: 5px;
+}
+
 .feed-latest-post-cards .feed-card-icon {
     grid-area: feed-card-icon;
     align-self: start;
-    margin-top: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
 }

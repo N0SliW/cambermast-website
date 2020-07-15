@@ -45,12 +45,17 @@ $playPodFontColor: $cambermastWhite;
 .play-podcast {
   color: $playPodFontColor;
   font-size: 12px;
+  text-decoration: none;
   text-transform: uppercase;
 
   &:hover {
-    color: $cambermastWhite;
+    color: $playPodFontColor;
     font-weight: bold;
   }
+
+  &:link { color: $playPodFontColor; }
+  &:visited { color: $playPodFontColor; }
+  &:hover { color: $playPodFontColor; }
 }
 
 .play-podcast {

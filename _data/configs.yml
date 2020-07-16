@@ -2,3 +2,7 @@
 # Glyphs (small icons) to use throughout the site
 podcast-glyph: /assets/feed-glyphs/podcast.svg
 blog-glyph: /assets/feed-glyphs/blog.svg
+
+# Default featured images for posts that do not contain one
+podcast-fi: /assets/agile-in-action/agile-in-action-caption-image.svg
+blog-fi: /assets/agile-blog/agile-blog-caption-image.jpg

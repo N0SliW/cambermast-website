@@ -34,3 +34,7 @@ In other words, most of the content you see on the pages (featured podcast, feat
 
 Note that the __feed.scss__ file is the most important in that it sets the baseline for the grid layout. The additional SCSS files with a __feed__ prefix are modifiers to __feed.scss__ or unique to the type of feed display you want to display.
 
+## How the feed displays differently
+First, there is a calling page, like blog.markdown or podcast.markdown. Second, there is a layout file that uses a Liquid Include. In that Include are properties that pass to the feed.html file. It can change the whole section heading's CSS Class, so you can create a unique SCSS file that displays the content as you like. Remember there is a _feed.scss_ file that is a sort of main starting off point for styles.
+
+The Liquid include also sends other properties to the feed.html file, such as what the default featured image should be (if one is not provided), how many posts to display, what the offset is for the post, and so on. You can place multiple feed.html files on a single page and they can all look different.

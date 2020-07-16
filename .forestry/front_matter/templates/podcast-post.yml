@@ -14,26 +14,37 @@ fields:
   hidden: true
 - type: text
   name: title
-  label: title
-- type: file
-  name: featuredImage
-  label: Featured image
-  description: Select an image to display at the top of the post.
+  label: Podcast title
+  config:
+    required: true
+  description: Type the title of the show as it will appear on the podcast (Libsyn).
 - type: datetime
   name: date
-  label: date
+  label: Publish date
   config:
     required: true
   default: now
+  description: Date to publish the post.
+- type: file
+  name: featuredImage
+  label: Featured image
+  description: Select an image to display at the top of the post. Download a pertinent
+    image from https://unsplash.com.
 - name: author
   type: text
   config:
     required: true
-  label: author
   default: Bill Raymond
-  description: The name of the person writing the article
+  description: The name of the host that interviews the guest. Default is Bill Raymond.
+  label: Podcast host
+- name: libsynUrl
+  type: text
+  config:
+    required: false
+  label: Libsyn directory url
+  description: After you publish a post, Libsyn will provide a "Libsyn Directory URL".
+    Paste that link into this field.
 pages:
 - _posts/2020-05-31-a-short-history-of-agile.md
 - _posts/2020-05-31-starting-with-agile-on-big-bet-projects.md
 - _posts/2020-06-03-agile-in-the-age-of-quarantine.md
-- _posts/test-post.md

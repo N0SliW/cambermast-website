@@ -7,11 +7,9 @@
     (feedType)      agile-blog and agile-in-action-podcast are two common categories
     (ft)
 
-    caption-image:  default image for any item displayed in the feed
-    (captionImage)  Important: The caption-image MUST be square
-    (ci)            or it will not display properly (ex 250x250 or 100x100).
-                    If a featured image is available, then display that and 
-                    ignore the caption image.
+    featured-image: Fallback for posts with no featured image.
+    (captionImage)  The image MUST be square (ex )
+    (ci)            or it will not display properly (ex 3000px by 3000px)
 
     feed-glyph:     default glyph (small icon) to display on top
     (feedGlyph)     of the feed's featured image.
@@ -35,7 +33,7 @@
                     You can use any positive integer.
 {% endcomment %}
 {%- assign feed-type = include.feedType -%}
-{%- assign caption-image = include.captionImage -%}
+{%- assign featured-image = include.featuredImage -%}
 {%- assign feed-glyph = include.feedGlyph -%}
 {%- assign css-style = include.cssStyle -%}
 {%- assign display-offset = include.displayOffset -%}
@@ -48,7 +46,7 @@
                 {% comment %} Display the post's featured image. {% endcomment %}
                 {%- if post.featuredImage == "" or post.featuredImage == nil -%}
                     <!-- No featured image provided, so get it from the referring html file. -->
-                    <img class="feed-item-image" src="{{- caption-image | relative_url -}}" alt="{{- post.title -}}">
+                    <img class="feed-item-image" src="{{- featured-image | relative_url -}}" alt="{{- post.title -}}">
                 {%- else -%}
                     {% comment %} There is a featured image, so use that {% endcomment %}
                     <img class="feed-item-image" src="{{- post.featuredImage | relative_url }}" alt="{{- post.title -}}">

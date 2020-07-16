@@ -36,6 +36,15 @@
             "imageUrl": "/privacy",
             "display": false,
             "orderby": 4
+        },
+        {
+            "title": "Site repo",
+            "url": "https://github.com/BillRaymond/cambermast-website",
+            "type": "url",
+            "content": "Site repo",
+            "imageUrl": "/",
+            "display": true,
+            "orderby": 5
         }
     ]
 }

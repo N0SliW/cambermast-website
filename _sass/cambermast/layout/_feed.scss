@@ -1,6 +1,7 @@
+// Primary css for anything feed related (featured post, feed items, etc)
+// Any other "_feed" css is to modify this primary file.
 // Generic list of all items in a feed. The calling HTML page will
 // determine whether the user is looking at a list of blog, podcast, or other types.
-
 .feed-section {
     // container for the feed items
     display: grid;
@@ -19,7 +20,7 @@
 }
 
 // *** FEATURED IMAGE ***
-// the "card" is the display for a single post.
+// the "card" represents all the content to display for a given post in the feed.
 .feed-section .feed-card {
     // display a 2-column, single-row grid that repeats vertically.
     display: grid;

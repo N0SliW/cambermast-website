@@ -11,7 +11,7 @@ layout: default
       {% comment %} TODO: Remove this and related files: {%- include banner-blog-feed.html -%} {% endcomment %}
     <!-- Display the feed in the form of a blog feed -->
       {%- assign ft = "agile-blog" -%}
-      {%- assign fi = "/assets/agile-blog/agile-blog-caption-image.jpg" -%}
+      {%- assign fi = site.data.configs.blog-fi -%}
       {%- assign fg = site.data.configs.blog-glyph -%}
       {%- assign cs = "feed-latest" -%}
       {%- assign do = 0 -%}
@@ -26,7 +26,7 @@ layout: default
       -%}
     <!-- Display the feed in the form of a blog feed -->
       {%- assign ft = "agile-blog" -%}
-      {%- assign fi = "/assets/agile-blog/agile-blog-caption-image.jpg" -%}
+      {%- assign fi = site.data.configs.blog-fi -%}
       {%- assign fg = site.data.configs.blog-glyph -%}
       {%- assign cs = "feed-section" -%}
       {%- assign do = 1 -%}

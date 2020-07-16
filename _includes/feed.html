@@ -78,7 +78,6 @@
                     {%- assign miniExcerpt = post.excerpt -%}
                     {%- assign miniExcerpt = miniExcerpt | strip_html -| escape | lstrip | rstrip -%}
                     {%- assign miniExcerpt = miniExcerpt | split: ". " | first -%}
-                    {%- assign miniExcerpt = miniExcerpt | append: "." -%}
                     <span class="feed-item-excerpt">{{- miniExcerpt -}}</span>
                 </div>
                 {% comment %} display the post's author. Use default if necessary. {% endcomment %}

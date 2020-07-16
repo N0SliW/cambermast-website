@@ -7,19 +7,22 @@
 
 .podcast-post-section .guest-photos {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(12px, 1fr));
-    grid-gap: 20px;
+    grid-auto-flow: column;
+    overflow: auto;
+    grid-gap: 5px;
     padding: 10px;
     border-radius: 5px;
     background-color: lightgrey;
-}
-
-.podcast-post-section .post-content {
-    grid-area: content;
+    align-content: start;
+    justify-content: start;
 }
 
 .podcast-post-section .guest-photo {
-    height: 100%;
+    width: 150px;
+    height: 150px;
+    min-width: 75px;
+    min-height: 75px;
+    object-fit: cover;
 }
 
 .podcast-post-section .post-content .img {

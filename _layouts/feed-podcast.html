@@ -5,14 +5,17 @@ layout: default
     <!-- Display the navigation section -->
       {%- include nav.html -%}
     <!-- Display the feed in the form of a single "latest post" -->
+    <!-- Go to the "include" file below to get details for each property -->
       {%- assign ft = "agile-in-action-podcast" -%}
       {%- assign ci = "/assets/agile-in-action/agile-in-action-caption-image.svg" -%}
+      {%- assign fg = "/assets/feed-icons/podcast.svg" -%}
       {%- assign cs = "feed-latest" -%}
       {%- assign do = 0 -%}
       {%- assign dl = 1 -%}
       {%- include feed.html 
-            feedType=ft
+            feedType= ft
             captionImage = ci
+            feedGlyph = fg
             cssStyle = cs
             displayOffset = do
             displayLimit = dl
@@ -20,12 +23,14 @@ layout: default
     <!-- Display the feed in the form of a podcast feed -->
       {%- assign ft = "agile-in-action-podcast" -%}
       {%- assign ci = "/assets/agile-in-action/agile-in-action-caption-image.svg" -%}
+      {%- assign fg = "/assets/feed-icons/podcast.svg" -%}
       {%- assign cs = "feed-section" -%}
       {%- assign do = 1 -%}
       {%- assign dl = null -%}
       {%- include feed.html 
             feedType=ft
             captionImage = ci
+            feedGlyph = fg
             cssStyle = cs
             displayOffset = do
             displayLimit = dl

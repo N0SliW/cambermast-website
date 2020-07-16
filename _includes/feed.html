@@ -5,43 +5,49 @@
     *** REQUIRED:
     feed-type:      The "category" of post to use, which is found on the post itself
     (feedType)      agile-blog and agile-in-action-podcast are two common categories
+    (ft)
 
     caption-image:  default image for any item displayed in the feed
     (captionImage)  Important: The caption-image MUST be square
-                    or it will not display properly (ex 250x250 or 100x100).
+    (ci)            or it will not display properly (ex 250x250 or 100x100).
                     If a featured image is available, then display that and 
                     ignore the caption image.
 
+    feed-glyph:     default glyph (small icon) to display on top
+    (feedGlyph)     of the feed's featured image.
+    (fg)            examples: paper icon for a blog, volume for a podcast
+
     css-style:      the <main> style that will be used to display the feed
     (cssStyle)      The feed can be used to display one or many posts,
-                    so you might want a different layout.
+    (cs)            so you might want a different layout.
     
     *** OPTIONAL:
     display-offset: tells the feed how many posts to skip.
     (displayOffset) Default is 0 (zero)
-                    If 0, then start by displaying the first blog post.
+    (do)            If 0, then start by displaying the first blog post.
                     If 1, then start by displaying the second blog post.
                     You can use any positive integer.
 
     display-limit:  determines how many posts to display.
     (displayLimit)  Default is null (display all posts based on the offset)
-                    1 displays a single post.
+    (dl)            1 displays a single post.
                     5 displays 5 posts.
                     You can use any positive integer.
 {% endcomment %}
+{%- assign feed-type = include.feedType -%}
+{%- assign caption-image = include.captionImage -%}
+{%- assign feed-glyph = include.feedGlyph -%}
 {%- assign css-style = include.cssStyle -%}
+{%- assign display-offset = include.displayOffset -%}
+{%- assign display-limit = include.displayLimit -%}
 <section class="{{css-style}}">
-    {% assign feed-type = include.feedType %}
-    {% assign feedPosts = site.posts | where: 'categories', feed-type %}
-    {%- assign display-offset = include.displayOffset -%}
-    {%- assign display-limit = include.displayLimit -%}
-    {% for post in feedPosts offset: display-offset limit: display-limit %}
+    {%- assign feedPosts = site.posts | where: 'categories', feed-type -%}
+    {%- for post in feedPosts offset: display-offset limit: display-limit -%}
         <div class="feed-card">
             <div class="feed-card-image">
                 {% comment %} Display the post's featured image. {% endcomment %}
                 {%- if post.featuredImage == "" or post.featuredImage == nil -%}
                     <!-- No featured image provided, so get it from the referring html file. -->
-                    {% assign caption-image = include.captionImage %}
                     <img class="feed-item-image" src="{{- caption-image | relative_url -}}" alt="{{- post.title -}}">
                 {%- else -%}
                     {% comment %} There is a featured image, so use that {% endcomment %}

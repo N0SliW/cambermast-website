@@ -1,8 +1,11 @@
-
 # Glyphs (small icons) to use throughout the site
 podcast-glyph: /assets/feed-glyphs/podcast.svg
 blog-glyph: /assets/feed-glyphs/blog.svg
 
 # Default featured images for posts that do not contain one
-podcast-fi: /assets/agile-in-action/agile-in-action-caption-image.svg
-blog-fi: /assets/agile-blog/agile-blog-caption-image.jpg
+# Small should be rectangular and usually displays in a list of feed items
+# Large should be used for full-size featured posts
+blog-fi-small: /assets/agile-blog/blog-fi-small.jpg
+blog-fi-large: /assets/agile-blog/blog-fi-large.jpg
+podcast-fi-large: /assets/agile-in-action/podcast-fi-large.jpg
+podcast-fi-small: /assets/agile-in-action/agile-in-action-caption-image.svg

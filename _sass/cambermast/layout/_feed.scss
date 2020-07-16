@@ -32,7 +32,7 @@
     border-top-style: solid;
     .feed-card-image { grid-area: 1 / 1 / 2 / 2; }
     .feed-card-gradient-overlay { grid-area: 1 / 1 / 2 / 2; }
-    .feed-card-icon { grid-area: 1 / 1 / 2 / 2; }
+    .feed-card-glyph { grid-area: 1 / 1 / 2 / 2; }
 
     @include for-size(phone-only){
         column-gap: 10px;
@@ -49,8 +49,8 @@
     grid-area: feed-card-gradient-overlay;
 }
 
-.feed-section .feed-card-icon {
-    grid-area: feed-card-icon;
+.feed-section .feed-card-glyph {
+    // grid-area: feed-card-icon;
     width: 15px;
     height: auto;
     margin-top: 5px;

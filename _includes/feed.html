@@ -57,7 +57,7 @@
             {% comment %} Where defined in the CSS, add a gradient over the image {% endcomment %}
             <div class="feed-card-gradient-overlay"></div>
             {% comment %} Get an icon (glyph) image to display with the card {% endcomment %}
-            <div class="feed-card-icon">
+            {% comment %} <div class="feed-card-icon">
                 {%- assign icon-url = "" -%}
                 {%- for item in site.data.feed-icons.items -%}
                     {%- if item.title == feed-type -%}
@@ -65,6 +65,9 @@
                         <img class="feed-item-icon" src="{{- icon-url -}}" alt="{{feed-type}}" >
                     {%- endif -%}
                 {%- endfor -%}
+            </div> {% endcomment %}
+            <div class="feed-card-glyph">
+                <img class="feed-item-glyph" src="{{- feed-glyph -}}" alt="{{feed-type}}" >
             </div>
             <div class="feed-card-content">
                 {%- comment -%}Display the post's title{%- endcomment -%}

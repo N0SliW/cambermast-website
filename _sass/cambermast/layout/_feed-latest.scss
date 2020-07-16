@@ -17,7 +17,7 @@
     // layer the image, gradient overlay, and post summary on top of each other:
     .feed-card-image { grid-area: 1 / 1 / 2 / 2; }
     .feed-card-gradient-overlay { grid-area: 1 / 1 / 2 / 2; }
-    .feed-card-icon { grid-area: 1 / 1 / 2 / 2;}
+    .feed-card-glyph { grid-area: 1 / 1 / 2 / 2;}
     .feed-card-content { grid-area: 1 / 1 / 2 /2; }
 
     @include for-size(phone-only){
@@ -51,7 +51,7 @@
     ); 
 }
 
-.feed-latest .feed-card-icon {
+.feed-latest .feed-card-glyph {
     display: grid;
     align-self: start;
     margin-left: $gridMarginLeft;
@@ -63,7 +63,7 @@
     }
 }
 
-.feed-latest .feed-item-icon {
+.feed-latest .feed-item-glyph {
     width: auto;
     height: 25px;
 }
@@ -89,7 +89,6 @@
         margin-right: 5px;
     }
 }
-
 
 // row to display the title of the item
 .feed-latest .feed-card-title {

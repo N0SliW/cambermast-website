@@ -1,3 +1,6 @@
+# These are configuration items specific to the Cambermast.com website
+# Using this over _config.yml because it does not require a jekyll serve restart
+
 # Glyphs (small icons) to use throughout the site
 podcast-glyph: /assets/feed-glyphs/podcast.svg
 blog-glyph: /assets/feed-glyphs/blog.svg

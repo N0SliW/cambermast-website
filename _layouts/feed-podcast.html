@@ -4,10 +4,7 @@ layout: default
 <div class="home-container">
     <!-- Display the navigation section -->
       {%- include nav.html -%}
-    <!-- Display the home page header image -->
-    <!-- TODO #1: Automate this with Liquid -->
-      {% comment %} TODO: Remove this and related files: {%- include banner-podcast-feed.html -%} {% endcomment %}
-    <!-- Display the feed in the form of a podcast feed (latest post) -->
+    <!-- Display the feed in the form of a single "latest post" -->
       {%- assign ft = "agile-in-action-podcast" -%}
       {%- assign ci = "/assets/agile-in-action/agile-in-action-caption-image.svg" -%}
       {%- assign cs = "feed-latest" -%}

@@ -1,26 +1,29 @@
 <section class="feed-latest-posts">
   <div class="feed-latest-post-cards">
     {%- assign ft = "agile-in-action-podcast" -%}
-    {%- assign ci = "/assets/agile-in-action/agile-in-action-caption-image.png" -%}
+      {%- assign fi = site.data.configs.podcast-fi -%}
+      {%- assign fg = site.data.configs.podcast-glyph -%}
     {%- assign cs = "feed-latest" -%}
     {%- assign do = 0 -%}
     {%- assign dl = 1 -%}
     {%- include feed.html 
           feedType=ft 
-          captionImage = ci 
+          featuredImage = fi
+          feedGlyph = fg
           cssStyle = cs 
           displayOffset = do 
           displayLimit = dl 
     -%}
   <!-- Display the blog latest post -->
     {%- assign ft = "agile-blog" -%}
-    {%- assign ci = "/assets/agile-blog/agile-blog-caption-image.jpg" -%}
-    {%- assign cs = "feed-latest" -%}
+    {%- assign fi = site.data.configs.blog-fi -%}
+    {%- assign fg = site.data.configs.blog-glyph -%}
     {%- assign do = 0 -%}
     {%- assign dl = 1 -%}
     {%- include feed.html 
           feedType=ft 
-          captionImage = ci 
+          featuredImage = fi
+          feedGlyph = fg
           cssStyle = cs 
           displayOffset = do 
           displayLimit = dl 

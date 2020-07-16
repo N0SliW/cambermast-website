@@ -4,14 +4,27 @@ layout: default
 <div class="home-container">
   <!-- Display the navigation section -->
     {%- include nav.html -%}
-  <!-- Display the play podcast section -->
-    {%- include playpod.html -%}
-  <!-- Display the home page header image -->
-  <!-- TODO #1: Automate this with Liquid -->
-    {%- include banner-podcast-post.html -%}
-  <!-- Display the blog content -->
+  <!-- Display the banner in the form of a featured image -->
+  <!-- Display the post's featured image using the feed -->
+    {%- assign ft = "agile-in-action-podcast" -%}
+    {%- assign fi = site.data.configs.podcast-fi-large -%}
+    {%- assign fg = site.data.configs.podcast-glyph -%}
+    {%- assign cs = "feed-latest" -%}
+    {%- assign tf = page.title -%}
+    {%- assign do = 0 -%}
+    {%- assign dl = 1 -%}
+    {%- include feed.html 
+          feedType=ft
+          featuredImage = fi
+          feedGlyph = fg
+          cssStyle = cs
+          titleFilter = tf
+          displayOffset = do
+          displayLimit = dl
+    -%}
+  <!-- Display the post content -->
     {%- include podcast-post.html -%}
-  <!-- Display the blog content -->
+  <!-- Display the author LinkedIn badge -->
     {%- include linkedin-badge.html -%}
   <!-- Display the footer section -->
     {%- include footer.html -%}

@@ -20,6 +20,14 @@
     (cs)            so you might want a different layout.
     
     *** OPTIONAL:
+    title-filter:   tells the feed to search for a specific title.
+    (titleFilter)   Useful for displaying the featured image on a post page.
+    (tf)            The title is found on the referring page's
+                    yml front matter.
+                    Important: when using this option, set the
+                    display-offset to 0 or null and display-limit to 1.
+                    Only displays the first matching post.
+
     display-offset: tells the feed how many posts to skip.
     (displayOffset) Default is 0 (zero)
     (do)            If 0, then start by displaying the first blog post.
@@ -36,10 +44,14 @@
 {%- assign featured-image = include.featuredImage -%}
 {%- assign feed-glyph = include.feedGlyph -%}
 {%- assign css-style = include.cssStyle -%}
+{%- assign title-filter = include.titleFilter -%}
 {%- assign display-offset = include.displayOffset -%}
 {%- assign display-limit = include.displayLimit -%}
 <section class="{{css-style}}">
     {%- assign feedPosts = site.posts | where: 'categories', feed-type -%}
+    {% if title-filter %}
+        {%- assign feedPosts = feedPosts | where: 'title', title-filter -%}
+    {% endif %}
     {%- for post in feedPosts offset: display-offset limit: display-limit -%}
         <div class="feed-card">
             <div class="feed-card-image">
@@ -54,16 +66,6 @@
             </div>
             {% comment %} Where defined in the CSS, add a gradient over the image {% endcomment %}
             <div class="feed-card-gradient-overlay"></div>
-            {% comment %} Get an icon (glyph) image to display with the card {% endcomment %}
-            {% comment %} <div class="feed-card-icon">
-                {%- assign icon-url = "" -%}
-                {%- for item in site.data.feed-icons.items -%}
-                    {%- if item.title == feed-type -%}
-                        {%- assign icon-url = item.url | relative_url -%}
-                        <img class="feed-item-icon" src="{{- icon-url -}}" alt="{{feed-type}}" >
-                    {%- endif -%}
-                {%- endfor -%}
-            </div> {% endcomment %}
             <div class="feed-card-glyph">
                 <img class="feed-item-glyph" src="{{- feed-glyph -}}" alt="{{feed-type}}" >
             </div>

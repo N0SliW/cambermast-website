@@ -11,11 +11,11 @@ layout: default
       {%- assign do = 0 -%}
       {%- assign dl = 1 -%}
       {%- include feed.html 
-            feedType=ft 
-            captionImage = ci 
-            cssStyle = cs 
-            displayOffset = do 
-            displayLimit = dl 
+            feedType=ft
+            captionImage = ci
+            cssStyle = cs
+            displayOffset = do
+            displayLimit = dl
       -%}
     <!-- Display the feed in the form of a podcast feed -->
       {%- assign ft = "agile-in-action-podcast" -%}
@@ -24,11 +24,11 @@ layout: default
       {%- assign do = 1 -%}
       {%- assign dl = null -%}
       {%- include feed.html 
-            feedType=ft 
-            captionImage = ci 
-            cssStyle = cs 
-            displayOffset = do 
-            displayLimit = dl 
+            feedType=ft
+            captionImage = ci
+            cssStyle = cs
+            displayOffset = do
+            displayLimit = dl
       -%}
     <!-- Display the footer section -->
       {%- include footer.html -%}

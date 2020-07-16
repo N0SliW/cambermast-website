@@ -1,11 +1,28 @@
 // layout for a new podcast posting
 .podcast-post-section {
-    margin-top: 25px;
+    margin-top: 10px;
     margin-left: $gridMarginLeft;
     margin-right: $gridMarginRight;
+}
 
-    img {
-        max-width: 50%;
-        height: auto;
-    }
+.podcast-post-section .guest-photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(12px, 1fr));
+    grid-gap: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightgrey;
+}
+
+.podcast-post-section .post-content {
+    grid-area: content;
+}
+
+.podcast-post-section .guest-photo {
+    height: 100%;
+}
+
+.podcast-post-section .post-content .img {
+    max-width: 50%;
+    height: auto;
 }

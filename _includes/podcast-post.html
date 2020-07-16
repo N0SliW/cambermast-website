@@ -1,4 +1,13 @@
 <!-- Display the podcast content -->
 <div class="podcast-post-section">
-    {{content}}
+    <div class="guest-photos">
+        {% for item in page.guestPhotos %}
+            <div class="guest-photo-items">
+                <img src="{{- item -}}" alt="" class="guest-photo">
+            </div>
+        {% endfor %}
+    </div>
+    <div class="post-content">
+        {{content}}
+    </div>
 </div>

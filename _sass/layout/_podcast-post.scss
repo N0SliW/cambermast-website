@@ -8,11 +8,9 @@
 .podcast-post-section .guest-photos {
     display: grid;
     grid-auto-flow: column;
-    overflow: auto;
+    // overflow: auto;
     grid-gap: 5px;
-    padding: 10px;
     border-radius: 5px;
-    background-color: lightgrey;
     align-content: start;
     justify-content: start;
 }
@@ -20,9 +18,11 @@
 .podcast-post-section .guest-photo {
     width: 150px;
     height: 150px;
-    min-width: 75px;
-    min-height: 75px;
     object-fit: cover;
+    @include for-size(phone-only){
+        width: 75px;
+        height: 75px;
+    }
 }
 
 .podcast-post-section .post-content .img {

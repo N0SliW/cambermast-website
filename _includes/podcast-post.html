@@ -8,6 +8,23 @@
         {% endfor %}
     </div>
     <div class="post-content">
+        <h2>Listen now</h2>
+        {%- assign player-id = page.libsynUrl | split: '/' | last -%}
+        {%- assign player-id = player-id | remove: '/' -%}
+        {%- if player-id -%}
+            <iframe style="border: none" 
+                src="//html5-player.libsyn.com/embed/episode/id/{{player-id}}/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/f49f1c/"
+                height="90" 
+                width="100%" 
+                scrolling="no"  
+                allowfullscreen 
+                webkitallowfullscreen 
+                mozallowfullscreen 
+                oallowfullscreen 
+                msallowfullscreen>
+            </iframe>
+        {%- endif -%}
+        <h2>In this episode</h2>
         {{content}}
     </div>
 </div>

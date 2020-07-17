@@ -30,6 +30,13 @@ fields:
   label: Featured image
   description: Select an image to display at the top of the post. Download a pertinent
     image from https://unsplash.com.
+- name: todaysGuests
+  type: text
+  config:
+    required: true
+  label: Today's guest(s)
+  description: 'Type the name of the guests in the podcast, separated by commas. Example:
+    Mary Smith, Tom Mcdonnel'
 - name: guestPhotos
   type: image_gallery
   config: {}

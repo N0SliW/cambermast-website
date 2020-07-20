@@ -5,6 +5,8 @@ date: 2020-05-31T13:20:00.000-07:00
 author: Bill Raymond
 title: Team topologies and obsession over a rapid flow of change
 featuredImage: "/uploads/team-topologies-podcast.jpg"
+libsynUrl: https://oembed.libsyn.com/embed?item_id=14797205
+guestPhotos: []
 
 ---
 Adopting agile means organizing your teams for efficiency, or as authors Manuel Pais and Matthew Skelton put it, improving team flow. Their book Team Topologies is a must-read for any organization that wants to adopt agile. -Bill

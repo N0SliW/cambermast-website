@@ -1,16 +1,17 @@
 <!-- Display the podcast content -->
-<div class="podcast-post-section">
+<section class="podcast-post-section">
     <div class="guest-photos">
-        {% for item in page.guestPhotos %}
+        {%- assign guest-photo = page.guestPhotos -%}
+        {% for guest-photo in page.guestPhotos %}
             <div class="guest-photo-items">
-                <img src="{{- item -}}" alt="" class="guest-photo">
+                <img src="{{- guest-photo -}}" alt="" class="guest-photo">
             </div>
         {% endfor %}
     </div>
     <div class="post-content">
         <h2>Listen now</h2>
-        {%- assign player-id = page.libsynUrl | split: '/' | last -%}
-        {%- assign player-id = player-id | remove: '/' -%}
+        {%- assign player-id = page.libsynUrl | split: 'item_id=' | last -%}
+        {%- assign player-id = player-id | remove: 'item_id=' -%}
         {%- if player-id -%}
             <iframe style="border: none" 
                 src="//html5-player.libsyn.com/embed/episode/id/{{player-id}}/height/90/theme/custom/thumbnail/yes/direction/backward/render-playlist/no/custom-color/f49f1c/"
@@ -27,4 +28,4 @@
         <h2>In this episode</h2>
         {{content}}
     </div>
-</div>
+</section>

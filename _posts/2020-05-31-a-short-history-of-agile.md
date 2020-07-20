@@ -5,6 +5,8 @@ date: 2020-05-31T20:00:50.000+00:00
 author: Bill Raymond
 title: 'A Short History of Agile '
 featuredImage: ''
+guestPhotos: []
+libsynUrl: https://oembed.libsyn.com/embed?item_id=14523032
 
 ---
 <img src="/uploads/bill-raymond.png" style="float:right;" width="200"/>

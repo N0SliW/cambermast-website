@@ -32,7 +32,6 @@
 .feed-latest .feed-item-image {
     width: 100%;
     height: 100%;
-    borders: 5px;
     object-fit: cover; // Using this so the image can be any size and still look halfway decent.
 }
 

@@ -25,14 +25,15 @@
     }
 }
 
-.feed-latest .feed-card-image {
-    display: grid;
-}
+// .feed-latest .feed-card-image {
+//     grid-area: feed-card-image;
+// }
 
 .feed-latest .feed-item-image {
     width: 100%;
-    max-height: 350px;
+    max-height: 100%;
     object-fit: cover; // Using this so the image can be any size and still look halfway decent.
+    border-radius: 5px;
 }
 
 

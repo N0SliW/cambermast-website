@@ -20,7 +20,7 @@ For purposes of this article, I assume you are _not_ an agile practitioner, so I
 
 The standup is a short meeting that connects a team every day so all team members understand the current work, provide status to leaders and stakeholders, and identify issues that are blocking some work effort.
 
-![Wristwatch. Photo by Ana Azevedo on Unsplash](https://media-exp1.licdn.com/dms/image/C5612AQFxIyFglrQMWQ/article-inline_image-shrink_1500_2232/0?e=1592438400&v=beta&t=mUtABcDQ_k56oRmta65KlZ3JUdeGgXEyIr21x66B9Ts)
+![/uploads/isabella-and-louisa-fischer-r9snqtdzqnw-unsplash.jpg](https://app.forestry.io/sites/viojmsxn9ax7fa/body-media//uploads/isabella-and-louisa-fischer-r9snqtdzqnw-unsplash.jpg)
 
 ### What is the agenda?
 
@@ -38,7 +38,7 @@ The standup agenda is only three bullet points. That said, it is worth giving yo
 
 **When to attend**? Morning meetings are ideal because it sets the tone for each team member's workday. You have to decide what _morning_ means for your team. As a general best practice, the standup does not start any later than 9:30 am.
 
-**How should you attend?** As I write this, Covid is forcing many people to work from home, take care of their children that are no longer going to school, and work out family schedules. Consider making your standup a voice-first session, so people do not feel the pressure to put themselves on video first thing in the morning.
+**How should you attend?** As I write this, COVID is forcing many people to work from home, take care of their children that are no longer going to school, and work out family schedules. Consider making your standup a voice-first session, so people do not feel the pressure to put themselves on video first thing in the morning.
 
 **Agenda**:
 
@@ -58,21 +58,21 @@ What makes a short meeting long? Someone brings something up, and everyone tries
 
 **Various people (the wrong way)**: _Did you talk to Sam? How about logging an IT ticket? Hold on, let me see if I can get you access, can you share your screen?_
 
-**_The standup leader to the team (the right way)_**: _If you have some ideas to expedite this, please message Bill. However, I understand this is a blocker, so I will take the action to escalate this to our database team_.
+**_The standup leader to the team (the right way)_**: _If you have some ideas to expedite this, please message Bill. However, I understand this is a blocker, so I will take action and escalate this to our database team_.
 
 **Scenario #2 - The wrong meeting**
 
-**Paul's turn (the wrong way)**: _Yesterday I finally got the budget numbers! I am really excited to share this detail with you. If everyone can see my screen, I am showing you what I learned. As you can see, we were under budget for the last quarter and that means we have some extra spend dollars we can use this quarter. Now, it is important to recognize that these numbers are based on capital spend, not O&M, so we will have to make judgment calls on the appropriate use of the funds. What's that Sally? Yes, we do have your specific numbers. As you can see on this spreadsheet, I'm pulling up..._
+**Paul's turn (the wrong way)**: _Yesterday, I finally got the budget numbers! I am excited to share this detail with you. If everyone can see my screen, I am showing you what I learned. As you can see, we were under budget for the last quarter, and that means we have some extra spend dollars we can use this quarter. Now, it is essential to recognize that these numbers are based on capital spend, not O&M, so we will have to make judgment calls on the appropriate use of the funds. What's that, Sally? Yes, we do have your specific numbers. As you can see on this spreadsheet, I'm pulling up..._
 
-**Paul's turn (the right way)**: _Yesterday I worked on the monthly budget numbers, and I am really pleased to announce we are in good shape and may have some additional funds for this quarter. Today I plan to put those details into a deck and share the draft with all of you. Please provide me with your feedback no later than Friday. There are no blockers at this time._
+**Paul's turn (the right way)**: _Yesterday, I worked on the monthly budget numbers, and I am pleased to announce we are in good shape and may have some additional funds for this quarter. Today I plan to put those details into a deck and share the draft with all of you. Please provide me with your feedback no later than Friday. There are no blockers at this time._
 
 **Scenario #3 - The standup leader forgetting the standup rules**
 
 **Erika**: _Today, I will schedule training so you are all familiar with the new CRM system we are launching_.
 
-**Standup leader (the wrong way)**: _Great! How long will those meetings be and who should attend? Do you know if we can track internal customers rather than just external customers? When does the CRM system rollout?_
+**Standup leader (the wrong way)**: _Great! How long will those meetings be, and who should attend? Do you know if we can track internal customers rather than just external customers? When does the CRM system rollout?_
 
-**Standup leader (the right way)**: _Great! I have a ton of questions for you and others may as well. Could you set up a follow-up meeting to address them before sending out the training sessions?_
+**Standup leader (the right way)**: _Great! I have a ton of questions for you, and others may as well. Could you set up a follow-up meeting to address them before sending out the training sessions?_
 
 **Erika (The right way, again. Erika is on it.)**: _Will do!_
 
@@ -84,9 +84,9 @@ The standup meeting should be a way for team members to sate what they are up to
 
 ### Stick to it (if you can), and have fun!
 
-As much as I have tried to force upon you the importance of keeping the meeting short and simple, it does not have to feel like an Army drill. Standup meetings take place first thing in the morning, where some will still be making their first cup of coffee, so keep the standup upbeat and positive.
+As much as I have tried to force upon you the importance of keeping the meeting short and straightforward, it does not have to feel like an Army drill. Standup meetings take place first thing in the morning, where some will still be making their first cup of coffee, so keep the standup upbeat and positive.
 
-Finally, do not let the meeting morph into something it is not. Far too often I witness standup team members asking for too much information and then letting the standup go from 15 minutes to 30 minutes to even many hours. Those discussions should be in follow-up meetings.
+Finally, do not let the meeting morph into something it is not. Far too often, I witness standup team members asking for too much information and then letting the standup go from 15 minutes to 30 minutes to even many hours. Those discussions should be in follow-up meetings.
 
 Keep tight on that agenda and if the standups just aren't working, then remove it from them from the calendar and figure out something that does work for your teams.
 

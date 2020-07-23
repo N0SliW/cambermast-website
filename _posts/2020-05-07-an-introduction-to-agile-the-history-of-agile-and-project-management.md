@@ -5,8 +5,9 @@ date: 2020-05-07T12:44:34.000-07:00
 author: Bill Raymond
 title: 'An introduction to agile: The history of agile and project management'
 featuredImage: "/uploads/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg"
+
 ---
-This is part 1 of a 5-part series that introduces agile concepts. In this first part, I level-set with the history of project management and agile so you can see where we have come from and where we are going in the project management industry._
+This article is part 1 of a 5-part series that introduces agile concepts. In this first part, I level-set with the history of project management and agile so you can see where we have come from and where we are going in the project management industry._
 
 <script src="https://gumroad.com/js/gumroad.js"></script> <a class="gumroad-button" href="https://gum.co/lKfhF" target="_blank">Purchase the training kit</a>
 
@@ -18,7 +19,7 @@ Around 1896, Karol Adamiecki created what we refer to as the harmonogram/harmono
 
 The reason you hear people refer to a Gantt chart as the "waterfall" method is because of the nature of the chart itself. The idea is to lay out all the work, milestones, and deliverables required for a project, broken out into what we call work breakdown structures. You define this work from beginning to end (top to bottom) and define when the work occurs from start to finish (left to right). What you end up with is a chart that looks like the following image, that sort of looks like a waterfall.
 
-![Sample image of a harmonogram/harmonograf, which is now referred to as a Gantt chart and is commonly referred to as a waterfall approach to managing projects.](https://media-exp1.licdn.com/dms/image/C5612AQGsLoy5ELJaNQ/article-inline_image-shrink_1000_1488/0?e=1594252800&v=beta&t=EKuxvqP86JxBYvs7o1UzBFR1SFDUxeTTc2Gmwjf9o00)
+![Sample image of a harmonogram/harmonograf, which is now referred to as a Gantt chart and is commonly referred to as a waterfall approach to managing projects.](https://app.forestry.io/sites/viojmsxn9ax7fa/body-media//uploads/waterfall.png)
 
 Some projects benefit greatly from this waterfall approach, such as construction, engineering, and highly regulated projects. Building a house is a common example because it would not be prudent to construct the roof before the frame, or build anything without first acquiring the land or getting approved engineering diagrams.
 
@@ -28,7 +29,7 @@ Contrary to popular belief, the waterfall method is not designed to be so set in
 
 In the late 80s and early 90s, the formal title of project manager became extremely popular in almost every industry. For example, when I was working in IT at a refinery just outside Boston, my formal title was _IT Analyst_. However, it was obvious that my role was focused on building plans, managing teams, reporting on status, and all the things a project manager might do. I took night courses at Boston University to receive my project management certification and was promoted with the title of Sr. Project Manager.
 
-![An image of the first Project Management Body of Knowledge (PMBOK), which provides an overview of the standards and best pracices project managers should follow.](https://media-exp1.licdn.com/dms/image/C5612AQHVbNiZbe_4Uw/article-inline_image-shrink_1000_1488/0?e=1594252800&v=beta&t=Q02xdGAq8w4FRFwiSZywJg9cCRkC8J4vLARsWkO_NAA)
+![An image of the first Project Management Body of Knowledge (PMBOK), which provides an overview of the standards and best pracices project managers should follow.](https://app.forestry.io/sites/viojmsxn9ax7fa/body-media//uploads/pmbok.jpeg)
 
 To provide standardized testing and create a common lexicon, the Project Management Institute (or PMI) released a book called _A User's Manual to the PMBOK Guide_. Put simply; it laid out the core elements of project management, and standards of practice project managers should follow.
 
@@ -46,7 +47,7 @@ So what happens when project managers need standards, but there are too many PMO
 
 In the early 2000s we saw the emergence of enterprise project management (or EPM) software, which today we refer to as portfolio and project management software (or PPM). EPM software promised that every project manager could publish their projects to a centralized server. Using a web-based front-end, PMOs could look at the resource needs across all the projects, create standardized reporting dashboards, and provide rolled-up status reports to executives (or what we project managers like to call sponsors).
 
-![An image representing enterprise software, and specifically enterprise project management software (or EPM software), that is now referred to as Portfolio and Project Management (PPM) software.](https://media-exp1.licdn.com/dms/image/C5612AQGnCk5NQ5oxUw/article-inline_image-shrink_1000_1488/0?e=1594252800&v=beta&t=2X9jTBnE-Tgi398xxmkqHiLlQmFXbCNrA0vZi0HD8WA)
+![An image representing enterprise software, and specifically enterprise project management software (or EPM software), that is now referred to as Portfolio and Project Management (PPM) software.](https://app.forestry.io/sites/viojmsxn9ax7fa/body-media//uploads/ppm.jpeg)
 
 ## Agile team flow
 
@@ -54,7 +55,7 @@ As the story goes, in 2001, a group of 17 software developers and engineers met 
 
 As you can see in the following image, the manifesto has a divergent view from the traditional project management methods of the day, which were to apply a waterfall approach to delivering a project.
 
-![The Manifesto for Agile Software Development lists four values: Individuals over interfactions, working software over comprehensive documenation, customer collaboration over contract negotiation, and responsing to change over following a plan.](https://media-exp1.licdn.com/dms/image/C5612AQGGm3XBxweH7w/article-inline_image-shrink_1500_2232/0?e=1594252800&v=beta&t=nIH5hDE8497S0kyJNXY4CLzlX85Y3x5Hr5bJz-bHdEc)
+![The Manifesto for Agile Software Development lists four values: Individuals over interfactions, working software over comprehensive documenation, customer collaboration over contract negotiation, and responsing to change over following a plan.](https://app.forestry.io/sites/viojmsxn9ax7fa/body-media//uploads/manifesto.png)
 
 If you think about project management coming from the early 1900s to the early 2000s, there was this thought that every project required as much detail as humanly possible before any work could start. The waterfall method required you to build a charter with a scope statement. Software development lifecycles (SDLCs) required detailed technical and user requirements prior to development can begin, and so on. You get the idea; there was a lot of so-called red tape necessary to get a project moving.
 
@@ -66,11 +67,11 @@ I remember watching a Lewis Black comedy special. He did a bit where he was tell
 
 Perhaps the Gantt chart would never have become widely used if it weren't for the fact it was highlighted as the project management tool to build the Hoover Dam.
 
-![An image of the Hoover Dam. It was the first high profile project to use the Gantt chart as a method for managing the project.](https://media-exp1.licdn.com/dms/image/C5612AQFF33jA_ITtWA/article-inline_image-shrink_1500_2232/0?e=1594252800&v=beta&t=IHtqLBWpNd2000_CE--Jz-HPmPykPkPqR5WsNezdiUU)
+![An image of the Hoover Dam.](https://app.forestry.io/sites/viojmsxn9ax7fa/body-media//uploads/hoover-dam.jpeg)
 
 To optimize waterfall plans, we need diagrams like PERT charts and techniques like network diagrams and critical path management. Those approaches got their time in the sun with their creation and use on the Polaris Submarine project and the 1968 Winter Olympics. And of course, more and more projects would shine a positive light on the importance of using these techniques.
 
-![An image that represents the PERT chart, network diagram, and critical path management. Also included in the image are the big projects that first made use of these techniques, including the Polaris Nuclear Submarine and the 1968 Winter Olympics.](https://media-exp1.licdn.com/dms/image/C5612AQFypcQlYvAAUA/article-inline_image-shrink_1000_1488/0?e=1594252800&v=beta&t=gNmMOEN6kPGRonIZQw69qVibbRr4cPNQF8IT9wmfQkc)
+![An image that represents the PERT chart, network diagram, and critical path management. Also included in the image are the big projects that first made use of these techniques, including the Polaris Nuclear Submarine and the 1968 Winter Olympics.](https://app.forestry.io/sites/viojmsxn9ax7fa/body-media//uploads/pert-chart.png)
 
 As you can see, all these and other high profile projects helped shine a light on these best practices and tools, which resulted in high adoption rates across many industries.
 
@@ -88,11 +89,11 @@ After the sprint's completion, there is a retrospective (sprint retrospective) t
 
 Finally, the whole process starts over again with another sprint and more shippable increments.
 
-![An image that depicts the Scrum framework. This image shows how developers manage their work using sprints and deliver shippable increments.](https://media-exp1.licdn.com/dms/image/C5612AQFbrFEMh5uUfw/article-inline_image-shrink_1000_1488/0?e=1594252800&v=beta&t=xvWkZUklysAql0zOTrwdtne67UJdIwlE6wxdHItf1v4)
+![An image that represents the general flow used for the SCRUM framework.](https://app.forestry.io/sites/viojmsxn9ax7fa/body-media//uploads/srum-framework-infographic.png)
 
 ## Agile's "Hoover Dam"
 
-![A picture of a monolith. The monolith represents software that cannot easily change.](https://media-exp1.licdn.com/dms/image/C5612AQGNHskUTbkLnA/article-inline_image-shrink_1500_2232/0?e=1594252800&v=beta&t=nsFZ51hT0f8p21Ey6uEB3sp9_Lmiji5a_EstmoeuzFY)
+![A picture of a monolith. The monolith represents software that cannot easily change.](https://app.forestry.io/sites/viojmsxn9ax7fa/body-media//uploads/monolith.jpeg)
 
 The problem with software development up until the mid-2000s was the big monoliths they created. It was not long ago that any enterprise application required you to purchase a massive license for an equally massive system that required dozens or even hundreds of developers to implement.
 
@@ -108,7 +109,7 @@ A new software source control system called Git gained popularity, allowing deve
 
 Finally, in the mid-2000s, Apple introduced the iPhone, with the promise of a computer in your pocket, not just a phone with some extra features. Writing software for the iPhone required lightweight programming that meant you needed to lean on services like AWS to do the heavy lifting for your app. Writing apps on the iPhone also meant the phone may not always be connected to the internet, something most software applications always relied on, so it would take a different kind of effort to build iPhone apps.
 
-![An image with the AWS, GIT, and iPhone. These technologies were the new innovations that would popularize agile software development.](https://media-exp1.licdn.com/dms/image/C5612AQGcTfYvznBY-g/article-inline_image-shrink_1000_1488/0?e=1594252800&v=beta&t=JcXMAeUShUFpgsnabgaKHAag7BaWpBcspXsdbTc2bXw)
+![An image with the AWS, GIT, and iPhone. These technologies were the new innovations that would popularize agile software development.](https://app.forestry.io/sites/viojmsxn9ax7fa/body-media//uploads/aws-git-iphone.png)
 
 The \[then\] radical approach with AWS was that it freed developers from building monolithic applications into small components that work together as a single product. One small team (an agile team or Scrum team) of developers could work on a specific feature, like say, the administration interface. Another small team could work on the user-facing aspects, and yet another small team could work on the marketing website. These are examples, but you can see the early start of small, agile teams working together on key components that can be delivered quickly without reliance on some "big bang" new release of the product.
 
@@ -126,17 +127,15 @@ We need to acknowledge that the term **_project management _**is a catch-all for
 
 The term "going agile" means creating lean, fast-moving teams. Those teams have people that support them by removing roadblocks that prevent the flow of work. An organization may say "we are using Scrum to do agile," but that organization is not really "using scrum" if they haven't also modified their organizational structure. They must rethink the role each individual plays in that organization, and have a continuous improvement model in place to keep changing and remain competitive.
 
-![An image that describes the difference between project management, aile, and methodologies and frameworks.](https://media-exp1.licdn.com/dms/image/C5612AQH846tm0WgBfw/article-inline_image-shrink_1500_2232/0?e=1594252800&v=beta&t=wKyYiSP-qj_z0CcVKiVYdibQdLce7GyMYCad7W9Y3zs)
+![An image that describes the difference between project management, aile, and methodologies and frameworks.](https://app.forestry.io/sites/viojmsxn9ax7fa/body-media//uploads/agile-acknowledgement.png)
 
-### **Free training**
+### Free training
 
-![A picture of two dogs in a Zoom meeting.](https://media-exp1.licdn.com/dms/image/C5612AQEYO9QviGgDKw/article-inline_image-shrink_1500_2232/0?e=1594252800&v=beta&t=Tb4eV0JjnInAF-V1PRxQ0x3Z1GAQAGeMq8owuhxIr4w)Click the link below and I will present this material to your team in an interactive one-hour meeting. Click the link now to book the training:
+Click the link below and I will present this material to your team in an interactive one-hour meeting. Click the link now to book the training:
 
 [https://calendly.com/billraymond/meet](https://calendly.com/billraymond/meet "https://calendly.com/billraymond/meet")
 
 ### Educational training package
-
-![A picture of a computer that represents the ability to download the training materials covered in this article.](https://media-exp1.licdn.com/dms/image/C5612AQGxb9hG5iq7CA/article-inline_image-shrink_1500_2232/0?e=1594252800&v=beta&t=jV5-O0lllBrhVj7bLHD0NSeceG1SCV3Fyk_qb94ZMrU)
 
 An enterprise and educator's license is available with a PowerPoint deck, training video, PDF, and the text of this article. Click the link below to learn more:
 

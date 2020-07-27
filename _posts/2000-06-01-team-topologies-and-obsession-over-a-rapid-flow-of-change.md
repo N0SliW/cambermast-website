@@ -17,7 +17,7 @@ Manuel Pais is the co-author of _Team Topologies_, a book focused on team organi
 
 Matthew Skelton is the co-author of _Team Topologies_ and several other books. He is also the Founder and Lead Consultant at Conflux, a specialist publisher of practitioner-led techniques for software teams, and the Lead Instigator at SenseConf, a conference held several times a year to share ideas in DevOps and Agile in corporate spaces. Matthew has written several other books on software delivery, and he also runs a blog where he shares his experiences working with teams and creating an environment where teams can grow on an individual and group scale
 
-### Resources Mentioned in this episode
+## Resources Mentioned in this episode
 
 * [Manuel Pais on LinkedIn](https://es.linkedin.com/in/manuelpais)
 * [Manuel Pais on Twitter](https://twitter.com/manupaisable/status/1239587053580554244)
@@ -30,7 +30,7 @@ Matthew Skelton is the co-author of _Team Topologies_ and several other books. H
 * Bill Raymond’s email address: [Bill.Raymond@Cambermast.com](mailto:Bill.Raymond@Cambermast.com)
 * [Bill Raymond on Twitter](https://twitter.com/billraymonde)
 
-### **Sponsor for this episode...**
+## **Sponsor for this episode...**
 
 This episode is brought to you by [Cambermast](https://www.cambermast.com/), an award-winning strategic consulting firm focused on helping you stay relevant in today’s fast-paced and technology-driven economy.
 

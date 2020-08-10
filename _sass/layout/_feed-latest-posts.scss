@@ -9,7 +9,6 @@
     margin-top: 5px;
 }
 
-
 .feed-latest-post-cards {
     display: grid;
     grid-template-columns: repeat(2, .5fr); // TODO: allow any number of columns
@@ -25,11 +24,11 @@
 }
 
 .feed-latest-post-cards .feed-item-image {
+    height: 100%;
     @include for-size(phone-only){
         gap: 5px;
     }
 }
-
 
 .feed-latest-post-cards .feed-card-glyph {
     grid-area: feed-card-glyph;

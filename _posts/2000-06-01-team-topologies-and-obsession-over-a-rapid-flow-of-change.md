@@ -1,7 +1,7 @@
 ---
 layout: podcast-post
 categories: agile-in-action-podcast
-date: 2020-05-31T13:20:00.000-07:00
+date: 2020-08-11 13:20:00 -0700
 author: Bill Raymond
 title: Team topologies and an obsession over a rapid flow of change
 featuredImage: "/uploads/team-topologies-podcast.jpg"

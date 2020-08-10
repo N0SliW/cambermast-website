@@ -7,7 +7,7 @@ title: 'A Short History of Agile '
 featuredImage: ''
 guestPhotos:
 - "/uploads/bill-raymond.png"
-libsynUrl: https://oembed.libsyn.com/embed?item_id=14523032
+libsynUrl: https://directory.libsyn.com/episode/index/id/14523032
 
 ---
 In this inaugural podcast, my colleague John Cororcoran interviews me about the history of agile.

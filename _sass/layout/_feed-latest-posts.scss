@@ -25,15 +25,11 @@
 }
 
 .feed-latest-post-cards .feed-item-image {
-    border-radius: 5px;
     @include for-size(phone-only){
         gap: 5px;
     }
 }
 
-.feed-latest-post-cards .feed-card-gradient-overlay {
-    border-radius: 5px;
-}
 
 .feed-latest-post-cards .feed-card-glyph {
     grid-area: feed-card-glyph;

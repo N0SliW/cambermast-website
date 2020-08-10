@@ -11,8 +11,7 @@
         </div>
         <div class="post-content">
             <h2>Listen now</h2>
-            {%- assign player-id = page.libsynUrl | split: 'item_id=' | last -%}
-            {%- assign player-id = player-id | remove: 'item_id=' -%}
+            {%- assign player-id = page.libsynUrl | split: '/' | last -%}
             {%- if player-id -%}
                 <iframe class="podcast-player"
                     style="border: none" 

@@ -1,7 +1,7 @@
 ---
 layout: podcast-post
 categories: agile-in-action-podcast
-date: 2020-04-28 13:00:50 -0700
+date: 2020-07-28 13:00:50 -0700
 author: Bill Raymond
 title: 'A Short History of Agile '
 featuredImage: ''

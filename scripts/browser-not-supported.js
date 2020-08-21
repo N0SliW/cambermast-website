@@ -2,7 +2,7 @@
     var version = getIEVersion();
     
     if (version && version <= 15) {
-        document.getElementById("browser-not-supported").style.display = "grid";
+        document.getElementById("browser-not-supported").style.display = "none";
     }
 
     function getIEVersion() {

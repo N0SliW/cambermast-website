@@ -1,7 +1,7 @@
 // layout for the area that displays if a browser is not supported.
 
 .browser-not-supported {
-    display: grid;
+    display: none;
     grid-template-columns: 1fr;
     grid-template-rows: 50px;
     grid-column-gap: 0px;

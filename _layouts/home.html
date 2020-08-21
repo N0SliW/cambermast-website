@@ -2,6 +2,8 @@
 layout: default
 ---
 <div class="home-container">
+  <!-- Display text if the browser is not supported -->
+    {%- include browser-not-supported.html -%}
   <!-- Display the navigation section -->
     {%- include nav.html -%}
   <!-- Display the play podcast section -->

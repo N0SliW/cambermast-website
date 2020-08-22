@@ -2,17 +2,13 @@
 
 .browser-not-supported {
     display: none;
-    grid-template-columns: 1fr;
-    grid-template-rows: 50px;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    align-items: center;
-    justify-items: center;
+    height: 50px;
     background-color: red;
     margin-bottom: 10px;
 }
 
 .browser-not-supported-message {
     color: white;
+    text-align: center;
     // text-transform: uppercase;
 }

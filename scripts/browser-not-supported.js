@@ -1,7 +1,7 @@
 var version = getIEVersion();
 
 if (version && version <= 15) {
-    alert("This website is in test mode. Message: " + version);
+    // alert("This website is in test mode. Message: " + version);
     document.getElementById("browser-not-supported").style.display = "display: block;";
 }
 

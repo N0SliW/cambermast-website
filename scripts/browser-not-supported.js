@@ -1,10 +1,9 @@
 var version = getIEVersion();
 
 if (version && version <= 15) {
-    // alert("This website is in test mode. Message: " + version);
+    alert("This website is in test mode. Message: " + version);
     // TODO #6 Fix the problem where the check for older browsers does not work @BillRaymond
     document.getElementById("browser-not-supported").style.display = "block";
-    window.alert("You are using an older browser that may not be supported by this site.");
 }
 
 function getIEVersion() {

@@ -1,6 +1,6 @@
 on:
   schedule:
-    - cron: '*/15 * * * *' # trigger the workflow every 15 minutes (for testing purposes)
+    - cron:  '*/15 * * * *' # for testing purposes, run the workflow every 15 minutes
     # - cron:  '0 11 * * *' # trigger workflow automatically at 4 am Pacific time
   workflow_dispatch: # trigger workflow manually
 name: trigger build
@@ -14,6 +14,6 @@ jobs:
       - uses: actions/checkout@master
         with:
           ref: master # checkout master branch
-      - uses: ./
+      - uses: ./ # runs the image created base on Dockerfile
         env:
           COMMIT_FILE_NAME: commit-file.txt # name of the file being created to trigger build

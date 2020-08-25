@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 {%- include head.html -%}
 <body>
-    <!-- Browser not supported test -->
-    <script type="text/javascript" src="{{site.data.configs.browser-not-supported-script | relative_url }}"></script>
     <!-- Calendly badge widget begin -->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript"></script>
@@ -16,5 +14,7 @@
       <!-- display content from home.html -->
       {{ content }}
     </div>
+    <!-- Browser not supported test -->
+    <script type="text/javascript" src="{{site.data.configs.browser-not-supported-script | relative_url }}"></script>
   </body>
 </html>

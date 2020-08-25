@@ -1,6 +1,7 @@
 on:
   schedule:
-    - cron:  '0 11 * * *' # trigger workflow automatically at 4 am Pacific time
+    - cron: '*/15 * * * *' # trigger the workflow every 15 minutes (for testing purposes)
+    # - cron:  '0 11 * * *' # trigger workflow automatically at 4 am Pacific time
   workflow_dispatch: # trigger workflow manually
 name: trigger build
 

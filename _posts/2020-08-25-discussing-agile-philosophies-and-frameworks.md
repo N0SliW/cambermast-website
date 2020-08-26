@@ -10,4 +10,6 @@ guestPhotos:
 libsynUrl: https://directory.libsyn.com/episode/index/id/15741419
 
 ---
-Bill Raymond and his colleague John have a short discussion on various agile frameworks and philosophies, such as kanban, lean manufacturing, scrum, and safe.
+Bill Raymond and his colleague John have a short discussion on various agile frameworks and philosophies.
+
+They discuss topics such as kanban, lean manufacturing, scrum, and SAFe.

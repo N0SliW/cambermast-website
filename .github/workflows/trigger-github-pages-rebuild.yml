@@ -4,8 +4,7 @@
 # The following section describes when the workflow should be triggered.
 on:
   schedule:
-    - cron:  '*/30 * * * *' # trigger workflow automatically at 4 am Pacific time (11 am UTC)
-    # - cron:  '0 11 * * *' # trigger workflow automatically at 4 am Pacific time (11 am UTC)
+    - cron:  '0 11 * * *' # trigger workflow automatically at 4 am Pacific time (11 am UTC)
   workflow_dispatch: # trigger workflow manually
 name: Trigger GitHub Pages Rebuild
 

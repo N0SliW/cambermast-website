@@ -1,0 +1,22 @@
+# This file is used by GitHub Actions to determine which jobs should be triggered based on the section "on".
+# For more information have a look at https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow
+
+# The following section describes when the workflow should be triggered.
+on:
+  schedule:
+    - cron:  '0 11 * * *' # trigger workflow automatically at 4 am Pacific time (11 am UTC)
+  workflow_dispatch: # trigger workflow manually
+name: Trigger GitHub Pages Rebuild
+
+# The following section describes the steps of the workflow
+jobs:
+  trigger-github-pages-rebuild:
+    name: Checkout repository and trigger rebuild by GitHub Pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout master branch of repository # first step
+        uses: actions/checkout@master
+        with:
+          ref: master # checkout master branch (can be changed)
+      - name: Trigger GitHub Pages Rebuild # second step
+        run: ./.github/scripts/trigger-github-pages-rebuild.sh # runs script to trigger GitHub Pages rebuild (path relative to the root directory of the repository)

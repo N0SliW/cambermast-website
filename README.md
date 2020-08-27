@@ -21,7 +21,7 @@ This is a Jekyll site designed for GitHub Pages. It was originally based on the 
 /index.markdown is the jumping off point for the site.
 
 ## Workflow
-For more information, see the [workflow readme file](workflow-docs/readme).
+For more information, see the [workflow readme file](/workflow-docs/readme).
 
 ## Blog and Podcast feeds
 What makes this site unique is there are two types of posts (and more can be dynamically added):

@@ -15,10 +15,13 @@ This is a Jekyll site designed for GitHub Pages. It was originally based on the 
 * Uses a font mix-in to enable for maximum and minimum font sizes
 * Data-driven menu system
 * Designed to easily display various types of content (posts, podcasts) in a unique way with only one file
-
+* GitHub action (workflow) that can force trigger the github-pages environment deployment and re-build the site.
 
 ## Home
 /index.markdown is the jumping off point for the site.
+
+## Workflow
+For more information, see the [workflow readme file](workflow-docs/readme).
 
 ## Blog and Podcast feeds
 What makes this site unique is there are two types of posts (and more can be dynamically added):

@@ -1,5 +1,9 @@
 # This file is used by GitHub Actions to determine which jobs should be triggered based on the section "on".
 # For more information have a look at https://docs.github.com/en/actions/configuring-and-managing-workflows/configuring-a-workflow
+# This GitHub Action (workflow) was created by cyberjumper for Cambermast LLC via Fiverr:
+# https://www.fiverr.com/cyberjumper
+# Documentation for this project is located in this repo under /workflow-docs.
+# Verify the workflow by going to /workflow-status.md in this repo.
 
 # The following section describes when the workflow should be triggered.
 on:

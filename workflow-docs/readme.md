@@ -23,6 +23,7 @@ NOTE: The file the script creates is only temporary and is designed solely to tr
 Go to the root of your repo and to the main line (main, master, prod, etc.).
 1. Create a .github/scripts folder and copy trigger-github-pages-rebuild.sh into that folder.
 2. Create a .github/workflows folder and copy trigger-github-pages-rebuild.yml into that folder.
+3. On your local machine, go to the .github/scripts folder and type `git add --chmod=+x trigger-github-pages-rebuild.sh`. Commit the file and sync to GitHub.
 
 You can modify the .yml file's CRON job to run as you like. You can also trigger the workflow manually on GitHub by going to your repo->actions->Trigger GitHub Pages Rebuild->Run Workflow->Run Workflow.
 

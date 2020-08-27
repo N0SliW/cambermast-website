@@ -19,3 +19,10 @@ The workflow runs a script contained with the `.gitgub/scripts` folder and perfo
 NOTE: The file the script creates is only temporary and is designed solely to trigger the github-pages environment deployment.
 ![trigger-github-pages.sh workflow](trigger-github-pages-script.png)
 
+## Installing the GitHub Action (workflow)
+Go to the root of your repo and to the main line (main, master, prod, etc.).
+1. Create a .github/scripts folder and copy trigger-github-pages-rebuild.sh into that folder.
+2. Create a .github/workflows folder and copy trigger-github-pages-rebuild.yml into that folder.
+
+You can modify the .yml file's CRON job to run as you like. You can also trigger the workflow manually on GitHub by going to your repo->actions->Trigger GitHub Pages Rebuild->Run Workflow->Run Workflow.
+

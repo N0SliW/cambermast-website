@@ -19,4 +19,4 @@ jobs:
         with:
           ref: master # checkout master branch (can be changed)
       - name: Trigger GitHub Pages Rebuild # second step
-        run: ./.github/scripts/trigger-github-pages-rebuild.sh # runs script to trigger GitHub Pages rebuild (path relative to the root directory of the repository)
+        run: ./scripts/trigger-github-pages-rebuild.sh # runs script to trigger GitHub Pages rebuild (path relative to the root directory of the repository)

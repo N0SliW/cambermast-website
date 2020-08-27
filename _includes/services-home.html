@@ -1,5 +1,5 @@
 <!-- Services section ON THE HOME PAGE -->
-<div class="services-section">
+<section class="services-section">
     {% assign services = site.data.services.items | sort: "orderby" %}
     {% for item in services %}
         {% if item.display %}
@@ -16,4 +16,4 @@
             </div>
         {% endif %}
     {% endfor %}
-</div>
+</section>

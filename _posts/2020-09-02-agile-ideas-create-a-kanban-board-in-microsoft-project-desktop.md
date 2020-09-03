@@ -43,8 +43,13 @@ If you are in an organization where it is still important to plan a schedule, bu
 
 As I mentioned earlier in this article, Microsoft Project Online (desktop) has the ability to create agile boards, but what if you do not have the online version or a previous version?
 
-With the approach I layout in this article, you will learn how to create a Kanban report using Microsoft Project 2013, 2016, or 2019. Of course, this method will work in Project Online (desktop), but it would be duplicative since the feature is built-in.
+## Pre-requisites
 
-## Let's get started
+With the approach I layout in this article, you will learn how to create a Kanban report using:
 
-First
+* Microsoft Project 2013
+* Microsoft Project 2016
+* Microsoft Project 2019
+* Project Online (desktop), but it would be duplicative since the built-in _agile board_  feature provides the same (and more) functionality
+
+## Create the project

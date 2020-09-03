@@ -13,7 +13,7 @@ In my post, [An introduction to agile: The history of agile and project manageme
 
 If you aren't one for reading, I created a video lesson you can watch here:
 
-[https://youtu.be/3lG7vpXNyu0](https://youtu.be/3lG7vpXNyu0 "https://youtu.be/3lG7vpXNyu0")
+<iframe width="325" height="183" src="https://www.youtube.com/embed/3lG7vpXNyu0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 The _waterfall_ method assumes you plan all your work upfront, defining all the tasks, and linking them together into a perfect chain we call the _critical path_. In agile, you build a product backlog.
 

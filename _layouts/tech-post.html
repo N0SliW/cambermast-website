@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div class="home-container">
+  <!-- Display the navigation section -->
+    {%- include nav.html -%}
+  <!-- Display the play podcast section -->
+    {%- include playpod.html -%}
+  <!-- Display the post's featured image using the feed -->
+    {%- assign ft = "tech-blog" -%}
+    {%- assign fi = site.data.configs.blog-fi-large -%}
+    {%- assign fg = site.data.configs.blog-glyph -%}
+    {%- assign cs = "feed-latest" -%}
+    {%- assign tf = page.title -%}
+    {%- assign do = 0 -%}
+    {%- assign dl = 1 -%}
+    {%- include feed.html 
+          feedType=ft
+          featuredImage = fi
+          feedGlyph = fg
+          cssStyle = cs
+          titleFilter = tf
+          displayOffset = do
+          displayLimit = dl
+    -%}
+  <!-- Display the blog content -->
+  {%- include blog-tech.html -%}
+  <!-- Display the blog content -->
+  {%- include linkedin-badge.html -%}
+  <!-- Display the footer section -->
+    {%- include footer.html -%}
+</div>

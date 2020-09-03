@@ -5,6 +5,9 @@ fields:
 - type: text
   name: layout
   label: layout
+  config:
+    required: true
+  default: tech-post
 - type: text
   name: categories
   label: categories

@@ -1,7 +1,7 @@
 ---
 layout: tech-post
 categories: tech-blog
-date: 2020-09-02 18:00:00 -0700
+date: 2020-09-02T18:00:00.000-07:00
 author: Bill Raymond
 title: 'Agile ideas: Create a Kanban Board in Microsoft Project (desktop)'
 featuredImage: "/uploads/screen-shot-2020-09-02-at-5-44-30-pm.png"
@@ -59,4 +59,7 @@ Optionally, you can download a copy of my sample project. Donations are accepted
 
 ## Create the project
 
-1. .Run Microsoft Project and open your favorite project. Or, download the sample I link to in the _pre-requisites_ section.
+1. Run Microsoft Project and create a new project or open your favorite project. I provide a sample
+2. Click on the report tab.
+3. Locate the View Reports section and click the New Report icon. A menu appears as shown in the next image. Select the Blank item. 
+4. The Report Name dialog appears. Type Kanban Board.

@@ -24,7 +24,7 @@ fields:
 - name: featuredImage
   type: file
   config:
-    maxSize: 250
+    maxSize: 
   label: Featured image
   description: Select an image to display at the top of the post.
   default: ''

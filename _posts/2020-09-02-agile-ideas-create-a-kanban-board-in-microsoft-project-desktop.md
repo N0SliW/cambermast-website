@@ -52,4 +52,11 @@ With the approach I layout in this article, you will learn how to create a Kanba
 * Microsoft Project 2019
 * Project Online (desktop), but it would be duplicative since the built-in _agile board_  feature provides the same (and more) functionality
 
+Optionally, you can download a copy of my sample project. Donations are accepted, but you can just type $0 for a free version.
+
+<script src="https://gumroad.com/js/gumroad-embed.js"></script>
+<div class="gumroad-product-embed" data-gumroad-product-id="FUAno"><a href="https://gumroad.com/l/FUAno">Loading...</a></div>
+
 ## Create the project
+
+1. .Run Microsoft Project and open your favorite project. Or, download the sample I link to in the _pre-requisites_ section.

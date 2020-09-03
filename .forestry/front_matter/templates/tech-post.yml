@@ -12,6 +12,10 @@ fields:
 - type: text
   name: categories
   label: categories
+  config:
+    required: true
+  default: tech-blog
+  hidden: true
 - type: datetime
   name: date
   label: date

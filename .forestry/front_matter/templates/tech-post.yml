@@ -28,3 +28,5 @@ fields:
 - type: file
   name: featuredImage
   label: featuredImage
+pages:
+- _posts/agile-ideas-create-a-kanban-board-in-microsoft-project-desktop.md

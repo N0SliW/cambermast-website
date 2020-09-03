@@ -1,0 +1,44 @@
+---
+layout: default
+---
+<div class="home-container">
+    <!-- Display the navigation section -->
+      {%- include nav.html -%}
+    <!-- Display the play podcast section -->
+      {%- include playpod.html -%}
+    <!-- Display the home page header image -->
+    <!-- TODO #1: Automate this with Liquid -->
+      {% comment %} TODO: Remove this and related files: {%- include banner-blog-feed.html -%} {% endcomment %}
+    <!-- Display the feed in the form of a featured image -->
+      {%- assign ft = "tech-blog" -%}
+      {%- assign fi = site.data.configs.blog-fi-large -%}
+      {%- assign fg = site.data.configs.blog-glyph -%}
+      {%- assign cs = "feed-latest" -%}
+      {%- assign do = 0 -%}
+      {%- assign dl = 1 -%}
+      {%- include feed.html 
+            feedType=ft
+            featuredImage = fi
+            feedGlyph = fg
+            cssStyle = cs
+            displayOffset = do
+            displayLimit = dl
+      -%}
+    <!-- Display the feed in the form of a blog feed -->
+      {%- assign ft = "tech-blog" -%}
+      {%- assign fi = site.data.configs.blog-fi-small -%}
+      {%- assign fg = site.data.configs.blog-glyph -%}
+      {%- assign cs = "feed-section" -%}
+      {%- assign do = 1 -%}
+      {%- assign dl = null -%}
+      {%- include feed.html 
+            feedType=ft
+            featuredImage = fi
+            feedGlyph = fg
+            cssStyle = cs
+            displayOffset = do
+            displayLimit = dl
+      -%}
+    <!-- Display the footer section -->
+      {%- include footer.html -%}
+</div>

@@ -38,13 +38,22 @@
             "orderby": 4
         },
         {
+            "title": "Tech",
+            "url": "/feed/tech",
+            "type": "text",
+            "content": "Content",
+            "imageUrl": "",
+            "display": true,
+            "orderby": 5
+        },
+        {
             "title": "Feed",
             "url": "/feed",
             "type": "text",
             "content": "Content",
             "imageUrl": "",
             "display": false,
-            "orderby": 5
+            "orderby": 6
         },
         {
             "title": "Testimonials",
@@ -53,7 +62,7 @@
             "content": "Content",
             "imageUrl": "",
             "display": false,
-            "orderby": 5
+            "orderby": 7
         },
         {
             "title": "LinkedIn",
@@ -62,7 +71,7 @@
             "content": "Content",
             "imageUrl": "",
             "display": false,
-            "orderby": 6
+            "orderby": 8
         },
         {
             "item": "Twitter",
@@ -71,7 +80,7 @@
             "content": "Content",
             "imageUrl": "",
             "display": false,
-            "orderby": 7
+            "orderby": 9
         },
         {
             "item": "GitHub",
@@ -80,7 +89,7 @@
             "content": "Content",
             "imageUrl": "",
             "display": false,
-            "orderby": 8
+            "orderby": 10
         }
     ]
 }

@@ -1,11 +1,10 @@
 ---
-layout: tech-post
+# layout: tech-post
 categories: tech-blog
 date: 2020-09-02T18:00:00.000-07:00
 author: Bill Raymond
 title: 'Agile ideas: Create a Kanban Board in Microsoft Project (desktop)'
 featuredImage: "/uploads/screen-shot-2020-09-02-at-5-44-30-pm.png"
-
 ---
 Microsoft Project may not be your typical agile project management tool, but here's an interesting approach.
 

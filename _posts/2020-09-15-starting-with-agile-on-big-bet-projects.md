@@ -1,7 +1,7 @@
 ---
 layout: podcast-post
 categories: agile-in-action-podcast
-date: 2020-09-15 05:00:38 -0700
+date: 2020-09-15
 author: Bill Raymond
 title: Starting with agile on big bet projects
 featuredImage: "/uploads/icom-logo-ecosystem-lockup-1line.jpg"

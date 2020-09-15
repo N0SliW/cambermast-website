@@ -4,8 +4,10 @@ categories: agile-in-action-podcast
 date: 2020-09-15 05:00:38 -0700
 author: Bill Raymond
 title: Starting with agile on big bet projects
-featuredImage: "/uploads/vice-abbate.jpeg"
-guestPhotos: []
+featuredImage: "/uploads/icom-logo-ecosystem-lockup-1line.jpg"
+guestPhotos:
+- "/uploads/vice-abbate.jpeg"
 libsynUrl: ''
 
 ---
+QuickBooks and TurboTax are practically household names. Intuit drives projects large and small to improve customer experiences and find new market opportunities. Adopting agile takes a new mindset and Vincent Abbate is all-in and shares some rare insight into how teams must work in a fast-paced, customer-driven tech company.

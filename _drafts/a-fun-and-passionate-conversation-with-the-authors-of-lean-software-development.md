@@ -6,17 +6,17 @@ author: Bill Raymond
 title: A fun and passionate conversation with the authors of Lean Software Development
 featuredImage: "/uploads/curtis-macnewton-vviwtmqsiuk-unsplash.jpg"
 guestPhotos:
-- "/uploads/tom-web.jpg"
 - "/uploads/mary-120b.jpg"
+- "/uploads/tom-web.jpg"
 libsynUrl: ''
 
 ---
 Mary and Tom Poppendieck coined the term Lean Software Development and have some great stories to inspire you.
 
-Many agile concepts came from the manufacturing industry. Mary and Tom share the decades of experience that brought them to define the term Lean Software Development. As always, they use the power of stories to talk about how organizations need to think differently about how they organize and optimize team flow.
+Many agile concepts came from the manufacturing space. Mary and Tom share the decades of experience that brought them to define the term Lean Software Development. As always, they use the power of stories to talk about how organizations need to think differently about how they organize and optimize team flow.
 
 It was a joy listening to them and I hope you enjoy it as well.
 
-I learned about Mary and Tom from reading their book Lean Software Development: An Agile Toolkit and highly recommend you put it on your reading list. You can find it here:
+I learned about Mary and Tom from reading their first book, which I highly recommend you add to your reading list: [Lean Software Development: An Agile Toolkit](https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783/ref=sr_1_2?dchild=1&keywords=mary+poppendieck&qid=1602193766&sr=8-2). Here is a [list](https://www.amazon.com/s?i=stripbooks&rh=p_27%3AMary+Poppendieck+%2F+Tom+Poppendieck+Poppendieck+%2F+Poppendieck&s=relevancerank&text=Mary+Poppendieck+%2F+Tom+Poppendieck+Poppendieck+%2F+Poppendieck&ref=dp_byline_sr_book_1) of all their publications.
 
-[https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783/ref=sr_1_2?dchild=1&keywords=mary+poppendieck&qid=1602193766&sr=8-2](https://www.amazon.com/Lean-Software-Development-Agile-Toolkit/dp/0321150783/ref=sr_1_2?dchild=1&keywords=mary+poppendieck&qid=1602193766&sr=8-2 "Lean Software Development: An Agile Toolkit")
+You can reach Mary at mary@poppendieck.com or follow her on Twitter [@mpoppendieck](https://twitter.com/mpoppendieck).

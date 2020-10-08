@@ -1,14 +1,14 @@
 ---
 layout: podcast-post
 categories: agile-in-action-podcast
-date: 2020-10-08 14:39:12 -0700
+date: 2020-10-13 04:00:12 -0700
 author: Bill Raymond
 title: A fun and passionate conversation with the authors of Lean Software Development
 featuredImage: "/uploads/curtis-macnewton-vviwtmqsiuk-unsplash.jpg"
 guestPhotos:
 - "/uploads/mary-120b.jpg"
 - "/uploads/tom-web.jpg"
-libsynUrl: ''
+libsynUrl: https://directory.libsyn.com/episode/index/id/16329959
 
 ---
 Mary and Tom Poppendieck coined the term Lean Software Development and have some great stories to inspire you.

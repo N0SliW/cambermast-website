@@ -30,3 +30,4 @@ fields:
   label: featuredImage
 pages:
 - _posts/2020-09-02-agile-ideas-create-a-kanban-board-in-microsoft-project-desktop.md
+- _posts/test-folder/test.md

@@ -2,39 +2,29 @@
 layout: default
 ---
 <div class="home-container">
-    <!-- Display the navigation section -->
+    {% comment %} Display the navigation section {% endcomment %}
       {%- include nav.html -%}
-    <!-- Display the feed in the form of a featured post -->
-    <!-- Go to the "include" file below to get details for each property -->
-      {%- assign ft = "agile-in-action-podcast" -%}
-      {%- assign fi = site.data.configs.podcast-fi-large -%}
-      {%- assign fg = site.data.configs.podcast-glyph -%}
-      {%- assign cs = "feed-latest" -%}
-      {%- assign do = 0 -%}
-      {%- assign dl = 1 -%}
-      {%- include feed.html 
-            feedType= ft
-            featuredImage = fi
-            feedGlyph = fg
-            cssStyle = cs
-            displayOffset = do
-            displayLimit = dl
-      -%}
-    <!-- Display the feed in the form of a podcast feed -->
-      {%- assign ft = "agile-in-action-podcast" -%}
-      {%- assign fi = site.data.configs.podcast-fi-small -%}
-      {%- assign fg = site.data.configs.podcast-glyph -%}
-      {%- assign cs = "feed-section" -%}
-      {%- assign do = 1 -%}
-      {%- assign dl = null -%}
-      {%- include feed.html 
-            feedType=ft
-            featuredImage = fi
-            feedGlyph = fg
-            cssStyle = cs
-            displayOffset = do
-            displayLimit = dl
-      -%}
-    <!-- Display the footer section -->
+    {% comment %}
+      Display the feed in the form of a featured post
+      Go to the "include" file below to get details for each property 
+    {% endcomment %}
+      {%- assign feed-type = "agile-in-action-podcast" -%}
+      {%- assign featured-image = site.data.configs.podcast-fi-large | relative_url -%}
+      {%- assign feed-glyph = site.data.configs.podcast-glyph | relative_url -%}
+      {%- assign css-style = "feed-latest" -%}
+      {%- assign title-filter = null -%}
+      {%- assign display-offset = 0 -%}
+      {%- assign display-limit = 1 -%}
+      {%- include feed.html -%}
+    {% comment %} Display the feed in the form of a podcast feed {% endcomment %}
+      {%- assign feed-type = "agile-in-action-podcast" -%}
+      {%- assign featured-image = site.data.configs.podcast-fi-small | relative_url -%}
+      {%- assign feed-glyph = site.data.configs.podcast-glyph | relative_url -%}
+      {%- assign css-style = "feed-section" -%}
+      {%- assign title-filter = null -%}
+      {%- assign display-offset = 1 -%}
+      {%- assign display-limit = null -%}
+      {%- include feed.html -%}
+    {%- comment -%}Display the footer{%- endcomment -%}
       {%- include footer.html -%}
 </div>

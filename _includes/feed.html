@@ -1,52 +1,45 @@
+
 {% comment %}
     Feed listing for blogs, podcasts, or other post types
     This page uses the following parameters via include variables:
 
     *** REQUIRED:
     feed-type:      The "category" of post to use, which is found on the post itself
-    (feedType)      agile-blog and agile-in-action-podcast are two common categories
-    (ft)
+                    agile-blog and agile-in-action-podcast are two common categories
 
     featured-image: Fallback for posts with no featured image.
-    (captionImage)  The image MUST be square (ex )
-    (ci)            or it will not display properly (ex 3000px by 3000px)
+                    The image MUST be square
+                    or it will not display properly (ex 200px by 200px)
 
-    feed-glyph:     default glyph (small icon) to display on top
-    (feedGlyph)     of the feed's featured image.
-    (fg)            examples: paper icon for a blog, volume for a podcast
+    feed-glyph:     Default glyph (small icon) to display on top
+                    of the feed's featured image.
+                    examples: paper icon for a blog, volume for a podcast
 
-    css-style:      the <main> style that will be used to display the feed
-    (cssStyle)      The feed can be used to display one or many posts,
-    (cs)            so you might want a different layout.
+    css-style:      The <main> style that will be used to display the feed
+                    The feed can be used to display one or many posts,
+                    so you might want a different layout.
     
     *** OPTIONAL:
-    title-filter:   tells the feed to search for a specific title.
-    (titleFilter)   Useful for displaying the featured image on a post page.
-    (tf)            The title is found on the referring page's
+    title-filter:   Tells the feed to search for a specific post title.
+                    Useful for displaying a very specific featured post.
+                    The title is found on the referring page's
                     yml front matter.
                     Important: when using this option, set the
                     display-offset to 0 or null and display-limit to 1.
                     Only displays the first matching post.
 
-    display-offset: tells the feed how many posts to skip.
-    (displayOffset) Default is 0 (zero)
-    (do)            If 0, then start by displaying the first blog post.
+    display-offset: Tells the feed how many posts to skip.
+                    Default is 0 (zero)
+                    If 0, then start by displaying the first blog post.
                     If 1, then start by displaying the second blog post.
-                    You can use any positive integer.
+                    Must be a positive integer.
 
     display-limit:  determines how many posts to display.
-    (displayLimit)  Default is null (display all posts based on the offset)
-    (dl)            1 displays a single post.
+                    Default is null (display all posts based on the offset)
+                    1 displays a single post.
                     5 displays 5 posts.
-                    You can use any positive integer.
+                    Must be a positive integer.
 {% endcomment %}
-{%- assign feed-type = include.feedType -%}
-{%- assign featured-image = include.featuredImage -%}
-{%- assign feed-glyph = include.feedGlyph -%}
-{%- assign css-style = include.cssStyle -%}
-{%- assign title-filter = include.titleFilter -%}
-{%- assign display-offset = include.displayOffset -%}
-{%- assign display-limit = include.displayLimit -%}
 <section class="{{css-style}}">
     {%- assign feedPosts = site.posts | where: 'categories', feed-type -%}
     {% if title-filter %}

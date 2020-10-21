@@ -2,11 +2,11 @@
 layout: default
 ---
 <div class="home-container">
-    <!-- Display the navigation section -->
+    {% comment %} Display the navigation section {% endcomment %}
       {%- include nav.html -%}
-    <!-- Display the play podcast section -->
+    {% comment %} Display the play podcast section {% endcomment %}
       {%- include playpod.html -%}
-    <!-- Display the feed in the form of a featured image -->
+    {% comment %} Display the feed in the form of a featured image {% endcomment %}
       {%- assign feed-type = "agile-blog" -%}
       {%- assign featured-image = site.data.configs.blog-fi-large | relative_url -%}
       {%- assign feed-glyph = site.data.configs.blog-glyph | relative_url -%}
@@ -14,7 +14,7 @@ layout: default
       {%- assign display-offset = 0 -%}
       {%- assign display-limit = 1 -%}
       {%- include feed.html -%}
-    <!-- Display the feed in the form of a blog feed -->
+    {% comment %} Display the feed in the form of a blog feed {% endcomment %}
       {%- assign feed-type = "agile-blog" -%}
       {%- assign featured-image = site.data.configs.blog-fi-small | relative_url -%}
       {%- assign feed-glyph = site.data.configs.blog-glyph | relative_url -%}
@@ -22,6 +22,6 @@ layout: default
       {%- assign display-offset = 1 -%}
       {%- assign display-limit = null -%}
       {%- include feed.html -%}
-    <!-- Display the footer section -->
+    {% comment %} Display the footer section {% endcomment %}
       {%- include footer.html -%}
 </div>

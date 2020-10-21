@@ -2,18 +2,18 @@
 layout: default
 ---
 <div class="home-container">
-  <!-- Display text if the browser is not supported -->
+  {% comment %} Display text if the browser is not supported {% endcomment %}
     {%- include browser-not-supported.html -%}
-  <!-- Display the navigation section -->
+  {% comment %} Display the navigation section {% endcomment %}
     {%- include nav.html -%}
-  <!-- Display the play podcast section -->
+  {% comment %} Display the play podcast section {% endcomment %}
     {%- include playpod.html -%}
-  <!-- Display the page title from the calling page -->
+  {% comment %} Display the page title from the calling page {% endcomment %}
     {%- include page-header.html -%}
-  <!-- Display the latest posts on the site -->
+  {% comment %} Display the latest posts on the site {% endcomment %}
     {%- include feed-latest-posts.html -%}
-  <!-- Display the services section -->
+  {% comment %} Display the services section {% endcomment %}
     {%- include services-home.html -%}
-  <!-- Display the footer section -->
+  {% comment %} Display the footer section {% endcomment %}
     {%- include footer.html -%}
 </div>

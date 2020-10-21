@@ -2,15 +2,14 @@
 layout: default
 ---
 <div class="home-container">
-  <!-- Display the navigation section -->
+  {% comment %} Display the navigation section {% endcomment %}
     {%- include nav.html -%}
-  <!-- Display the play podcast section -->
+  {% comment %} Display the play podcast section {% endcomment %}
     {%- include playpod.html -%}
-  <!-- Display the home page header image -->
-  <!-- TODO #1: Automate this with Liquid -->
+  {% comment %} Display the home page header image {% endcomment %}
     {%- include banner-about-us.html -%}
-  <!-- Display the about us content -->
+  {% comment %} Display the about us content {% endcomment %}
   {%- include about-us.html -%}
-  <!-- Display the footer section -->
+  {% comment %} Display the footer section {% endcomment %}
     {%- include footer.html -%}
 </div>

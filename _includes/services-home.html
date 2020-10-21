@@ -1,9 +1,9 @@
-<!-- Services section ON THE HOME PAGE -->
+{% comment %} Services section ON THE HOME PAGE {% endcomment %}
 <section class="services-section">
     {% assign services = site.data.services.items | sort: "orderby" %}
     {% for item in services %}
         {% if item.display %}
-            <!-- Display all available services -->
+            {% comment %} Display all available services {% endcomment %}
             <div class="services-text-div">
                 <div class="services-section-text">
                     <p class="services-title">{{- item.title -}}</p>

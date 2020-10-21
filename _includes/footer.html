@@ -1,16 +1,16 @@
-<!--Footer section-->
+{% comment %} Footer section {% endcomment %}
 <div class="footer-section">
-    <!-- Display footer information from the data file -->
+     {% comment %} Display footer information from the data file  {% endcomment %}
     <div class="footer-data">
     {%- assign items = site.data.main-footer.items | sort: "orderby" -%}
-    <!-- Cycle through each footer item -->
+     {% comment %} Cycle through each footer item  {% endcomment %}
     {%- for item in items -%}
-        <!-- Display must be true -->
+         {% comment %} Display must be true  {% endcomment %}
         {%- if item.display -%}
-            <!-- If there is content, display it -->
+             {% comment %} If there is content, display it  {% endcomment %}
             {%- if item.content == true -%}   
                 <a class="footer-item" href="{{- item.url -}}">{{- item.content -}}</a>
-            <!-- Otherwise, just display the title -->
+             {% comment %} Otherwise, just display the title  {% endcomment %}
             {%- else -%}
                 <a class="footer-item" href="{{- item.url | relative_url -}}">{{- item.title -}}</a>
             {%- endif -%}

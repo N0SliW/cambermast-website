@@ -38,10 +38,10 @@
             "orderby": 4
         },
         {
-            "title": "Site repo",
+            "title": "Repo",
             "url": "https://github.com/BillRaymond/cambermast-website",
             "type": "url",
-            "content": "Site repo",
+            "content": "Repo",
             "imageUrl": "/",
             "display": true,
             "orderby": 5

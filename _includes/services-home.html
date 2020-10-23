@@ -1,4 +1,7 @@
-{% comment %} Services section ON THE HOME PAGE {% endcomment %}
+{% comment %}
+    Services section ON THE HOME PAGE 
+    Services are listed in the "_data" folder
+{% endcomment %}
 <section class="services-section">
     {% assign services = site.data.services.items | sort: "orderby" %}
     {% for item in services %}

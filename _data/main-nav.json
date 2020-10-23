@@ -12,7 +12,7 @@
         },
         {
             "title": "Services",
-            "url": "/services",
+            "url": "/pages/services",
             "type": "text",
             "content": "Content",
             "imageUrl": "",

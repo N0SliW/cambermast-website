@@ -21,24 +21,6 @@
   }
 }
 
-
-
-// @mixin for-size($size) {
-//     @if $size == full-size {
-//       @media (min-width: 1800px) { @content; } 
-//     } @else if $size == desktop-up {
-//       @media (max-width: 1200px) { @content; }
-//      }@else if $size == tablet-landscape-up {
-//       @media (max-width: 900px) { @content; }
-//      }@else if $size == tablet-only {
-//       @media (max-width: 768px) { @content; }
-//     }@else if $size == phone-only {
-//       @media (max-width: 599px) { @content; }
-      
-//     }
-//   }
- 
-
 //   Reference: https://medium.com/@timothyrobards/structuring-your-sass-projects-c8d41fa55ed4
 //   If you want to take it a step further you could use conditionals to setup your mixins. 
 //   You create just one @mixin block and set the parameters to be passed in — which we use to select our breakpoints, like so:
@@ -71,51 +53,6 @@
 //   Feel free to leave any questions in the comments below. I’ll be glad to help out!
 
 
-// ********** Font sizing support **********
-// Reference: https://kermode.co/2016/responsive-font-sizing-with-min-and-max/
-// Usage:
-//        @include fluid-type(14px, 18px);
-//        or
-///        @include fluid-type(20px, 32px, $vw-min: 500px);
-/// Responsive font sizing. The size of the font will scale with the viewport
-/// based on the information that you provide it. Additional properties may be
-/// adding for things like padding.
-///
-/// @param {Integer} $font-size-min
-/// @param {Integer} $font-size-max
-/// @param {String} $properties [font-size]
-/// @param {Integer} $vw-min [320] - the minimum viewport width
-/// @param {Integer} $vw-max [1280] - the maximum viewport width
-///
-/// @require {function} strip-unit
-///
-/// @example scss - Basic usage Sass
-///   h1 {
-///     @include fluid-type(28px, 52px);
-///   }
-///
-/// @example scss - Basic usage CSS output
-///   h1 {
-///     font-size: 28px;
-///   }
-///
-///   @media screen and (min-width: 320px) {
-///     h1 {
-///       font-size: calc(28px + 24 * (100vw - 320px) / 960);
-///     }
-///   }
-///
-///   @media screen and (min-width: 1280px) {
-///     h1 {
-///       font-size: 52px;
-///     }
-///   }
-///
-/// Concept of precise control from Mike Riethmuller
-/// https://madebymike.com.au/writing/precise-control-responsive-typography/
-///
-/// Original mixin implementation from Indrek Paas
-/// http://www.sassmeister.com/gist/7f22e44ace49b5124eec
 @mixin fluid-type(
   $font-size-min,
   $font-size-max,

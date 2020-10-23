@@ -6,7 +6,6 @@
 @import 'abstracts/mixins';
 @import 'abstracts/functions';
 @import 'base/typography';
-@import 'layout/about-us';
 @import 'layout/browser-not-supported.scss';
 @import 'layout/feed';
 @import 'layout/feed-latest';
@@ -15,6 +14,7 @@
 @import 'layout/linkedin-badge';
 @import 'layout/markdown';
 @import 'layout/nav';
+@import 'layout/page';
 @import 'layout/page-featured-image';
 @import 'layout/playpod';
 @import 'layout/podcast-post';
@@ -23,6 +23,7 @@
 @import 'layout/svcs';
 
 // 7-1 Reference guide
+// these are examples, not the actual structure for the site
 // sass/
 // |
 // |– abstracts/ (or utilities/)

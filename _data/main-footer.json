@@ -3,7 +3,7 @@
     "items": [
         {
             "title": "About us",
-            "url": "/about-us",
+            "url": "/pages/about-us",
             "type": "text",
             "content": null,
             "imageUrl": "/",

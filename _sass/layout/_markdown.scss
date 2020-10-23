@@ -1,8 +1,6 @@
 // Updates any html file with a "markdown-section" div or section tag.
 // Some css and html files will have the suffix "-post" in the name.
 
-$postWidth: 75%;
-
 .markdown-section {
     p {
         margin-bottom: 1em;
@@ -10,9 +8,9 @@ $postWidth: 75%;
     margin-top: 25px;
     margin-left: auto;
     margin-right: auto;
-    width: $postWidth;
+    width: $contentWidth;
     @include for-size(phone-only){
-        width: 100%;
+        width: 95%;
     }
 
     img {
@@ -28,10 +26,6 @@ $postWidth: 75%;
         margin-right: auto;
         width: 100%;
         max-height: 100px;
-        // @include for-size(phone-only){
-        //     width: 325px;
-        //     height: 183px;
-        //   }
     }
 
     .gumroad-button {

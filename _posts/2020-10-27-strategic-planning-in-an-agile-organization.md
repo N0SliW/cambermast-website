@@ -1,7 +1,7 @@
 ---
 layout: podcast-post
 categories: agile-in-action-podcast
-date: 2020-10-27 04:30:23 -0700
+date: 2020-10-27 10:00:00 -0700
 author: Bill Raymond
 title: Strategic planning in an agile organization
 featuredImage: "/uploads/executive-meeting.jpg"

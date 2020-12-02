@@ -129,6 +129,9 @@ The term "going agile" means creating lean, fast-moving teams. Those teams have 
 
 ![An image that describes the difference between project management, aile, and methodologies and frameworks.](https://app.forestry.io/sites/viojmsxn9ax7fa/body-media//uploads/agile-acknowledgement.png)
 
+### Glossary of agile terms
+The good folks at Hubstaff have a nicely curated <a href="http://buzzstream.hubstaffmail.com/1/l/4392bb707a9b4020bab6fc9bd99534cf?rl=https%3A%2F%2Fhubstaff.com%2Ftasks%2Fagile-glossary" target="_blank">glossary of agile and project management</a> terms your might want to check out.
+
 ### Free training
 
 Click the link below and I will present this material to your team in an interactive one-hour meeting. Click the link now to book the training:

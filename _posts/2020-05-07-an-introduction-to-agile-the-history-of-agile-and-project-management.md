@@ -109,7 +109,7 @@ A new software source control system called Git gained popularity, allowing deve
 
 Finally, in the mid-2000s, Apple introduced the iPhone, with the promise of a computer in your pocket, not just a phone with some extra features. Writing software for the iPhone required lightweight programming that meant you needed to lean on services like AWS to do the heavy lifting for your app. Writing apps on the iPhone also meant the phone may not always be connected to the internet, something most software applications always relied on, so it would take a different kind of effort to build iPhone apps.
 
-![An image with the AWS, GIT, and iPhone. These technologies were the new innovations that would popularize agile software development.](https://app.forestry.io/sites/viojmsxn9ax7fa/body-media//uploads/aws-git-iphone.png)
+![An image showing AWS, GIT, and iPhone logos and images. These technologies were the new innovations that would popularize agile software development.](https://app.forestry.io/sites/viojmsxn9ax7fa/body-media//uploads/aws-git-iphone.png)
 
 The \[then\] radical approach with AWS was that it freed developers from building monolithic applications into small components that work together as a single product. One small team (an agile team or Scrum team) of developers could work on a specific feature, like say, the administration interface. Another small team could work on the user-facing aspects, and yet another small team could work on the marketing website. These are examples, but you can see the early start of small, agile teams working together on key components that can be delivered quickly without reliance on some "big bang" new release of the product.
 

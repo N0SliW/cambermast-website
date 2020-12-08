@@ -25,6 +25,6 @@ Learn how Darrell and Sarah help organizations transform their business to incre
 
 [https://www.amazon.com/Doing-Agile-Right-Transformation-Without/dp/163369870X/ref=sr_1_1?dchild=1&keywords=doing+agile+right+sarah+elk+darrell+rigby&qid=1607386717&sr=8-1]()
 
-### Executive producer
+## Executive producer
 
 [Reama Dagasan](https://www.linkedin.com/in/reamadagasan/)

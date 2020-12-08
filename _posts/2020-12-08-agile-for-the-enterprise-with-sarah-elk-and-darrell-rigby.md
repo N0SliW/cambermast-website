@@ -6,8 +6,8 @@ author: Bill Raymond
 title: Agile for the enterprise with Sarah Elk and Darrell Rigby
 featuredImage: "/uploads/you-x-ventures-vbxyfxlgpjm-unsplash.jpg"
 guestPhotos:
-- "/uploads/sarah-elk-headshot-square.jpg"
 - "/uploads/rigby_darrell_print_bw.jpg"
+- "/uploads/sarah-elk-headshot-square.jpg"
 libsynUrl: https://directory.libsyn.com/episode/index/id/17103482
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: blog-post
 categories: agile-blog
-date: 2020-05-07T12:44:34.000-07:00
+date: 2020-05-07 07:30:05 -0800
 author: Bill Raymond
 title: 'An introduction to agile: The history of agile and project management'
 featuredImage: "/uploads/giammarco-boscaro-zeH-ljawHtg-unsplash.jpg"
